@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>sec-feed</title>
+  <meta name="description" content="Персональный агрегатор security-новостей для red team / пентеста">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top">
+    <div class="brand">
+      <span class="prompt">$</span> sec-feed<span class="cursor">_</span>
+    </div>
+    <div class="meta">
+      <span>обновлено: <b id="updated">—</b></span>
+      <span>новых с прошлого визита: <b id="newCount" class="accent">0</b></span>
+      <span>непрочитано: <b id="unreadCount">0</b></span>
+      <span id="srcStatus" class="muted"></span>
+      <div class="seg" id="langToggle" title="Язык карточек">
+        <button data-lang="ru" class="on">RU</button>
+        <button data-lang="en">EN</button>
+      </div>
+    </div>
+  </header>
+
+  <nav class="controls">
+    <div class="tabs" id="tabs" role="tablist"></div>
+    <div class="row">
+      <input id="search" type="search" placeholder="grep: заголовок или тег…" autocomplete="off">
+      <div class="seg" id="hotToggle">
+        <button data-hot="all" class="on">Всё</button>
+        <button data-hot="hot">Только hot</button>
+      </div>
+      <div class="seg" id="sortToggle">
+        <button data-sort="importance" class="on">важность</button>
+        <button data-sort="date">дата</button>
+      </div>
+      <label class="chk"><input type="checkbox" id="unreadOnly"> непрочитанное</label>
+      <button id="markAll" class="ghost">отметить всё прочитанным</button>
+    </div>
+    <div class="row">
+      <div class="seg" id="top10Seg">
+        <button id="top10Btn">🏆 топ-10</button>
+        <button id="top10Cfg" title="Выбрать категории для топ-10">⚙</button>
+      </div>
+      <button id="dedupBtn" class="ghost">убрать похожие</button>
+      <div id="top10Panel" class="popover" hidden>
+        <p class="muted mono">Категории, которые учитываются в топ-10:</p>
+        <div id="top10Checks" class="checklist"></div>
+        <button id="top10PanelClose" class="ghost">готово</button>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <p id="summary" class="muted mono"></p>
+    <section id="grid" class="grid"></section>
+    <p id="empty" class="empty" hidden>Ничего не найдено.</p>
+  </main>
+
+  <footer class="muted mono">данные: data.json · прочитанное хранится только в этом браузере</footer>
+  <script src="app.js"></script>
+</body>
+</html>

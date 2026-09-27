@@ -1,0 +1,69 @@
+name: build
+
+on:
+  schedule:
+    - cron: "17 */3 * * *"        # каждые 3 часа (минута 17 — чтобы не попадать в пик нагрузки на Actions)
+  push:
+    branches: [main]
+    paths-ignore:
+      - "public/data.json"          # коммит данных самим workflow не запускает новый прогон
+  workflow_dispatch:
+
+permissions:
+  contents: write                   # коммит public/data.json обратно в репо
+  pages: write                      # деплой на GitHub Pages
+  id-token: write                   # требуется actions/deploy-pages
+
+concurrency:
+  group: build-and-deploy
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Collect feeds
+        env:
+          # Бесплатный встроенный токен: поднимает лимиты GitHub API. Не обязателен.
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # LLM выключен. Чтобы включить — см. README, раздел «LLM».
+          # LLM_ENABLED: "1"
+          # LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+          # Необязательно: поднимает бесплатную дневную квоту перевода MyMemory.
+          # TRANSLATE_EMAIL: ${{ secrets.TRANSLATE_EMAIL }}
+        run: python collector/main.py
+
+      - name: Commit data.json if changed
+        run: |
+          if git diff --quiet -- public/data.json; then
+            echo "data.json не изменился"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/data.json
+          git commit -m "data: update feed [skip ci]"
+          git pull --rebase --autostash origin "${GITHUB_REF_NAME}" || true
+          git push
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
+      - id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,403 @@
+# =====================================================================
+#  sec-feed — декларативный список источников.
+#  Добавить источник = дописать блок в `sources:`. Код трогать не нужно.
+#
+#  Общие поля любого источника:
+#    name        — уникальное имя (показывается бейджем на карточке)
+#    type        — rss | html | json | github_search | github_releases |
+#                  github_advisories | cve_kev | cve_nvd
+#                  (epss — обогащение, см. блок `enrichment:`)
+#    category    — одна из категорий ниже
+#    enabled     — false, чтобы выключить (по умолчанию true)
+#    disabled_reason — причина; пишется в лог как «недоступен»
+#    max_items   — сколько элементов брать из источника (по умолчанию settings.max_items_per_source)
+#    max_age_days— отбрасывать элементы старше N дней (по умолчанию settings.max_age_days)
+#    include_keywords / exclude_keywords — фильтр по заголовку+описанию (любое совпадение)
+#
+#  Категории: vulnerabilities, exploits_poc, news, offensive_research, tools_c2,
+#             ai_pentest, llm_security, writeups, red_team_ref, threat_intel
+# =====================================================================
+
+settings:
+  max_items_total: 500          # итоговый лимит в data.json
+  max_per_category: 150         # чтобы одна категория (обычно CVE) не забивала всё
+  max_items_per_source: 40
+  max_age_days: 30
+  retention_days: 45            # сколько держать элементы из прошлых запусков
+  request_timeout: 20
+  user_agent: "Mozilla/5.0 (X11; Linux x86_64) sec-feed/1.0 (+https://github.com)"
+
+# ---------------------------------------------------------------------
+#  Скоринг (collector/scoring.py). Всё редактируемо.
+# ---------------------------------------------------------------------
+scoring:
+  keyword_weight: 8             # вес одного совпадения по умолчанию
+  keyword_cap: 50               # максимум баллов за ключевые слова
+  keywords:                     # слово/фраза: вес (null = keyword_weight)
+    edr bypass: 14
+    edr evasion: 14
+    amsi: 10
+    etw: 6
+    kerberos: 10
+    kerberoast: 12
+    active directory: 10
+    adcs: 12
+    entra: 8
+    azure ad: 8
+    ntlm relay: 12
+    lateral movement: 10
+    c2: 8
+    command and control: 8
+    cobalt strike: 10
+    sliver: 8
+    mythic: 6
+    havoc: 6
+    beacon: 4
+    bof: 6
+    privilege escalation: 10
+    lpe: 8
+    rce: 12
+    remote code execution: 12
+    0day: 14
+    0-day: 14
+    zero-day: 14
+    zero day: 14
+    poc: 8
+    proof of concept: 8
+    exploit: 8
+    exploited: 10
+    actively exploited: 14
+    prompt injection: 12
+    jailbreak: 6
+    mcp: 8
+    model context protocol: 8
+    red team: 10
+    red teaming: 10
+    initial access: 10
+    phishing: 4
+    persistence: 6
+    credential dumping: 10
+    lsass: 8
+    bloodhound: 8
+    process injection: 10
+    shellcode: 8
+    auth bypass: 10
+    authentication bypass: 10
+    deserialization: 8
+    ssrf: 6
+    sqli: 6
+    sql injection: 6
+    supply chain: 6
+    ransomware: 4
+    apt: 4
+    pentest: 6
+    penetration testing: 6
+    llm: 4
+    ai agent: 6
+    agentic: 6
+  # Базовый балл по категории
+  category_base:
+    vulnerabilities: 5
+    exploits_poc: 20
+    news: 5
+    offensive_research: 20
+    tools_c2: 15
+    ai_pentest: 15
+    llm_security: 15
+    writeups: 12
+    red_team_ref: 15
+    threat_intel: 10
+  # Жёсткие CVE-сигналы
+  cve:
+    kev: 40
+    epss_threshold: 0.5
+    epss: 25
+    poc: 20                     # срабатывает, если у элемента cve.poc = true
+    popular_product: 10
+    cvss_critical: 10           # CVSS >= 9.0
+    cvss_high: 5                # CVSS >= 7.0
+  popular_products: [windows, vpn, citrix, fortinet, fortigate, fortios, vmware,
+                     exchange, chrome, ivanti, palo alto, pan-os, cisco, sharepoint,
+                     sonicwall, f5, big-ip, confluence, gitlab, jenkins]
+  # Свежесть: +fresh_max для только что вышедшего, линейно до 0 за fresh_decay_days
+  fresh_max: 15
+  fresh_decay_days: 14
+  hot_threshold: 80             # is_hot = (KEV и PoC) или importance > hot_threshold
+
+# ---------------------------------------------------------------------
+#  Обогащение CVE
+# ---------------------------------------------------------------------
+enrichment:
+  - name: EPSS
+    type: epss
+    url: https://api.first.org/data/v1/epss
+    batch_size: 50
+
+# ---------------------------------------------------------------------
+#  Перевод на русский (collector/translate.py). Провайдер бесплатный,
+#  без ключа (MyMemory). Выключить: enabled: false или TRANSLATE_ENABLED=0.
+# ---------------------------------------------------------------------
+translate:
+  enabled: true
+  url: https://api.mymemory.translated.net/get
+  langpair: en|ru
+  timeout: 8
+  max_items_per_run: 80   # новых элементов за один запуск — бережём бесплатную квоту
+  # email: you@example.com  # необязательно: поднимает дневную квоту MyMemory (можно через TRANSLATE_EMAIL)
+
+# ---------------------------------------------------------------------
+#  Источники
+# ---------------------------------------------------------------------
+sources:
+
+  # ============ vulnerabilities ============
+  - name: CISA KEV
+    type: cve_kev
+    category: vulnerabilities
+    url: https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json
+    max_age_days: 30            # по полю dateAdded
+    max_items: 80
+
+  - name: NVD
+    type: cve_nvd
+    category: vulnerabilities
+    url: https://services.nvd.nist.gov/rest/json/cves/2.0
+    days: 3                     # окно pubStartDate..pubEndDate
+    min_cvss: 7.0               # отсекаем шум: только high/critical (или KEV/ключевые слова)
+    page_size: 2000
+    page_delay: 6               # без ключа NVD разрешает ~5 запросов / 30 сек
+    max_items: 150
+
+  - name: GitHub Advisories
+    type: github_advisories
+    category: vulnerabilities
+    url: https://api.github.com/advisories
+    params: {type: reviewed, per_page: 60, sort: published, direction: desc}
+    min_severity: high          # low | medium | high | critical
+    max_items: 60
+
+  # ============ exploits_poc ============
+  - name: nuclei-templates
+    type: github_releases
+    category: exploits_poc
+    repo: projectdiscovery/nuclei-templates
+    max_age_days: 60
+    max_items: 5
+
+  # ============ news ============
+  - name: The Hacker News
+    type: rss
+    category: news
+    url: https://feeds.feedburner.com/TheHackersNews
+
+  - name: BleepingComputer
+    type: rss
+    category: news
+    url: https://www.bleepingcomputer.com/feed/
+
+  - name: Security Magazine
+    type: rss
+    category: news
+    url: https://www.securitymagazine.com/rss/topic/2236-cybersecurity
+    site: https://www.securitymagazine.com   # для автопоиска RSS, если URL сломается
+
+  # ============ offensive_research ============
+  - name: SpecterOps
+    type: rss
+    category: offensive_research
+    url: https://specterops.io/feed/
+    site: https://specterops.io/blog/
+    max_age_days: 90
+
+  - name: Outflank
+    type: rss
+    category: offensive_research
+    url: https://www.outflank.nl/blog/feed/
+    max_age_days: 120
+
+  - name: TrustedSec
+    type: rss
+    category: offensive_research
+    url: https://trustedsec.com/feed.rss
+    max_age_days: 90
+
+  - name: Bishop Fox
+    type: rss
+    category: offensive_research
+    url: https://bishopfox.com/feeds/blog.rss
+    max_age_days: 90
+
+  - name: Pentest Partners
+    type: rss
+    category: offensive_research
+    url: https://www.pentestpartners.com/feed/
+    max_age_days: 60
+
+  # ============ tools_c2 ============
+  - name: Sliver
+    type: github_releases
+    category: tools_c2
+    repo: BishopFox/sliver
+    max_age_days: 180
+    max_items: 3
+
+  - name: Mythic
+    type: github_releases
+    category: tools_c2
+    repo: its-a-feature/Mythic
+    max_age_days: 180
+    max_items: 3
+
+  - name: Havoc
+    type: github_releases
+    category: tools_c2
+    repo: HavocFramework/Havoc
+    max_age_days: 180
+    max_items: 3
+
+  - name: NetExec
+    type: github_releases
+    category: tools_c2
+    repo: Pennyw0rth/NetExec
+    max_age_days: 180
+    max_items: 3
+
+  - name: BloodHound
+    type: github_releases
+    category: tools_c2
+    repo: SpecterOps/BloodHound
+    max_age_days: 90
+    max_items: 3
+
+  # ============ ai_pentest ============
+  # arXiv RSS пустой по выходным (skipDays), поэтому берём Atom API — тот же cs.CR, всегда свежий.
+  - name: arXiv cs.CR (agents)
+    type: rss
+    category: ai_pentest
+    url: "https://export.arxiv.org/api/query?search_query=cat:cs.CR+AND+(abs:llm+OR+abs:agent+OR+abs:agentic)+AND+(abs:penetration+OR+abs:pentest+OR+abs:offensive+OR+abs:exploit+OR+abs:red)&sortBy=submittedDate&sortOrder=descending&max_results=40"
+    include_keywords: [llm, agent, language model]
+    max_items: 25
+
+  - name: GitHub search (llm pentest agent)
+    type: github_search
+    category: ai_pentest
+    query: "llm pentest agent created:>{since}"
+    since_days: 90
+    sort: stars
+    max_items: 15
+
+  # ============ llm_security ============
+  - name: arXiv cs.CR (LLM security)
+    type: rss
+    category: llm_security
+    url: "https://export.arxiv.org/api/query?search_query=cat:cs.CR+AND+(abs:%22prompt+injection%22+OR+abs:jailbreak+OR+abs:%22model+context+protocol%22)&sortBy=submittedDate&sortOrder=descending&max_results=40"
+    include_keywords: [prompt injection, jailbreak, mcp, model context protocol, llm, agent]
+    max_items: 25
+
+  - name: GitHub search (prompt injection)
+    type: github_search
+    category: llm_security
+    query: "prompt injection created:>{since}"
+    since_days: 90
+    sort: stars
+    max_items: 15
+
+  - name: GitHub search (mcp security)
+    type: github_search
+    category: llm_security
+    query: "mcp security created:>{since}"
+    since_days: 90
+    sort: stars
+    max_items: 15
+
+  # ============ writeups ============
+  # Hacktivity — JS-приложение без RSS, поэтому берём блог HackerOne скрейпингом.
+  - name: HackerOne Blog
+    type: html
+    category: writeups
+    url: https://www.hackerone.com/blog
+    base_url: https://www.hackerone.com
+    selectors:
+      item: ".views-row"
+      title: "a[href^='/blog/']"   # из совпадений берётся самый длинный текст
+      link: "a[href^='/blog/']"
+      date: "time"                 # атрибут datetime или текст
+      summary: "p"
+    max_age_days: 60
+
+  - name: HackerOne Hacktivity
+    type: html
+    category: writeups
+    url: https://hackerone.com/hacktivity
+    enabled: false
+    disabled_reason: "JS-приложение, данные только через API HackerOne"
+
+  # Архив pentester.land: JSON живой, но может не обновляться — пустой результат это норма.
+  - name: pentester.land
+    type: json
+    enabled: false
+    disabled_reason: "архив не обновляется с 2024-09"
+    category: writeups
+    url: https://pentester.land/writeups.json
+    items_path: data
+    fields:
+      title: Links.0.Title
+      url: Links.0.Link
+      published: AddedDate
+      tags: Bugs
+    max_age_days: 60
+
+  # ============ red_team_ref ============
+  - name: Red Team Guide
+    type: rss
+    category: red_team_ref
+    url: https://redteam.guide/blog/rss.xml
+    site: https://redteam.guide/
+    max_age_days: 365
+
+  - name: Hackers-Arise
+    type: rss
+    category: red_team_ref
+    url: https://hackers-arise.com/feed/
+    site: https://hackers-arise.com/
+    max_age_days: 60
+
+  # ============ threat_intel ============
+  - name: Unit 42
+    type: rss
+    category: threat_intel
+    url: https://unit42.paloaltonetworks.com/feed/
+
+  - name: Microsoft Threat Intelligence
+    type: rss
+    category: threat_intel
+    url: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
+
+  - name: Cisco Talos
+    type: rss
+    category: threat_intel
+    url: https://blog.talosintelligence.com/rss/
+
+  - name: ESET WeLiveSecurity
+    type: rss
+    category: threat_intel
+    url: https://www.welivesecurity.com/en/rss/feed/
+
+  - name: The DFIR Report
+    type: rss
+    category: threat_intel
+    url: https://thedfirreport.com/feed/
+    max_age_days: 90
+
+  - name: Proofpoint Threat Insight
+    type: rss
+    category: threat_intel
+    url: https://www.proofpoint.com/us/threat-insight-blog.xml
+
+  - name: Securelist (Kaspersky)
+    type: rss
+    category: threat_intel
+    url: https://securelist.com/feed/
+    site: https://securelist.com/
+    enabled: false
+    disabled_reason: "таймаут при проверке"
