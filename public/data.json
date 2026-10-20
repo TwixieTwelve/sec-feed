@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-19T20:37:04.055968Z",
+ "generated_at": "2026-10-20T00:24:58.499727Z",
  "items": [
   {
    "id": "319efed6fa09",
@@ -131,7 +131,7 @@
    "category": "vulnerabilities",
    "published": "2026-10-13T00:00:00Z",
    "first_seen": "2026-10-13T16:59:12.175897Z",
-   "importance": 78,
+   "importance": 77,
    "is_hot": false,
    "tags": [
     "KEV",
@@ -591,7 +591,7 @@
    "category": "vulnerabilities",
    "published": "2026-10-13T00:00:00Z",
    "first_seen": "2026-10-13T22:51:20.970377Z",
-   "importance": 63,
+   "importance": 62,
    "is_hot": false,
    "tags": [
     "KEV"
@@ -1157,29 +1157,6 @@
    "summary_ru": "Ahsay AhsayCBS содержит ненадлежащую уязвимость аутентификации, которая может позволить удаленному злоумышленнику обойти аутентификацию путем манипулирования случайным параметром в функции API-компонента checkSysPwd. Эта уязвимость может быть связана с CVE-2026-105134."
   },
   {
-   "id": "de6a6f9a7857",
-   "title": "Cisco patches new Secure Email Gateway zero-day exploited in attacks",
-   "url": "https://www.bleepingcomputer.com/news/security/cisco-patches-actively-exploited-secure-email-gateway-zero-day/",
-   "summary": "Cisco has patched another actively exploited zero-day flaw in its Secure Email Gateway (SEG) that lets remote unauthenticated attackers execute commands with root privileges. [...]",
-   "source": "BleepingComputer",
-   "sources": [
-    "BleepingComputer"
-   ],
-   "category": "news",
-   "published": "2026-10-14T17:29:14Z",
-   "first_seen": "2026-10-14T21:46:09.761838Z",
-   "importance": 53,
-   "is_hot": false,
-   "tags": [
-    "Security",
-    "zero-day",
-    "exploited",
-    "actively exploited"
-   ],
-   "title_ru": "Cisco исправляет новый безопасный почтовый шлюз нулевого дня, эксплуатируемый в атаках",
-   "summary_ru": "Cisco исправила еще одну активно используемую уязвимость нулевого дня в своем защищенном почтовом шлюзе (SEG), которая позволяет удаленным неаутентифицированным злоумышленникам выполнять команды с привилегиями root. [...]"
-  },
-  {
    "id": "83c5dda7f3d5",
    "title": "CVE-2026-7273: Zyxel GS1900 Series Switches Stack-Based Buffer Overflow Vulnerability",
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-7273",
@@ -1208,28 +1185,27 @@
    "summary_ru": "Коммутаторы серии Zyxel GS1900 содержат в программе CGI уязвимость переполнения буфера на основе стека, которая может позволить неаутентифицированному злоумышленнику на основе локальной сети использовать уязвимость и потенциально выполнять команды ОС с помощью обработанного HTTP-запроса."
   },
   {
-   "id": "4e0827c8bb78",
-   "title": "Microsoft October 2026 Patch Tuesday fixes 1,411 flaws, 3 zero-days",
-   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-october-2026-patch-tuesday-fixes-1-411-flaws-3-zero-days/",
-   "summary": "Today is Microsoft's October 2026 Patch Tuesday, with security updates addressing a record-breaking 1,411 flaws, including one actively exploited and two publicly disclosed zero-day vulnerabilities. [...]",
+   "id": "de6a6f9a7857",
+   "title": "Cisco patches new Secure Email Gateway zero-day exploited in attacks",
+   "url": "https://www.bleepingcomputer.com/news/security/cisco-patches-actively-exploited-secure-email-gateway-zero-day/",
+   "summary": "Cisco has patched another actively exploited zero-day flaw in its Secure Email Gateway (SEG) that lets remote unauthenticated attackers execute commands with root privileges. [...]",
    "source": "BleepingComputer",
    "sources": [
     "BleepingComputer"
    ],
    "category": "news",
-   "published": "2026-10-13T19:56:09Z",
-   "first_seen": "2026-10-13T22:51:20.970377Z",
+   "published": "2026-10-14T17:29:14Z",
+   "first_seen": "2026-10-14T21:46:09.761838Z",
    "importance": 52,
    "is_hot": false,
    "tags": [
-    "Microsoft",
     "Security",
     "zero-day",
     "exploited",
     "actively exploited"
    ],
-   "title_ru": "Microsoft октябрь 2026 патч вторник исправляет 1411 недостатков, 3 нулевых дня",
-   "summary_ru": "Сегодня Microsoft выпустила патч на октябрь 2026 года, в котором исправлены рекордные 1411 уязвимостей, в том числе одна активно эксплуатируемая и две публично раскрытые уязвимости нулевого дня. [...]"
+   "title_ru": "Cisco исправляет новый безопасный почтовый шлюз нулевого дня, эксплуатируемый в атаках",
+   "summary_ru": "Cisco исправила еще одну активно используемую уязвимость нулевого дня в своем защищенном почтовом шлюзе (SEG), которая позволяет удаленным неаутентифицированным злоумышленникам выполнять команды с привилегиями root. [...]"
   },
   {
    "id": "fc40b6706e0e",
@@ -1282,6 +1258,30 @@
    ],
    "title_ru": "Palo Alto Networks предупреждает об уязвимости PAN-OS RCE, используемой в атаках",
    "summary_ru": "Palo Alto Networks выпустила обновления безопасности для высокоуровневого PAN-OS RCE нулевого дня, отслеживаемого как CVE-2026-0322, который был использован в атаках, нацеленных на брандмауэры. [...]"
+  },
+  {
+   "id": "4e0827c8bb78",
+   "title": "Microsoft October 2026 Patch Tuesday fixes 1,411 flaws, 3 zero-days",
+   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-october-2026-patch-tuesday-fixes-1-411-flaws-3-zero-days/",
+   "summary": "Today is Microsoft's October 2026 Patch Tuesday, with security updates addressing a record-breaking 1,411 flaws, including one actively exploited and two publicly disclosed zero-day vulnerabilities. [...]",
+   "source": "BleepingComputer",
+   "sources": [
+    "BleepingComputer"
+   ],
+   "category": "news",
+   "published": "2026-10-13T19:56:09Z",
+   "first_seen": "2026-10-13T22:51:20.970377Z",
+   "importance": 51,
+   "is_hot": false,
+   "tags": [
+    "Microsoft",
+    "Security",
+    "zero-day",
+    "exploited",
+    "actively exploited"
+   ],
+   "title_ru": "Microsoft октябрь 2026 патч вторник исправляет 1411 недостатков, 3 нулевых дня",
+   "summary_ru": "Сегодня Microsoft выпустила патч на октябрь 2026 года, в котором исправлены рекордные 1411 уязвимостей, в том числе одна активно эксплуатируемая и две публично раскрытые уязвимости нулевого дня. [...]"
   },
   {
    "id": "e012de42fb1b",
@@ -1565,7 +1565,7 @@
    "category": "vulnerabilities",
    "published": "2026-10-13T19:56:35Z",
    "first_seen": "2026-10-13T22:51:20.970377Z",
-   "importance": 46,
+   "importance": 45,
    "is_hot": false,
    "tags": [
     "critical",
@@ -2032,15 +2032,15 @@
    ],
    "category": "offensive_research",
    "published": "2026-08-26T13:00:00Z",
-   "first_seen": "2026-10-19T20:37:04.055968Z",
+   "first_seen": "2026-10-20T00:24:58.499727Z",
    "importance": 44,
    "is_hot": false,
    "tags": [
     "rce",
     "remote code execution"
    ],
-   "title_ru": "GUID не является учетными данными: неаутентифицированный RCE в консоли поставщика услуг Veeam",
-   "summary_ru": "Две критические уязвимости в цепочке Veeam Service Provider Console в неаутентифицированном удаленном выполнении кода на сервере управления, расположенном над резервными копиями каждого клиента. Бишоп Фокс подтвердил полную цепочку, разбивает обе первопричины и делится безопасным инструментом обнаружения и МОК."
+   "title_ru": "GUID — это не учетные данные: неаутентифицированный RCE в консоли поставщика услуг Veeam",
+   "summary_ru": "Две критические уязвимости в консоли Veeam Service Provider Console приводят к удаленному выполнению кода без аутентификации на сервере управления, расположенном над резервными копиями каждого арендатора. Епископ Фокс подтвердил всю цепочку от начала до конца, выявил обе основные причины и поделился безопасным инструментом обнаружения и IOC."
   },
   {
    "id": "23c828fcb9a8",
@@ -2053,7 +2053,7 @@
    ],
    "category": "offensive_research",
    "published": "2026-08-03T16:00:00Z",
-   "first_seen": "2026-10-19T20:37:04.055968Z",
+   "first_seen": "2026-10-20T00:24:58.499727Z",
    "importance": 44,
    "is_hot": false,
    "tags": [
@@ -2067,121 +2067,8 @@
     "OpenHound",
     "bloodhound"
    ],
-   "title_ru": "ConfigManBearPig 2.0 – Вещи становятся хлопьями",
-   "summary_ru": "TL;DR – За последние несколько лет исследователи безопасности обнаружили более 30 уникальных методов атак, нацеленных на Microsoft Configuration Manager (ранее SCCM), поскольку его широко распространенный контроль над устройствами организации делает его привлекательной целью. ConfigManBearPig 2.0 - это переписывание Python..."
-  },
-  {
-   "id": "fa4f09471592",
-   "title": "INFUSE: A Unified Surface Benchmark for Indirect Prompt Injection in Agentic Systems",
-   "url": "https://arxiv.org/abs/2610.20776v1",
-   "summary": "LLM-based agents increasingly execute long-horizon, end-to-end workflows involving shell commands, code modification, dependency installation, and interaction with remote services. This growing autonomy expands their exposure to indirect prompt injection (IPI), where adversarial instructions…",
-   "source": "arXiv cs.CR (LLM security)",
-   "sources": [
-    "arXiv cs.CR (LLM security)"
-   ],
-   "category": "llm_security",
-   "published": "2026-10-14T18:26:15Z",
-   "first_seen": "2026-10-16T04:38:54.241452Z",
-   "importance": 43,
-   "is_hot": false,
-   "tags": [
-    "cs.CR",
-    "cs.AI",
-    "prompt injection",
-    "agentic"
-   ],
-   "title_ru": "ИНФУЗИЯ: унифицированный эталон поверхности для непрямой быстрой инъекции в агентные системы",
-   "summary_ru": "Агенты на основе LLM все чаще выполняют длинные горизонтальные сквозные рабочие процессы, включающие команды оболочки, модификацию кода, установку зависимостей и взаимодействие с удаленными службами. Эта растущая автономия расширяет их воздействие на непрямую быструю инъекцию (IPI), где состязательные инструкции..."
-  },
-  {
-   "id": "2b87bb0734ea",
-   "title": "CVE-2026-76001: ColdFusion is affected by a Server-Side Request Forgery (SSRF) vulnerability that could result in privilege escalation.…",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76001",
-   "summary": "ColdFusion is affected by a Server-Side Request Forgery (SSRF) vulnerability that could result in privilege escalation. A low-privileged attacker could exploit this vulnerability to gain elevated access to internal resources. Exploit depends on conditions beyond the attacker's control. Exploitation…",
-   "source": "NVD",
-   "sources": [
-    "NVD"
-   ],
-   "category": "vulnerabilities",
-   "published": "2026-10-13T21:18:20.730000Z",
-   "first_seen": "2026-10-13T22:51:20.970377Z",
-   "importance": 43,
-   "is_hot": false,
-   "tags": [
-    "CVSS 7.1",
-    "privilege escalation",
-    "exploit",
-    "ssrf"
-   ],
-   "cve": {
-    "id": "CVE-2026-76001",
-    "kev": false,
-    "cvss": 7.1,
-    "epss": 0.0055,
-    "epss_percentile": 0.4475
-   },
-   "title_ru": "CVE-2026-76001: На ColdFusion влияет уязвимость подделки запросов на стороне сервера (SSRF), которая может привести к повышению привилегий....",
-   "summary_ru": "На ColdFusion влияет уязвимость подделки запросов на стороне сервера (SSRF), которая может привести к повышению привилегий. Атакующий с низким уровнем привилегий может использовать эту уязвимость для получения расширенного доступа к внутренним ресурсам. Эксплойт зависит от условий, не зависящих от атакующего. Эксплойт..."
-  },
-  {
-   "id": "3e12429b5787",
-   "title": "CVE-2026-75748: ColdFusion is affected by a Server-Side Request Forgery (SSRF) vulnerability that could result in privilege escalation.…",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-75748",
-   "summary": "ColdFusion is affected by a Server-Side Request Forgery (SSRF) vulnerability that could result in privilege escalation. An attacker with high privileges could exploit this vulnerability to gain elevated access to internal resources. Exploitation of this issue does not require user interaction.…",
-   "source": "NVD",
-   "sources": [
-    "NVD"
-   ],
-   "category": "vulnerabilities",
-   "published": "2026-10-13T21:18:20.263000Z",
-   "first_seen": "2026-10-13T22:51:20.970377Z",
-   "importance": 43,
-   "is_hot": false,
-   "tags": [
-    "CVSS 7.6",
-    "privilege escalation",
-    "exploit",
-    "ssrf"
-   ],
-   "cve": {
-    "id": "CVE-2026-75748",
-    "kev": false,
-    "cvss": 7.6,
-    "epss": 0.0059,
-    "epss_percentile": 0.4696
-   },
-   "title_ru": "CVE-2026-75748: На ColdFusion влияет уязвимость подделки запросов на стороне сервера (SSRF), которая может привести к повышению привилегий....",
-   "summary_ru": "На ColdFusion влияет уязвимость подделки запросов на стороне сервера (SSRF), которая может привести к повышению привилегий. Злоумышленник с высокими привилегиями может использовать эту уязвимость для получения повышенного доступа к внутренним ресурсам. Эксплуатация этой проблемы не требует взаимодействия с пользователем.…"
-  },
-  {
-   "id": "a44fab9e7cb8",
-   "title": "CVE-2026-34633: ColdFusion is affected by a Server-Side Request Forgery (SSRF) vulnerability that could result in privilege escalation.…",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34633",
-   "summary": "ColdFusion is affected by a Server-Side Request Forgery (SSRF) vulnerability that could result in privilege escalation. A low-privileged attacker could exploit this vulnerability to gain elevated access to internal resources. Exploitation of this issue does not require user interaction. Scope is…",
-   "source": "NVD",
-   "sources": [
-    "NVD"
-   ],
-   "category": "vulnerabilities",
-   "published": "2026-10-13T21:17:38.087000Z",
-   "first_seen": "2026-10-13T22:51:20.970377Z",
-   "importance": 43,
-   "is_hot": false,
-   "tags": [
-    "CVSS 7.7",
-    "privilege escalation",
-    "exploit",
-    "ssrf"
-   ],
-   "cve": {
-    "id": "CVE-2026-34633",
-    "kev": false,
-    "cvss": 7.7,
-    "epss": 0.0073,
-    "epss_percentile": 0.5335
-   },
-   "title_ru": "CVE-2026-34633: На ColdFusion влияет уязвимость подделки запросов на стороне сервера (SSRF), которая может привести к повышению привилегий....",
-   "summary_ru": "На ColdFusion влияет уязвимость подделки запросов на стороне сервера (SSRF), которая может привести к повышению привилегий. Атакующий с низким уровнем привилегий может использовать эту уязвимость для получения расширенного доступа к внутренним ресурсам. Эксплуатация этой проблемы не требует взаимодействия с пользователем. Область применения..."
+   "title_ru": "ConfigManBearPig 2.0 – Дела идут хорошо",
+   "summary_ru": "TL;DR – За последние несколько лет исследователи безопасности обнаружили более 30 уникальных методов атак, нацеленных на Microsoft Configuration Manager (ранее SCCM), поскольку его широкий контроль над устройствами организации делает его привлекательной целью. ConfigManBearPig 2.0 — это переписанная версия Python…"
   },
   {
    "id": "8242ffe747b9",
@@ -2257,56 +2144,117 @@
    "summary_ru": "Cognition before 0.13.0 содержит неаутентифицированную уязвимость удаленного выполнения кода из-за того, что по умолчанию сервер песочницы агента выполняет локальное выполнение и не отправляет аутентификацию на свой REST/SSE API. Злоумышленники могут создать сессию через POST /sessions и опубликовать сообщение через POST..."
   },
   {
-   "id": "b838a61cc7ed",
-   "title": "My Credentials, Please: Detecting Filesystem Capability Laundering in MCP Servers at Scale",
-   "url": "https://arxiv.org/abs/2610.22301v1",
-   "summary": "The Model Context Protocol (MCP) standardizes how AI agents invoke external tools. MCP servers expose tools through a declared contract consisting of a name, description, and argument schema. In typical local deployments, client-side approval of a tool call grants the underlying server process…",
-   "source": "arXiv cs.CR (agents)",
+   "id": "fa4f09471592",
+   "title": "INFUSE: A Unified Surface Benchmark for Indirect Prompt Injection in Agentic Systems",
+   "url": "https://arxiv.org/abs/2610.20776v1",
+   "summary": "LLM-based agents increasingly execute long-horizon, end-to-end workflows involving shell commands, code modification, dependency installation, and interaction with remote services. This growing autonomy expands their exposure to indirect prompt injection (IPI), where adversarial instructions…",
+   "source": "arXiv cs.CR (LLM security)",
    "sources": [
-    "arXiv cs.CR (agents)",
     "arXiv cs.CR (LLM security)"
    ],
-   "category": "ai_pentest",
-   "published": "2026-10-15T17:48:10Z",
+   "category": "llm_security",
+   "published": "2026-10-14T18:26:15Z",
    "first_seen": "2026-10-16T04:38:54.241452Z",
    "importance": 42,
    "is_hot": false,
    "tags": [
     "cs.CR",
-    "mcp",
-    "model context protocol"
+    "cs.AI",
+    "prompt injection",
+    "agentic"
    ],
-   "title_ru": "My Credentials, Please: Detecting Filesystem Capability Laundering in MCP Servers at Scale (Мои учетные данные, пожалуйста: обнаружение возможности отмывания файлов в серверах MCP",
-   "summary_ru": "Протокол контекста модели (MCP) стандартизирует, как агенты ИИ обращаются к внешним инструментам. Серверы MCP предоставляют инструменты через объявленный контракт, состоящий из имени, описания и схемы аргументов. В типичных локальных развертываниях утверждение клиентской стороной вызова инструментов предоставляет базовый серверный процесс..."
+   "title_ru": "ИНФУЗИЯ: унифицированный эталон поверхности для непрямой быстрой инъекции в агентные системы",
+   "summary_ru": "Агенты на основе LLM все чаще выполняют длинные горизонтальные сквозные рабочие процессы, включающие команды оболочки, модификацию кода, установку зависимостей и взаимодействие с удаленными службами. Эта растущая автономия расширяет их воздействие на непрямую быструю инъекцию (IPI), где состязательные инструкции..."
   },
   {
-   "id": "ca1bc694d9a3",
-   "title": "CVE-2026-90531: Adobe Experience Manager is affected by an Improper Restriction of XML External Entity Reference ('XXE') vulnerability…",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-90531",
-   "summary": "Adobe Experience Manager is affected by an Improper Restriction of XML External Entity Reference ('XXE') vulnerability that could result in privilege escalation. A low-privileged attacker could exploit this vulnerability to gain elevated access to internal resources. Exploitation of this issue does…",
+   "id": "2b87bb0734ea",
+   "title": "CVE-2026-76001: ColdFusion is affected by a Server-Side Request Forgery (SSRF) vulnerability that could result in privilege escalation.…",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76001",
+   "summary": "ColdFusion is affected by a Server-Side Request Forgery (SSRF) vulnerability that could result in privilege escalation. A low-privileged attacker could exploit this vulnerability to gain elevated access to internal resources. Exploit depends on conditions beyond the attacker's control. Exploitation…",
    "source": "NVD",
    "sources": [
     "NVD"
    ],
    "category": "vulnerabilities",
-   "published": "2026-10-13T20:19:10.030000Z",
+   "published": "2026-10-13T21:18:20.730000Z",
    "first_seen": "2026-10-13T22:51:20.970377Z",
    "importance": 42,
    "is_hot": false,
    "tags": [
-    "CVSS 9.6",
+    "CVSS 7.1",
     "privilege escalation",
-    "exploit"
+    "exploit",
+    "ssrf"
    ],
    "cve": {
-    "id": "CVE-2026-90531",
+    "id": "CVE-2026-76001",
     "kev": false,
-    "cvss": 9.6,
-    "epss": 0.0047,
-    "epss_percentile": 0.3975
+    "cvss": 7.1,
+    "epss": 0.0055,
+    "epss_percentile": 0.4475
    },
-   "title_ru": "CVE-2026-90531: Adobe Experience Manager подвержен неправомерному ограничению XML External Entity Reference ('XXE') уязвимости...",
-   "summary_ru": "На Adobe Experience Manager влияет ненадлежащее ограничение XML-ссылки на внешние объекты («XXE»), что может привести к повышению привилегий. Атакующий с низким уровнем привилегий может использовать эту уязвимость для получения расширенного доступа к внутренним ресурсам. Эксплуатация этой проблемы делает..."
+   "title_ru": "CVE-2026-76001: На ColdFusion влияет уязвимость подделки запросов на стороне сервера (SSRF), которая может привести к повышению привилегий....",
+   "summary_ru": "На ColdFusion влияет уязвимость подделки запросов на стороне сервера (SSRF), которая может привести к повышению привилегий. Атакующий с низким уровнем привилегий может использовать эту уязвимость для получения расширенного доступа к внутренним ресурсам. Эксплойт зависит от условий, не зависящих от атакующего. Эксплойт..."
+  },
+  {
+   "id": "3e12429b5787",
+   "title": "CVE-2026-75748: ColdFusion is affected by a Server-Side Request Forgery (SSRF) vulnerability that could result in privilege escalation.…",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-75748",
+   "summary": "ColdFusion is affected by a Server-Side Request Forgery (SSRF) vulnerability that could result in privilege escalation. An attacker with high privileges could exploit this vulnerability to gain elevated access to internal resources. Exploitation of this issue does not require user interaction.…",
+   "source": "NVD",
+   "sources": [
+    "NVD"
+   ],
+   "category": "vulnerabilities",
+   "published": "2026-10-13T21:18:20.263000Z",
+   "first_seen": "2026-10-13T22:51:20.970377Z",
+   "importance": 42,
+   "is_hot": false,
+   "tags": [
+    "CVSS 7.6",
+    "privilege escalation",
+    "exploit",
+    "ssrf"
+   ],
+   "cve": {
+    "id": "CVE-2026-75748",
+    "kev": false,
+    "cvss": 7.6,
+    "epss": 0.0059,
+    "epss_percentile": 0.4696
+   },
+   "title_ru": "CVE-2026-75748: На ColdFusion влияет уязвимость подделки запросов на стороне сервера (SSRF), которая может привести к повышению привилегий....",
+   "summary_ru": "На ColdFusion влияет уязвимость подделки запросов на стороне сервера (SSRF), которая может привести к повышению привилегий. Злоумышленник с высокими привилегиями может использовать эту уязвимость для получения повышенного доступа к внутренним ресурсам. Эксплуатация этой проблемы не требует взаимодействия с пользователем.…"
+  },
+  {
+   "id": "a44fab9e7cb8",
+   "title": "CVE-2026-34633: ColdFusion is affected by a Server-Side Request Forgery (SSRF) vulnerability that could result in privilege escalation.…",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34633",
+   "summary": "ColdFusion is affected by a Server-Side Request Forgery (SSRF) vulnerability that could result in privilege escalation. A low-privileged attacker could exploit this vulnerability to gain elevated access to internal resources. Exploitation of this issue does not require user interaction. Scope is…",
+   "source": "NVD",
+   "sources": [
+    "NVD"
+   ],
+   "category": "vulnerabilities",
+   "published": "2026-10-13T21:17:38.087000Z",
+   "first_seen": "2026-10-13T22:51:20.970377Z",
+   "importance": 42,
+   "is_hot": false,
+   "tags": [
+    "CVSS 7.7",
+    "privilege escalation",
+    "exploit",
+    "ssrf"
+   ],
+   "cve": {
+    "id": "CVE-2026-34633",
+    "kev": false,
+    "cvss": 7.7,
+    "epss": 0.0073,
+    "epss_percentile": 0.5335
+   },
+   "title_ru": "CVE-2026-34633: На ColdFusion влияет уязвимость подделки запросов на стороне сервера (SSRF), которая может привести к повышению привилегий....",
+   "summary_ru": "На ColdFusion влияет уязвимость подделки запросов на стороне сервера (SSRF), которая может привести к повышению привилегий. Атакующий с низким уровнем привилегий может использовать эту уязвимость для получения расширенного доступа к внутренним ресурсам. Эксплуатация этой проблемы не требует взаимодействия с пользователем. Область применения..."
   },
   {
    "id": "72ee2116a054",
@@ -2452,33 +2400,27 @@
    "summary_ru": "## Сводка `internal/config/validation.go` (`ValidateConfigFile`) - это элемент управления безопасностью, который блокирует опасные директивы nginx — `js_*`, `perl_*`, `load_module` модулей njs/perl и `user root`. Он применяется к трем из четырех путей записи конфигурации: `api/config/add.go`,..."
   },
   {
-   "id": "e4d6a584d14d",
-   "title": "CVE-2026-111105: Telegram rlottie Numeric Truncation Remote Code Execution Vulnerability. This vulnerability allows remote attackers to…",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111105",
-   "summary": "Telegram rlottie Numeric Truncation Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of Telegram. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a…",
-   "source": "NVD",
+   "id": "b838a61cc7ed",
+   "title": "My Credentials, Please: Detecting Filesystem Capability Laundering in MCP Servers at Scale",
+   "url": "https://arxiv.org/abs/2610.22301v1",
+   "summary": "The Model Context Protocol (MCP) standardizes how AI agents invoke external tools. MCP servers expose tools through a declared contract consisting of a name, description, and argument schema. In typical local deployments, client-side approval of a tool call grants the underlying server process…",
+   "source": "arXiv cs.CR (agents)",
    "sources": [
-    "NVD"
+    "arXiv cs.CR (agents)",
+    "arXiv cs.CR (LLM security)"
    ],
-   "category": "vulnerabilities",
-   "published": "2026-10-15T18:17:26.670000Z",
-   "first_seen": "2026-10-15T21:29:18.221226Z",
+   "category": "ai_pentest",
+   "published": "2026-10-15T17:48:10Z",
+   "first_seen": "2026-10-16T04:38:54.241452Z",
    "importance": 41,
    "is_hot": false,
    "tags": [
-    "CVSS 7.0",
-    "remote code execution",
-    "exploit"
+    "cs.CR",
+    "mcp",
+    "model context protocol"
    ],
-   "cve": {
-    "id": "CVE-2026-111105",
-    "kev": false,
-    "cvss": 7.0,
-    "epss": 0.0014,
-    "epss_percentile": 0.0313
-   },
-   "title_ru": "CVE-2026-111105: уязвимость удаленного выполнения кода числового усечения Telegram. Эта уязвимость позволяет удаленным злоумышленникам...",
-   "summary_ru": "Telegram rlottie Уязвимость удаленного выполнения числового усечения кода. Эта уязвимость позволяет удаленным злоумышленникам выполнять произвольный код на затронутых установках Telegram. Для использования этой уязвимости требуется взаимодействие с пользователем, поскольку цель должна посетить вредоносную страницу или открыть..."
+   "title_ru": "My Credentials, Please: Detecting Filesystem Capability Laundering in MCP Servers at Scale (Мои учетные данные, пожалуйста: обнаружение возможности отмывания файлов в серверах MCP",
+   "summary_ru": "Протокол контекста модели (MCP) стандартизирует, как агенты ИИ обращаются к внешним инструментам. Серверы MCP предоставляют инструменты через объявленный контракт, состоящий из имени, описания и схемы аргументов. В типичных локальных развертываниях утверждение клиентской стороной вызова инструментов предоставляет базовый серверный процесс..."
   },
   {
    "id": "50367ee6ae87",
@@ -2503,36 +2445,33 @@
    "summary_ru": "Согласно оповещению Previdian, злоумышленники используют критический недостаток безопасности в Langflow. Langflow - это платформа с открытым исходным кодом, которая позволяет разработчикам создавать приложения искусственного интеллекта (ИИ) и агентские рабочие процессы. В феврале 2025 года DataStax, материнская компания Langflow,..."
   },
   {
-   "id": "247427e819cb",
-   "title": "CVE-2026-70197: Microsoft Security Advisory CVE-2026-70197 - .NET and Visual Studio Remote Code Execution Vulnerability",
-   "url": "https://github.com/advisories/GHSA-4mpw-cpwj-hxxj",
-   "summary": "## Executive summary Microsoft is releasing this security advisory to provide information about a vulnerability in System.Net.Sockets. This advisory also provides guidance on what developers can do to update their applications to remove this vulnerability. On Windows, reusing a…",
-   "source": "GitHub Advisories",
+   "id": "ca1bc694d9a3",
+   "title": "CVE-2026-90531: Adobe Experience Manager is affected by an Improper Restriction of XML External Entity Reference ('XXE') vulnerability…",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-90531",
+   "summary": "Adobe Experience Manager is affected by an Improper Restriction of XML External Entity Reference ('XXE') vulnerability that could result in privilege escalation. A low-privileged attacker could exploit this vulnerability to gain elevated access to internal resources. Exploitation of this issue does…",
+   "source": "NVD",
    "sources": [
-    "GitHub Advisories"
+    "NVD"
    ],
    "category": "vulnerabilities",
-   "published": "2026-10-13T20:34:32Z",
+   "published": "2026-10-13T20:19:10.030000Z",
    "first_seen": "2026-10-13T22:51:20.970377Z",
    "importance": 41,
    "is_hot": false,
    "tags": [
-    "high",
-    "Microsoft.NETCore.App.Runtime.win-arm64",
-    "Microsoft.NETCore.App.Runtime.win-x64",
-    "Microsoft.NETCore.App.Runtime.win-x86",
-    "remote code execution"
+    "CVSS 9.6",
+    "privilege escalation",
+    "exploit"
    ],
    "cve": {
-    "id": "CVE-2026-70197",
+    "id": "CVE-2026-90531",
     "kev": false,
-    "cvss": 8.1,
-    "product": "Microsoft.NETCore.App.Runtime.win-arm64, Microsoft.NETCore.App.Runtime.win-x64, Microsoft.NETCore.App.Runtime.win-x86",
-    "epss": 0.0069,
-    "epss_percentile": 0.5212
+    "cvss": 9.6,
+    "epss": 0.0047,
+    "epss_percentile": 0.3975
    },
-   "title_ru": "CVE-2026-70197: рекомендации Майкрософт по безопасности CVE-2026-70197 - уязвимость удаленного выполнения кода .NET и Visual Studio",
-   "summary_ru": "## Краткое изложение Корпорация Майкрософт публикует эту рекомендацию по безопасности, чтобы предоставить информацию об уязвимости в System.Net.Sockets. В этом руководстве также содержатся рекомендации о том, что разработчики могут сделать для обновления своих приложений, чтобы удалить эту уязвимость. В Windows повторное использование..."
+   "title_ru": "CVE-2026-90531: Adobe Experience Manager подвержен неправомерному ограничению XML External Entity Reference ('XXE') уязвимости...",
+   "summary_ru": "На Adobe Experience Manager влияет ненадлежащее ограничение XML-ссылки на внешние объекты («XXE»), что может привести к повышению привилегий. Атакующий с низким уровнем привилегий может использовать эту уязвимость для получения расширенного доступа к внутренним ресурсам. Эксплуатация этой проблемы делает..."
   },
   {
    "id": "2d8a5096f95f",
@@ -2723,91 +2662,65 @@
    "summary_ru": "BeyondTrust предупредила клиентов в четверг, чтобы они исправили критический недостаток в удаленной поддержке (RS), который использовался в атаках нулевого дня с конца августа. [...]"
   },
   {
-   "id": "343cdd4bca14",
-   "title": "CVE-2026-57496: NetLicensing MCP Server is a natural-language interface that enables agentic applications to manage the…",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-57496",
-   "summary": "NetLicensing MCP Server is a natural-language interface that enables agentic applications to manage the software-licensing lifecycle in Labs64 NetLicensing. Prior to 0.1.8, netlicensing_get_product passes the caller-controlled product_number to src/netlicensing_mcp/tools/products.py, which…",
+   "id": "e4d6a584d14d",
+   "title": "CVE-2026-111105: Telegram rlottie Numeric Truncation Remote Code Execution Vulnerability. This vulnerability allows remote attackers to…",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111105",
+   "summary": "Telegram rlottie Numeric Truncation Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of Telegram. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a…",
    "source": "NVD",
    "sources": [
     "NVD"
    ],
    "category": "vulnerabilities",
-   "published": "2026-10-15T19:17:41.733000Z",
+   "published": "2026-10-15T18:17:26.670000Z",
    "first_seen": "2026-10-15T21:29:18.221226Z",
    "importance": 40,
    "is_hot": false,
    "tags": [
-    "CVSS 9.6",
-    "mcp",
-    "agentic"
+    "CVSS 7.0",
+    "remote code execution",
+    "exploit"
    ],
    "cve": {
-    "id": "CVE-2026-57496",
+    "id": "CVE-2026-111105",
     "kev": false,
-    "cvss": 9.6,
-    "epss": 0.0035,
-    "epss_percentile": 0.2756
+    "cvss": 7.0,
+    "epss": 0.0014,
+    "epss_percentile": 0.0313
    },
-   "title_ru": "CVE-2026-57496: NetLicensing MCP Server - это интерфейс на естественном языке, который позволяет агентским приложениям управлять...",
-   "summary_ru": "NetLicensing MCP Server - это интерфейс на естественном языке, который позволяет агентским приложениям управлять жизненным циклом лицензирования программного обеспечения в Labs64 NetLicensing. До 0.1.8 netlicensing_get_product передает контролируемый абонентом product_number в src/netlicensing_mcp/tools/products.py, что..."
+   "title_ru": "CVE-2026-111105: уязвимость удаленного выполнения кода числового усечения Telegram. Эта уязвимость позволяет удаленным злоумышленникам...",
+   "summary_ru": "Telegram rlottie Уязвимость удаленного выполнения числового усечения кода. Эта уязвимость позволяет удаленным злоумышленникам выполнять произвольный код на затронутых установках Telegram. Для использования этой уязвимости требуется взаимодействие с пользователем, поскольку цель должна посетить вредоносную страницу или открыть..."
   },
   {
-   "id": "5f8c1a020120",
-   "title": "CVE-2026-49950: Xorbits Xoscar through 0.11.2 contains an unauthenticated deserialization vulnerability that allows remote attackers to…",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-49950",
-   "summary": "Xorbits Xoscar through 0.11.2 contains an unauthenticated deserialization vulnerability that allows remote attackers to execute arbitrary code by sending crafted data over the actor-pool TCP channel. Attackers can exploit SocketChannel.recv() passing unvalidated data to cloudpickle.loads(), which…",
-   "source": "NVD",
+   "id": "247427e819cb",
+   "title": "CVE-2026-70197: Microsoft Security Advisory CVE-2026-70197 - .NET and Visual Studio Remote Code Execution Vulnerability",
+   "url": "https://github.com/advisories/GHSA-4mpw-cpwj-hxxj",
+   "summary": "## Executive summary Microsoft is releasing this security advisory to provide information about a vulnerability in System.Net.Sockets. This advisory also provides guidance on what developers can do to update their applications to remove this vulnerability. On Windows, reusing a…",
+   "source": "GitHub Advisories",
    "sources": [
-    "NVD"
+    "GitHub Advisories"
    ],
    "category": "vulnerabilities",
-   "published": "2026-10-13T21:17:39.007000Z",
+   "published": "2026-10-13T20:34:32Z",
    "first_seen": "2026-10-13T22:51:20.970377Z",
    "importance": 40,
    "is_hot": false,
    "tags": [
-    "CVSS 9.3",
-    "exploit",
-    "deserialization"
+    "high",
+    "Microsoft.NETCore.App.Runtime.win-arm64",
+    "Microsoft.NETCore.App.Runtime.win-x64",
+    "Microsoft.NETCore.App.Runtime.win-x86",
+    "remote code execution"
    ],
    "cve": {
-    "id": "CVE-2026-49950",
+    "id": "CVE-2026-70197",
     "kev": false,
-    "cvss": 9.3,
-    "epss": 0.0063,
-    "epss_percentile": 0.4929
+    "cvss": 8.1,
+    "product": "Microsoft.NETCore.App.Runtime.win-arm64, Microsoft.NETCore.App.Runtime.win-x64, Microsoft.NETCore.App.Runtime.win-x86",
+    "epss": 0.0069,
+    "epss_percentile": 0.5212
    },
-   "title_ru": "CVE-2026-49950: Xorbits Xoscar через 0.11.2 содержит неаутентифицированную уязвимость десериализации, которая позволяет удаленным злоумышленникам...",
-   "summary_ru": "Xorbits Xoscar через 0.11.2 содержит неаутентифицированную уязвимость десериализации, которая позволяет удаленным злоумышленникам выполнять произвольный код, отправляя обработанные данные по TCP-каналу пула акторов. Злоумышленники могут использовать SocketChannel.recv(), передавая непроверенные данные в cloudpickle.loads(), что…"
-  },
-  {
-   "id": "ded5db71078f",
-   "title": "CVE-2026-106622: ColdFusion is affected by a Server-Side Request Forgery (SSRF) vulnerability that could result in privilege escalation.…",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106622",
-   "summary": "ColdFusion is affected by a Server-Side Request Forgery (SSRF) vulnerability that could result in privilege escalation. Exploitation of this issue does not require user interaction. Scope is changed.",
-   "source": "NVD",
-   "sources": [
-    "NVD"
-   ],
-   "category": "vulnerabilities",
-   "published": "2026-10-13T21:17:31.490000Z",
-   "first_seen": "2026-10-13T22:51:20.970377Z",
-   "importance": 40,
-   "is_hot": false,
-   "tags": [
-    "CVSS 10.0",
-    "privilege escalation",
-    "ssrf"
-   ],
-   "cve": {
-    "id": "CVE-2026-106622",
-    "kev": false,
-    "cvss": 10.0,
-    "epss": 0.007,
-    "epss_percentile": 0.522
-   },
-   "title_ru": "CVE-2026-106622: На ColdFusion влияет уязвимость подделки запросов на стороне сервера (SSRF), которая может привести к повышению привилегий....",
-   "summary_ru": "На ColdFusion влияет уязвимость подделки запросов на стороне сервера (SSRF), которая может привести к повышению привилегий. Эксплуатация этой проблемы не требует взаимодействия с пользователем. Область применения изменена."
+   "title_ru": "CVE-2026-70197: рекомендации Майкрософт по безопасности CVE-2026-70197 - уязвимость удаленного выполнения кода .NET и Visual Studio",
+   "summary_ru": "## Краткое изложение Корпорация Майкрософт публикует эту рекомендацию по безопасности, чтобы предоставить информацию об уязвимости в System.Net.Sockets. В этом руководстве также содержатся рекомендации о том, что разработчики могут сделать для обновления своих приложений, чтобы удалить эту уязвимость. В Windows повторное использование..."
   },
   {
    "id": "b72836711191",
@@ -2839,35 +2752,6 @@
    "summary_ru": "IBM Db2 Mirror для i 7.4, 7.5 и 7.6 уязвим для повышения привилегий. Злоумышленник, прошедший проверку подлинности, может создать вредоносный запрос, который обходит дополнительную авторизацию и входные проверки для выполнения вредоносного кода. Злоумышленник может использовать эту уязвимость для получения повышенного..."
   },
   {
-   "id": "da8196f08d6d",
-   "title": "CVE-2026-32568: Subscriber Remote Code Execution (RCE) in WooCommerce Designer Pro <= 1.9.33 versions.",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-32568",
-   "summary": "Subscriber Remote Code Execution (RCE) in WooCommerce Designer Pro <= 1.9.33 versions.",
-   "source": "NVD",
-   "sources": [
-    "NVD"
-   ],
-   "category": "vulnerabilities",
-   "published": "2026-10-06T09:17:42.230000Z",
-   "first_seen": "2026-10-06T15:59:57.962699Z",
-   "importance": 40,
-   "is_hot": false,
-   "tags": [
-    "CVSS 9.9",
-    "rce",
-    "remote code execution"
-   ],
-   "cve": {
-    "id": "CVE-2026-32568",
-    "kev": false,
-    "cvss": 9.9,
-    "epss": 0.0074,
-    "epss_percentile": 0.5363
-   },
-   "title_ru": "CVE-2026-32568: удаленное выполнение кода подписчиком (RCE) в версиях WooCommerce Designer Pro <= 1.9.33.",
-   "summary_ru": "Удаленное выполнение кода подписчиком (RCE) в версиях WooCommerce Designer Pro <= 1.9.33."
-  },
-  {
    "id": "fd2ee0893b77",
    "title": "Introducing Adversary Intelligence: LLM Tradecraft",
    "url": "https://specterops.io/blog/2026/09/30/introducing-adversary-intelligence-llm-tradecraft/",
@@ -2890,34 +2774,6 @@
    ],
    "title_ru": "Представляем разведку противника: LLM Tradecraft",
    "summary_ru": "TL;DR: Adversary Intelligence: LLM Tradecraft - это новый курс по требованию, рассказывающий о том, как работают современные LLM и агентские системы, как их можно использовать и как их защитить на практике. В июле этого года мы выпустили наши первые курсы по запросу в рамках Академии SpecterOps Tradecraft.…"
-  },
-  {
-   "id": "658a0f3c8dd4",
-   "title": "CVE-2026-110372: Incorrect Privilege Assignment vulnerability in Brainstorm Force OttoKit suretriggers allows Privilege Escalation.This…",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110372",
-   "summary": "Incorrect Privilege Assignment vulnerability in Brainstorm Force OttoKit suretriggers allows Privilege Escalation.This issue affects OttoKit: from n/a through 1.1.40.",
-   "source": "NVD",
-   "sources": [
-    "NVD"
-   ],
-   "category": "vulnerabilities",
-   "published": "2026-10-18T11:16:36.580000Z",
-   "first_seen": "2026-10-18T11:16:51.676643Z",
-   "importance": 39,
-   "is_hot": false,
-   "tags": [
-    "CVSS 9.8",
-    "privilege escalation"
-   ],
-   "cve": {
-    "id": "CVE-2026-110372",
-    "kev": false,
-    "cvss": 9.8,
-    "epss": 0.0027,
-    "epss_percentile": 0.178
-   },
-   "title_ru": "CVE-2026-110372: Неправильная уязвимость назначения привилегий в поручителях Brainstorm Force OttoKit позволяет эскалацию привилегий. Это...",
-   "summary_ru": "Неправильная уязвимость назначения привилегий в суретригерах Brainstorm Force OttoKit позволяет эскалацию привилегий. Эта проблема влияет на OttoKit: от n/a до 1.1.40."
   },
   {
    "id": "c48dd1d41f9e",
@@ -2946,6 +2802,35 @@
    },
    "title_ru": "CVE-2026-111687: WeRSS (we-mp-rss) через 1.5.3 содержит уязвимость удаленного выполнения кода, которая позволяет неаутентифицированным злоумышленникам...",
    "summary_ru": "WeRSS (we-mp-rss) через 1.5.3 содержит уязвимость удаленного выполнения кода, которая позволяет неаутентифицированным злоумышленникам запускать код через шаблонный параметр публичной эндпоинта GET /rss/{feed_id}. Злоумышленники могут предоставить не встроенное значение ext и шаблон {{=expression}}, объект-подкласс которого..."
+  },
+  {
+   "id": "343cdd4bca14",
+   "title": "CVE-2026-57496: NetLicensing MCP Server is a natural-language interface that enables agentic applications to manage the…",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-57496",
+   "summary": "NetLicensing MCP Server is a natural-language interface that enables agentic applications to manage the software-licensing lifecycle in Labs64 NetLicensing. Prior to 0.1.8, netlicensing_get_product passes the caller-controlled product_number to src/netlicensing_mcp/tools/products.py, which…",
+   "source": "NVD",
+   "sources": [
+    "NVD"
+   ],
+   "category": "vulnerabilities",
+   "published": "2026-10-15T19:17:41.733000Z",
+   "first_seen": "2026-10-15T21:29:18.221226Z",
+   "importance": 39,
+   "is_hot": false,
+   "tags": [
+    "CVSS 9.6",
+    "mcp",
+    "agentic"
+   ],
+   "cve": {
+    "id": "CVE-2026-57496",
+    "kev": false,
+    "cvss": 9.6,
+    "epss": 0.0035,
+    "epss_percentile": 0.2756
+   },
+   "title_ru": "CVE-2026-57496: NetLicensing MCP Server - это интерфейс на естественном языке, который позволяет агентским приложениям управлять...",
+   "summary_ru": "NetLicensing MCP Server - это интерфейс на естественном языке, который позволяет агентским приложениям управлять жизненным циклом лицензирования программного обеспечения в Labs64 NetLicensing. До 0.1.8 netlicensing_get_product передает контролируемый абонентом product_number в src/netlicensing_mcp/tools/products.py, что..."
   },
   {
    "id": "e7e058293387",
@@ -2990,6 +2875,64 @@
    "summary_ru": "Palo Alto Networks в среду выпустила обновления безопасности для высокоуровневой уязвимости в программном обеспечении PAN-OS, которая подверглась активной эксплуатации. Уязвимость, отслеживаемая как CVE-2026-0322 (оценка CVSS: 8,6), представляет собой случай удаленного выполнения кода в интерфейсе управления. \"Удаленное выполнение кода (RCE)..."
   },
   {
+   "id": "5f8c1a020120",
+   "title": "CVE-2026-49950: Xorbits Xoscar through 0.11.2 contains an unauthenticated deserialization vulnerability that allows remote attackers to…",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-49950",
+   "summary": "Xorbits Xoscar through 0.11.2 contains an unauthenticated deserialization vulnerability that allows remote attackers to execute arbitrary code by sending crafted data over the actor-pool TCP channel. Attackers can exploit SocketChannel.recv() passing unvalidated data to cloudpickle.loads(), which…",
+   "source": "NVD",
+   "sources": [
+    "NVD"
+   ],
+   "category": "vulnerabilities",
+   "published": "2026-10-13T21:17:39.007000Z",
+   "first_seen": "2026-10-13T22:51:20.970377Z",
+   "importance": 39,
+   "is_hot": false,
+   "tags": [
+    "CVSS 9.3",
+    "exploit",
+    "deserialization"
+   ],
+   "cve": {
+    "id": "CVE-2026-49950",
+    "kev": false,
+    "cvss": 9.3,
+    "epss": 0.0063,
+    "epss_percentile": 0.4929
+   },
+   "title_ru": "CVE-2026-49950: Xorbits Xoscar через 0.11.2 содержит неаутентифицированную уязвимость десериализации, которая позволяет удаленным злоумышленникам...",
+   "summary_ru": "Xorbits Xoscar через 0.11.2 содержит неаутентифицированную уязвимость десериализации, которая позволяет удаленным злоумышленникам выполнять произвольный код, отправляя обработанные данные по TCP-каналу пула акторов. Злоумышленники могут использовать SocketChannel.recv(), передавая непроверенные данные в cloudpickle.loads(), что…"
+  },
+  {
+   "id": "ded5db71078f",
+   "title": "CVE-2026-106622: ColdFusion is affected by a Server-Side Request Forgery (SSRF) vulnerability that could result in privilege escalation.…",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106622",
+   "summary": "ColdFusion is affected by a Server-Side Request Forgery (SSRF) vulnerability that could result in privilege escalation. Exploitation of this issue does not require user interaction. Scope is changed.",
+   "source": "NVD",
+   "sources": [
+    "NVD"
+   ],
+   "category": "vulnerabilities",
+   "published": "2026-10-13T21:17:31.490000Z",
+   "first_seen": "2026-10-13T22:51:20.970377Z",
+   "importance": 39,
+   "is_hot": false,
+   "tags": [
+    "CVSS 10.0",
+    "privilege escalation",
+    "ssrf"
+   ],
+   "cve": {
+    "id": "CVE-2026-106622",
+    "kev": false,
+    "cvss": 10.0,
+    "epss": 0.007,
+    "epss_percentile": 0.522
+   },
+   "title_ru": "CVE-2026-106622: На ColdFusion влияет уязвимость подделки запросов на стороне сервера (SSRF), которая может привести к повышению привилегий....",
+   "summary_ru": "На ColdFusion влияет уязвимость подделки запросов на стороне сервера (SSRF), которая может привести к повышению привилегий. Эксплуатация этой проблемы не требует взаимодействия с пользователем. Область применения изменена."
+  },
+  {
    "id": "1782f6029f05",
    "title": "CVE-2026-39802: Unauthenticated Remote Code Execution (RCE) in Everest Backup <= 2.3.13 versions.",
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-39802",
@@ -3017,6 +2960,35 @@
    },
    "title_ru": "CVE-2026-39802: Неаутентифицированное удаленное выполнение кода (RCE) в версиях Everest Backup <= 2.3.13.",
    "summary_ru": "Неаутентифицированное удаленное выполнение кода (RCE) в Everest Backup <= 2.3.13 версии."
+  },
+  {
+   "id": "da8196f08d6d",
+   "title": "CVE-2026-32568: Subscriber Remote Code Execution (RCE) in WooCommerce Designer Pro <= 1.9.33 versions.",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-32568",
+   "summary": "Subscriber Remote Code Execution (RCE) in WooCommerce Designer Pro <= 1.9.33 versions.",
+   "source": "NVD",
+   "sources": [
+    "NVD"
+   ],
+   "category": "vulnerabilities",
+   "published": "2026-10-06T09:17:42.230000Z",
+   "first_seen": "2026-10-06T15:59:57.962699Z",
+   "importance": 39,
+   "is_hot": false,
+   "tags": [
+    "CVSS 9.9",
+    "rce",
+    "remote code execution"
+   ],
+   "cve": {
+    "id": "CVE-2026-32568",
+    "kev": false,
+    "cvss": 9.9,
+    "epss": 0.0074,
+    "epss_percentile": 0.5363
+   },
+   "title_ru": "CVE-2026-32568: удаленное выполнение кода подписчиком (RCE) в версиях WooCommerce Designer Pro <= 1.9.33.",
+   "summary_ru": "Удаленное выполнение кода подписчиком (RCE) в версиях WooCommerce Designer Pro <= 1.9.33."
   },
   {
    "id": "1d43580d0da1",
@@ -3101,30 +3073,32 @@
    "summary_ru": "В бригадире обнаружен изъян. Аутентифицированный злоумышленник с разрешениями низкого уровня может достичь удаленного выполнения кода (RCE), обходя песочницу безопасного режима в шаблонизаторе. Из-за неправильной обработки делегированных методов злоумышленник может добавить несанкционированные функции к разрешенным..."
   },
   {
-   "id": "d8368a0ca28e",
-   "title": "CVE-2026-78162: Deserialization of Untrusted Data vulnerability in Apache Camel. This issue affects Apache Camel: from 4.0.0 before…",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78162",
-   "summary": "Deserialization of Untrusted Data vulnerability in Apache Camel. This issue affects Apache Camel: from 4.0.0 before 4.18.5, from 4.19.0 before 4.22.1. The camel-hazelcast component applies a default Hazelcast JavaSerializationFilterConfig to the instances it creates from its own configuration, a…",
+   "id": "658a0f3c8dd4",
+   "title": "CVE-2026-110372: Incorrect Privilege Assignment vulnerability in Brainstorm Force OttoKit suretriggers allows Privilege Escalation.This…",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110372",
+   "summary": "Incorrect Privilege Assignment vulnerability in Brainstorm Force OttoKit suretriggers allows Privilege Escalation.This issue affects OttoKit: from n/a through 1.1.40.",
    "source": "NVD",
    "sources": [
     "NVD"
    ],
    "category": "vulnerabilities",
-   "published": "2026-10-19T11:17:19.037000Z",
-   "first_seen": "2026-10-19T20:37:04.055968Z",
+   "published": "2026-10-18T11:16:36.580000Z",
+   "first_seen": "2026-10-18T11:16:51.676643Z",
    "importance": 38,
    "is_hot": false,
    "tags": [
-    "CVSS 10.0",
-    "deserialization"
+    "CVSS 9.8",
+    "privilege escalation"
    ],
    "cve": {
-    "id": "CVE-2026-78162",
+    "id": "CVE-2026-110372",
     "kev": false,
-    "cvss": 10.0
+    "cvss": 9.8,
+    "epss": 0.0027,
+    "epss_percentile": 0.178
    },
-   "title_ru": "CVE-2026-78162: Десериализация уязвимости недоверенных данных в Apache Camel. Эта проблема затрагивает Apache Camel: от 4.0.0 до...",
-   "summary_ru": "Десериализация уязвимости Untrusted Data в Apache Camel. Эта проблема затрагивает Apache Camel: от 4.0.0 до 4.18.5, от 4.19.0 до 4.22.1. Компонент camel-hazelcast применяет Hazelcast JavaSerializationFilterConfig по умолчанию к экземплярам, которые он создает из своей собственной конфигурации,..."
+   "title_ru": "CVE-2026-110372: Неправильная уязвимость назначения привилегий в поручителях Brainstorm Force OttoKit позволяет эскалацию привилегий. Это...",
+   "summary_ru": "Неправильная уязвимость назначения привилегий в суретригерах Brainstorm Force OttoKit позволяет эскалацию привилегий. Эта проблема влияет на OttoKit: от n/a до 1.1.40."
   },
   {
    "id": "b10c13062a15",
@@ -3425,7 +3399,7 @@
    ],
    "category": "offensive_research",
    "published": "2026-07-28T11:50:00Z",
-   "first_seen": "2026-10-19T20:37:04.055968Z",
+   "first_seen": "2026-10-20T00:24:58.499727Z",
    "importance": 38,
    "is_hot": false,
    "tags": [
@@ -3434,8 +3408,8 @@
     "active directory",
     "bloodhound"
    ],
-   "title_ru": "Управление путями атак на AWS",
-   "summary_ru": "В SpecterOps мы усердно работали над моделированием поставщиков идентификационных данных на нашей платформе BloodHound Enterprise. Все, от Active Directory до Okta и Github, мы сосредоточились на гибридных технологиях, которые наиболее важны для безопасности корпоративной идентификации. Сегодня мы объявляем о новом дополнении, которое…"
+   "title_ru": "Управление путями атак теперь доступно в AWS",
+   "summary_ru": "В SpectreOps мы усердно работали над моделированием поставщиков удостоверений на нашей платформе BloodHound Enterprise. Во всем, от Active Directory до Okta и Github, мы сосредоточились на гибридных технологиях, которые наиболее важны для безопасности корпоративных идентификационных данных. Сегодня мы анонсируем новое дополнение, которое…"
   },
   {
    "id": "6880bd54a9bb",
@@ -3594,6 +3568,32 @@
    "summary_ru": "Пользовательский интерфейс семафора через 2.19.16 содержит уязвимость удаленного выполнения кода, которая позволяет пользователям с ролью task_runner переопределять защищенные переменные Ansible, предоставляя произвольные ключи в среде задач JSON. Злоумышленники могут ПУБЛИКОВАТЬ задачи, устанавливая ansible_ssh_common_args с помощью ProxyCommand или..."
   },
   {
+   "id": "d8368a0ca28e",
+   "title": "CVE-2026-78162: Deserialization of Untrusted Data vulnerability in Apache Camel. This issue affects Apache Camel: from 4.0.0 before…",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78162",
+   "summary": "Deserialization of Untrusted Data vulnerability in Apache Camel. This issue affects Apache Camel: from 4.0.0 before 4.18.5, from 4.19.0 before 4.22.1. The camel-hazelcast component applies a default Hazelcast JavaSerializationFilterConfig to the instances it creates from its own configuration, a…",
+   "source": "NVD",
+   "sources": [
+    "NVD"
+   ],
+   "category": "vulnerabilities",
+   "published": "2026-10-19T11:17:19.037000Z",
+   "first_seen": "2026-10-19T20:37:04.055968Z",
+   "importance": 37,
+   "is_hot": false,
+   "tags": [
+    "CVSS 10.0",
+    "deserialization"
+   ],
+   "cve": {
+    "id": "CVE-2026-78162",
+    "kev": false,
+    "cvss": 10.0
+   },
+   "title_ru": "CVE-2026-78162: Десериализация уязвимости недоверенных данных в Apache Camel. Эта проблема затрагивает Apache Camel: от 4.0.0 до...",
+   "summary_ru": "Десериализация уязвимости Untrusted Data в Apache Camel. Эта проблема затрагивает Apache Camel: от 4.0.0 до 4.18.5, от 4.19.0 до 4.22.1. Компонент camel-hazelcast применяет Hazelcast JavaSerializationFilterConfig по умолчанию к экземплярам, которые он создает из своей собственной конфигурации,..."
+  },
+  {
    "id": "312095ed2cd6",
    "title": "CVE-2026-103091: Missing Authorization (CWE-862) and Initialization of a Resource with an Insecure Default (CWE-1188) in the MCP proxy…",
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-103091",
@@ -3620,34 +3620,6 @@
    },
    "title_ru": "CVE-2026-103091: Отсутствует авторизация (CWE-862) и инициализация ресурса с небезопасным значением по умолчанию (CWE-1188) в прокси-сервере MCP...",
    "summary_ru": "Отсутствует авторизация (CWE-862) и инициализация ресурса с небезопасным значением по умолчанию (CWE-1188) в прокси-сервере MCP (HandleStreamPassThrough в mcp_service.go) и поток регистрации OIDC (GET /info и POST /register в internal/controlplane/server.go) в версиях Google OSS Agent Mesh (SAM)..."
-  },
-  {
-   "id": "6c27466b409f",
-   "title": "CVE-2026-110886: Deserialization of Untrusted Data vulnerability in QuantumCloud Conversational Forms for ChatBot conversational-forms…",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110886",
-   "summary": "Deserialization of Untrusted Data vulnerability in QuantumCloud Conversational Forms for ChatBot conversational-forms allows Object Injection.This issue affects Conversational Forms for ChatBot: from n/a through 1.5.1.",
-   "source": "NVD",
-   "sources": [
-    "NVD"
-   ],
-   "category": "vulnerabilities",
-   "published": "2026-10-18T11:16:37.450000Z",
-   "first_seen": "2026-10-18T11:16:51.676643Z",
-   "importance": 37,
-   "is_hot": false,
-   "tags": [
-    "CVSS 9.8",
-    "deserialization"
-   ],
-   "cve": {
-    "id": "CVE-2026-110886",
-    "kev": false,
-    "cvss": 9.8,
-    "epss": 0.0031,
-    "epss_percentile": 0.2279
-   },
-   "title_ru": "CVE-2026-110886: Десериализация уязвимости ненадежных данных в диалоговых формах QuantumCloud для диалоговых форм ChatBot...",
-   "summary_ru": "Deserialization of Untrusted Data vulnerability in QuantumCloud Conversational Forms for ChatBot conversational-forms allows Object Injection. This issue affects Conversational Forms for ChatBot: from n/a through 1.5.1."
   },
   {
    "id": "8af7f63f646d",
@@ -3902,34 +3874,6 @@
    "summary_ru": "GitPython от 3.1.30 до 3.2.0 содержит уязвимость удаленного выполнения кода в Remote.pull (), чья защита от небезопасной опции проверяет только аргументы ключевых слов, а не позиционный refspec. Злоумышленники, контролирующие refspec, могут предоставить--upload-pack = для выполнения команд ОС в качестве процесса вызова через..."
   },
   {
-   "id": "c9c7353f8ac0",
-   "title": "CVE-2026-101983: A Stack-based Buffer Overflow vulnerability in the httpd process of Juniper Networks Junos OS and Junos OS Evolved…",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-101983",
-   "summary": "A Stack-based Buffer Overflow vulnerability in the httpd process of Juniper Networks Junos OS and Junos OS Evolved allows an unauthenticated network attacker to cause remote code execution and denial of service via a J-Web virtual-domain configured.",
-   "source": "NVD",
-   "sources": [
-    "NVD"
-   ],
-   "category": "vulnerabilities",
-   "published": "2026-10-14T18:17:13.293000Z",
-   "first_seen": "2026-10-14T21:46:09.761838Z",
-   "importance": 37,
-   "is_hot": false,
-   "tags": [
-    "CVSS 9.3",
-    "remote code execution"
-   ],
-   "cve": {
-    "id": "CVE-2026-101983",
-    "kev": false,
-    "cvss": 9.3,
-    "epss": 0.0054,
-    "epss_percentile": 0.4429
-   },
-   "title_ru": "CVE-2026-101983: Уязвимость Stack-based Buffer Overflow в процессе httpd Juniper Networks Junos OS и Junos OS Evolved...",
-   "summary_ru": "Уязвимость Stack-based Buffer Overflow в процессе httpd Juniper Networks Junos OS и Junos OS Evolved позволяет неаутентифицированному сетевому злоумышленнику вызывать удаленное выполнение кода и отказ в обслуживании через настроенный виртуальный домен J-Web."
-  },
-  {
    "id": "d1d94d1b15d4",
    "title": "Hackers exploit Citrix NetScaler zero-day to deploy web shells",
    "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-citrix-netscaler-zero-day-to-deploy-web-shells/",
@@ -3980,7 +3924,7 @@
    "id": "b98ffd651fb0",
    "title": "graygnatconsole/mcp-audit-tool — 🛡️ Security audit CLI for Model Context Protocol (MCP) servers — scan AI agent configs for tool poisoning, rug pulls, hardcoded secrets, command injection & supply-chain risks. Pure Python, SARIF + CI ready.",
    "url": "https://github.com/graygnatconsole/mcp-audit-tool",
-   "summary": "★474 · Python · 🛡️ Security audit CLI for Model Context Protocol (MCP) servers — scan AI agent configs for tool poisoning, rug pulls, hardcoded secrets, command injection & supply-chain risks. Pure Python, SARIF + CI ready.",
+   "summary": "★476 · Python · 🛡️ Security audit CLI for Model Context Protocol (MCP) servers — scan AI agent configs for tool poisoning, rug pulls, hardcoded secrets, command injection & supply-chain risks. Pure Python, SARIF + CI ready.",
    "source": "GitHub search (mcp security)",
    "sources": [
     "GitHub search (mcp security)"
@@ -4049,6 +3993,32 @@
    "summary_ru": "Агенты угроз начали использовать цепочку уязвимостей в Plex Media Server для развертывания криптовалютных майнеров и обратного прокси-программного обеспечения на следующий день после того, как доказательство концепции (PoC) стало общедоступным. По словам исследователя, известного под онлайн-псевдонимом boredhackerblog, эксплуатационная активность..."
   },
   {
+   "id": "b7ce83962965",
+   "title": "CVE-2026-107083: SENAYAN Library Management System (SLiMS) Bulian (slims9_bulian) 9.8.0 is vulnerable to SQL Injection in…",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107083",
+   "summary": "SENAYAN Library Management System (SLiMS) Bulian (slims9_bulian) 9.8.0 is vulnerable to SQL Injection in admin/modules/reporting/customs/dl_detail.php via the parameter fileID.",
+   "source": "NVD",
+   "sources": [
+    "NVD"
+   ],
+   "category": "vulnerabilities",
+   "published": "2026-10-19T17:17:00.690000Z",
+   "first_seen": "2026-10-20T00:24:58.499727Z",
+   "importance": 36,
+   "is_hot": false,
+   "tags": [
+    "CVSS 9.8",
+    "sql injection"
+   ],
+   "cve": {
+    "id": "CVE-2026-107083",
+    "kev": false,
+    "cvss": 9.8
+   },
+   "title_ru": "CVE-2026-107083: Система управления библиотеками SENAYAN (SLiMS) Bulian (slims9_bulian) 9.8.0 уязвима для внедрения SQL-кода в…",
+   "summary_ru": "Система управления библиотеками SENAYAN (SLiMS) Bulian (slims9_bulian) 9.8.0 уязвима для SQL-инъекций в admin/modules/reporting/customs/dl_detail.php через параметр fileID."
+  },
+  {
    "id": "52d95f52bda5",
    "title": "CVE-2026-13695: SQL injection (SQLi) vulnerability—specifically a UNION-based vulnerability—in the Integratec application that affects…",
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-13695",
@@ -4078,10 +4048,38 @@
    "summary_ru": "Уязвимость SQL-инъекции (SQLi) - в частности, уязвимость на основе UNION - в приложении Integratec, которая влияет на параметр sInfo, отправленный через POST в конечную точку /login/ap_Login.aspx/start. Успешная эксплуатация этой уязвимости может позволить злоумышленнику украсть данные из базы данных,..."
   },
   {
+   "id": "6c27466b409f",
+   "title": "CVE-2026-110886: Deserialization of Untrusted Data vulnerability in QuantumCloud Conversational Forms for ChatBot conversational-forms…",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110886",
+   "summary": "Deserialization of Untrusted Data vulnerability in QuantumCloud Conversational Forms for ChatBot conversational-forms allows Object Injection.This issue affects Conversational Forms for ChatBot: from n/a through 1.5.1.",
+   "source": "NVD",
+   "sources": [
+    "NVD"
+   ],
+   "category": "vulnerabilities",
+   "published": "2026-10-18T11:16:37.450000Z",
+   "first_seen": "2026-10-18T11:16:51.676643Z",
+   "importance": 36,
+   "is_hot": false,
+   "tags": [
+    "CVSS 9.8",
+    "deserialization"
+   ],
+   "cve": {
+    "id": "CVE-2026-110886",
+    "kev": false,
+    "cvss": 9.8,
+    "epss": 0.0031,
+    "epss_percentile": 0.2279
+   },
+   "title_ru": "CVE-2026-110886: Десериализация уязвимости ненадежных данных в диалоговых формах QuantumCloud для диалоговых форм ChatBot...",
+   "summary_ru": "Deserialization of Untrusted Data vulnerability in QuantumCloud Conversational Forms for ChatBot conversational-forms allows Object Injection. This issue affects Conversational Forms for ChatBot: from n/a through 1.5.1."
+  },
+  {
    "id": "5cc6b1947b13",
    "title": "Fazmin/cve-intel — Local security intelligence for CVE triage - 31 data sources and 32 tools, risk scores and an MCP server for AI agents, all in native Rust. Private by default.",
    "url": "https://github.com/Fazmin/cve-intel",
-   "summary": "★70 · Rust · Local security intelligence for CVE triage - 31 data sources and 32 tools, risk scores and an MCP server for AI agents, all in native Rust. Private by default.",
+   "summary": "★75 · Rust · Local security intelligence for CVE triage - 31 data sources and 32 tools, risk scores and an MCP server for AI agents, all in native Rust. Private by default.",
    "source": "GitHub search (mcp security)",
    "sources": [
     "GitHub search (mcp security)"
@@ -4104,33 +4102,6 @@
    ],
    "title_ru": "Fazmin/cve-intel — Локальная разведка безопасности для сортировки CVE - 31 источник данных и 32 инструмента, оценки рисков и сервер MCP для агентов ИИ, все в родном Rust. По умолчанию закрытый.",
    "summary_ru": "★70 · Rust · Локальная разведка безопасности для сортировки CVE - 31 источник данных и 32 инструмента, оценки рисков и сервер MCP для агентов ИИ, все в родном Rust. По умолчанию закрытый."
-  },
-  {
-   "id": "b9ef27f8e596",
-   "title": "Top 5 Initial Access Threat Vectors Observed by Unit 42 in September 2026",
-   "url": "https://unit42.paloaltonetworks.com/top-5-initial-access-vectors-september-2026/",
-   "summary": "Unit 42 details the top initial access vectors adversaries use to breach organizations, led by edge exploits, credential abuse and phishing The post Top 5 Initial Access Threat Vectors Observed by Unit 42 in September 2026 appeared first on Unit 42 .",
-   "source": "Unit 42",
-   "sources": [
-    "Unit 42"
-   ],
-   "category": "threat_intel",
-   "published": "2026-10-16T17:47:54Z",
-   "first_seen": "2026-10-16T21:17:41.446363Z",
-   "importance": 36,
-   "is_hot": false,
-   "tags": [
-    "General",
-    "Insights",
-    "Trend Reports",
-    "Initial Access",
-    "threat intelligence",
-    "trends",
-    "initial access",
-    "phishing"
-   ],
-   "title_ru": "Топ-5 начальных векторов угрозы доступа, наблюдаемых блоком 42 в сентябре 2026 года",
-   "summary_ru": "В блоке 42 подробно описаны основные исходные векторы доступа, используемые злоумышленниками для взлома организаций, во главе с краевыми эксплойтами, злоупотреблением учетными данными и фишингом. Сообщение «5 основных исходных векторов угроз доступа, обнаруженных блоком 42 в сентябре 2026 года» впервые появилось в блоке 42 ."
   },
   {
    "id": "82f2672c8c98",
@@ -4298,62 +4269,32 @@
    "summary_ru": "## Краткое описание Администратор пространства имен, который создает TriggerAuthentication и ScaledObject в своем собственном пространстве имен, может заставить оператора KEDA отправить свой собственный токен ServiceAccount на URL-адрес, управляемый клиентом. Этот токен содержит `[\"*\"]/[\"*\"] get` для всего кластера, поэтому он считывает каждый секрет в каждом пространстве имен, а также..."
   },
   {
-   "id": "0479a92100b4",
-   "title": "CVE-2026-109527: The Model Context Protocol Python SDK is the official Python SDK for Model Context Protocol servers and clients. In mcp…",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109527",
-   "summary": "The Model Context Protocol Python SDK is the official Python SDK for Model Context Protocol servers and clients. In mcp versions before 1.29.1 and from 2.0.0a1 through 2.0.1, the Streamable HTTP session manager, SSE message endpoint, and OAuth authorization-server routes buffer complete HTTP…",
+   "id": "c9c7353f8ac0",
+   "title": "CVE-2026-101983: A Stack-based Buffer Overflow vulnerability in the httpd process of Juniper Networks Junos OS and Junos OS Evolved…",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-101983",
+   "summary": "A Stack-based Buffer Overflow vulnerability in the httpd process of Juniper Networks Junos OS and Junos OS Evolved allows an unauthenticated network attacker to cause remote code execution and denial of service via a J-Web virtual-domain configured.",
    "source": "NVD",
    "sources": [
     "NVD"
    ],
    "category": "vulnerabilities",
-   "published": "2026-10-14T18:17:33.447000Z",
+   "published": "2026-10-14T18:17:13.293000Z",
    "first_seen": "2026-10-14T21:46:09.761838Z",
    "importance": 36,
    "is_hot": false,
    "tags": [
-    "CVSS 7.5",
-    "mcp",
-    "model context protocol"
+    "CVSS 9.3",
+    "remote code execution"
    ],
    "cve": {
-    "id": "CVE-2026-109527",
+    "id": "CVE-2026-101983",
     "kev": false,
-    "cvss": 7.5,
-    "epss": 0.007,
-    "epss_percentile": 0.5231
+    "cvss": 9.3,
+    "epss": 0.0054,
+    "epss_percentile": 0.4429
    },
-   "title_ru": "CVE-2026-109527: Python SDK протокола контекста модели является официальным Python SDK для серверов и клиентов протокола контекста модели. В mcp...",
-   "summary_ru": "Python SDK протокола контекста модели является официальным Python SDK для серверов и клиентов протокола контекста модели. В версиях mcp до 1.29.1 и с 2.0.0a1 по 2.0.1 менеджер потоковых HTTP-сессий, конечная точка SSE-сообщений и буфер маршрутов OAuth-сервера авторизации завершают HTTP..."
-  },
-  {
-   "id": "c18297403c10",
-   "title": "CVE-2026-108395: The Model Context Protocol Java SDK is the official Java SDK for Model Context Protocol servers and clients. From…",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108395",
-   "summary": "The Model Context Protocol Java SDK is the official Java SDK for Model Context Protocol servers and clients. From version 0.8.0 through 0.12.0 in the io.modelcontextprotocol.sdk:mcp artifact, from 0.13.0 through 0.18.3 and 1.0.0 through 1.1.3 in io.modelcontextprotocol.sdk:mcp-core, and from…",
-   "source": "NVD",
-   "sources": [
-    "NVD"
-   ],
-   "category": "vulnerabilities",
-   "published": "2026-10-14T18:17:27.370000Z",
-   "first_seen": "2026-10-14T21:46:09.761838Z",
-   "importance": 36,
-   "is_hot": false,
-   "tags": [
-    "CVSS 7.5",
-    "mcp",
-    "model context protocol"
-   ],
-   "cve": {
-    "id": "CVE-2026-108395",
-    "kev": false,
-    "cvss": 7.5,
-    "epss": 0.0061,
-    "epss_percentile": 0.4806
-   },
-   "title_ru": "CVE-2026-108395: Java SDK Model Context Protocol является официальным Java SDK для серверов и клиентов Model Context Protocol. От...",
-   "summary_ru": "Java SDK протокола контекста модели является официальным Java SDK для серверов и клиентов протокола контекста модели. С версии 0.8.0 по 0.12.0 в артефакте io.modelcontextprotocol.sdk:mcp, с 0.13.0 по 0.18.3 и с 1.0.0 по 1.1.3 в io.modelcontextprotocol.sdk: mcp-core и от..."
+   "title_ru": "CVE-2026-101983: Уязвимость Stack-based Buffer Overflow в процессе httpd Juniper Networks Junos OS и Junos OS Evolved...",
+   "summary_ru": "Уязвимость Stack-based Buffer Overflow в процессе httpd Juniper Networks Junos OS и Junos OS Evolved позволяет неаутентифицированному сетевому злоумышленнику вызывать удаленное выполнение кода и отказ в обслуживании через настроенный виртуальный домен J-Web."
   },
   {
    "id": "81a85a9982b7",
@@ -4497,7 +4438,7 @@
    ],
    "category": "offensive_research",
    "published": "2026-08-13T16:00:00Z",
-   "first_seen": "2026-10-19T20:37:04.055968Z",
+   "first_seen": "2026-10-20T00:24:58.499727Z",
    "importance": 36,
    "is_hot": false,
    "tags": [
@@ -4509,7 +4450,7 @@
     "command and control"
    ],
    "title_ru": "Атака расширений",
-   "summary_ru": "TL;DR: Расширения браузера могут превратить Chromium в постоянную точку опоры. В этом посте представлен способ бесшумной установки расширений, превращающих браузеры Chromium в платформу управления и контроля (C2) для постоянной кражи файлов cookie. Введение Этот блог является продолжением Dough No! Повторное посещение кражи файлов cookie...."
+   "summary_ru": "TL;DR: Расширения браузера могут превратить Chromium в постоянную точку опоры. В этом посте представлен способ незаметной установки расширений, превращающий браузеры Chromium в платформу управления и контроля (C2) для постоянной кражи файлов cookie. Введение Этот блог является продолжением Dough No! Возвращаясь к краже файлов cookie.…"
   },
   {
    "id": "6c17d6c4c50d",
@@ -4522,7 +4463,7 @@
    ],
    "category": "offensive_research",
    "published": "2026-07-28T11:56:35Z",
-   "first_seen": "2026-10-19T20:37:04.055968Z",
+   "first_seen": "2026-10-20T00:24:58.499727Z",
    "importance": 36,
    "is_hot": false,
    "tags": [
@@ -4532,8 +4473,8 @@
     "entra",
     "bloodhound"
    ],
-   "title_ru": "Внедрение управления путями атак для Entra-агентов в BloodHound Enterprise",
-   "summary_ru": "Агенты ИИ становятся новым уровнем корпоративной инфраструктуры и корпоративной идентичности. Они отвечают на вопросы, вызывают инструменты, выполняют рабочие процессы, получают доступ к данным, аутентифицируются в нисходящих службах, общаются с другими агентами и все чаще действуют от имени пользователей и приложений. В Microsoft..."
+   "title_ru": "Представляем управление путями атак для агентов Entra в BloodHound Enterprise",
+   "summary_ru": "Агенты ИИ становятся новым уровнем корпоративной инфраструктуры и корпоративной идентификации. Они отвечают на вопросы, вызывают инструменты, выполняют рабочие процессы, получают доступ к данным, аутентифицируются в последующих службах, общаются с другими агентами и все чаще действуют от имени пользователей и приложений. В Microsoft…"
   },
   {
    "id": "f9722e8d3d5b",
@@ -4546,7 +4487,7 @@
    ],
    "category": "offensive_research",
    "published": "2026-07-28T11:50:00Z",
-   "first_seen": "2026-10-19T20:37:04.055968Z",
+   "first_seen": "2026-10-20T00:24:58.499727Z",
    "importance": 36,
    "is_hot": false,
    "tags": [
@@ -4556,8 +4497,8 @@
     "mcp",
     "bloodhound"
    ],
-   "title_ru": "Проектирование MCP-сервера для ИИ-агентов: почему упаковка API - это неправильная абстракция",
-   "summary_ru": "Сервер MCP для ИИ-агентов - это не просто оболочка вокруг существующего REST API. Инструменты должны быть сформированы вокруг намерения агента, а не реализации бэкенда. В этой статье объясняется, почему упаковка вашего API является неправильной абстракцией и как разрабатывать инструменты MCP, которые направляют инженера по безопасности,..."
+   "title_ru": "Проектирование сервера MCP для агентов ИИ: почему упаковка вашего API — неправильная абстракция",
+   "summary_ru": "Сервер MCP для агентов ИИ — это не просто оболочка существующего REST API. Инструменты должны формироваться с учетом намерений агентов, а не серверной реализации. В этом посте объясняется, почему упаковка вашего API является неправильной абстракцией и как разрабатывать инструменты MCP, которые помогут инженеру по безопасности…"
   },
   {
    "id": "b831764527bf",
@@ -4637,59 +4578,6 @@
    "summary_ru": "Неправильные разрешения по умолчанию в установщике Windows Progressive Robot hMailServer с 6.0.0 по 6.3.6 позволяют локальному аутентифицированному пользователю запускать код в качестве привилегированных учетных записей почтового сервера, когда продукт установлен в папке, разрешения которой наследуются от родителя с возможностью записи,..."
   },
   {
-   "id": "c7877a5d231d",
-   "title": "CVE-2026-80312: Improper Authentication vulnerability in Apache Camel OAuth component. This issue affects Apache Camel: from 4.11.0…",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-80312",
-   "summary": "Improper Authentication vulnerability in Apache Camel OAuth component. This issue affects Apache Camel: from 4.11.0 before 4.18.5, from 4.19.0 before 4.22.1. The camel-oauth processors that guard a route did not stop the exchange when authentication could not be completed. Where a failure to…",
-   "source": "NVD",
-   "sources": [
-    "NVD"
-   ],
-   "category": "vulnerabilities",
-   "published": "2026-10-19T11:17:21.073000Z",
-   "first_seen": "2026-10-19T20:37:04.055968Z",
-   "importance": 35,
-   "is_hot": false,
-   "tags": [
-    "CVSS 8.2"
-   ],
-   "cve": {
-    "id": "CVE-2026-80312",
-    "kev": false,
-    "cvss": 8.2
-   },
-   "title_ru": "CVE-2026-80312: Неправильная уязвимость аутентификации в компоненте Apache Camel OAuth. Эта проблема затрагивает Apache Camel: с 4.11.0…",
-   "summary_ru": "Неправильная уязвимость аутентификации в компоненте Apache Camel OAuth. Эта проблема затрагивает Apache Camel: с 4.11.0 до 4.18.5, с 4.19.0 до 4.22.1. Процессоры camel-oauth, которые охраняют маршрут, не останавливали обмен, когда аутентификация не могла быть завершена. Там, где неспособность..."
-  },
-  {
-   "id": "7726e5cad8f5",
-   "title": "CVE-2026-109894: Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Arraytics…",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109894",
-   "summary": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Arraytics Booktics booktics allows SQL Injection.This issue affects Booktics: from n/a through 1.0.29.",
-   "source": "NVD",
-   "sources": [
-    "NVD"
-   ],
-   "category": "vulnerabilities",
-   "published": "2026-10-18T11:16:36.190000Z",
-   "first_seen": "2026-10-18T11:16:51.676643Z",
-   "importance": 35,
-   "is_hot": false,
-   "tags": [
-    "CVSS 9.3",
-    "sql injection"
-   ],
-   "cve": {
-    "id": "CVE-2026-109894",
-    "kev": false,
-    "cvss": 9.3,
-    "epss": 0.0024,
-    "epss_percentile": 0.137
-   },
-   "title_ru": "CVE-2026-109894: Неправильная нейтрализация специальных элементов, используемых в уязвимости SQL Command ('SQL Injection') в Arraytics...",
-   "summary_ru": "Неправильная нейтрализация специальных элементов, используемых в SQL Command ('SQL Injection') уязвимости в Arraytics Booktics позволяет SQL Injection. Эта проблема затрагивает Booktics: от n/a до 1.0.29."
-  },
-  {
    "id": "74950ac3e743",
    "title": "CVE-2026-104736: The LearnPress plugin for WordPress is vulnerable to PHP Object Injection in versions up to, and including, 4.4.10 via…",
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104736",
@@ -4750,25 +4638,31 @@
    "summary_ru": "Claude Agent SDK - это Python SDK для Claude Code. До 0.2.121 параметр resume передается в CLI Claude как отдельный токен без валидации, поэтому ведущее к тире значение анализируется как независимый флаг CLI. Злоумышленник может внедрить флаг --mcp-config для определения сервера stdio MCP, в результате чего..."
   },
   {
-   "id": "2f67e7ff74fc",
-   "title": "Researchers Demonstrate OpenBSD Root Exploit Chaining 37-Year-Old Shared-Memory Bug",
-   "url": "https://thehackernews.com/2026/10/researchers-demonstrate-openbsd-root.html",
-   "summary": "A local privilege escalation exploit published today gains root on OpenBSD 7.9 by chaining a roughly 37-year-old integer overflow with a separate kernel flaw, bypassing OpenBSD's KARL kernel-address randomization and its SMAP and SMEP hardware protections. Security firm Calif, which found and…",
-   "source": "The Hacker News",
+   "id": "b9ef27f8e596",
+   "title": "Top 5 Initial Access Threat Vectors Observed by Unit 42 in September 2026",
+   "url": "https://unit42.paloaltonetworks.com/top-5-initial-access-vectors-september-2026/",
+   "summary": "Unit 42 details the top initial access vectors adversaries use to breach organizations, led by edge exploits, credential abuse and phishing The post Top 5 Initial Access Threat Vectors Observed by Unit 42 in September 2026 appeared first on Unit 42 .",
+   "source": "Unit 42",
    "sources": [
-    "The Hacker News"
+    "Unit 42"
    ],
-   "category": "news",
-   "published": "2026-10-16T17:48:45Z",
+   "category": "threat_intel",
+   "published": "2026-10-16T17:47:54Z",
    "first_seen": "2026-10-16T21:17:41.446363Z",
    "importance": 35,
    "is_hot": false,
    "tags": [
-    "privilege escalation",
-    "exploit"
+    "General",
+    "Insights",
+    "Trend Reports",
+    "Initial Access",
+    "threat intelligence",
+    "trends",
+    "initial access",
+    "phishing"
    ],
-   "title_ru": "Исследователи демонстрируют цепочку эксплойтов OpenBSD 37-летней давности с общей памятью",
-   "summary_ru": "Локальный эксплойт повышения привилегий, опубликованный сегодня, получает корни в OpenBSD 7.9, связывая примерно 37-летнее целочисленное переполнение с отдельным недостатком ядра, минуя рандомизацию адресов ядра OpenBSD KARL и его аппаратную защиту SMAP и SMEP. Охранная фирма Calif, которая нашла и..."
+   "title_ru": "Топ-5 начальных векторов угрозы доступа, наблюдаемых блоком 42 в сентябре 2026 года",
+   "summary_ru": "В блоке 42 подробно описаны основные исходные векторы доступа, используемые злоумышленниками для взлома организаций, во главе с краевыми эксплойтами, злоупотреблением учетными данными и фишингом. Сообщение «5 основных исходных векторов угроз доступа, обнаруженных блоком 42 в сентябре 2026 года» впервые появилось в блоке 42 ."
   },
   {
    "id": "02f442da7e64",
@@ -4995,32 +4889,62 @@
    "summary_ru": "Better Auth от 1.4.0-beta.18 до 1.7.7 содержит уязвимость обхода аутентификации, которая позволяет неаутентифицированным злоумышленникам входить в систему как другие пользователи, повторно используя значения состояния OAuth в качестве токенов Magic Link. Злоумышленники могут запустить вход OAuth с помощью электронной почты жертвы и отправить возвращенное состояние..."
   },
   {
-   "id": "e7b1fd2967d2",
-   "title": "CVE-2026-110770: Databasus 3.7.0 through 3.61.0 contains an authentication bypass vulnerability that allows unauthenticated attackers to…",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110770",
-   "summary": "Databasus 3.7.0 through 3.61.0 contains an authentication bypass vulnerability that allows unauthenticated attackers to brute-force password reset codes via POST /api/v1/users/reset-password. Attackers can request a six-digit code for a known email, then guess it without rate limiting, lockout, or…",
+   "id": "0479a92100b4",
+   "title": "CVE-2026-109527: The Model Context Protocol Python SDK is the official Python SDK for Model Context Protocol servers and clients. In mcp…",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109527",
+   "summary": "The Model Context Protocol Python SDK is the official Python SDK for Model Context Protocol servers and clients. In mcp versions before 1.29.1 and from 2.0.0a1 through 2.0.1, the Streamable HTTP session manager, SSE message endpoint, and OAuth authorization-server routes buffer complete HTTP…",
    "source": "NVD",
    "sources": [
     "NVD"
    ],
    "category": "vulnerabilities",
-   "published": "2026-10-14T19:17:13.077000Z",
+   "published": "2026-10-14T18:17:33.447000Z",
    "first_seen": "2026-10-14T21:46:09.761838Z",
    "importance": 35,
    "is_hot": false,
    "tags": [
-    "CVSS 9.2",
-    "authentication bypass"
+    "CVSS 7.5",
+    "mcp",
+    "model context protocol"
    ],
    "cve": {
-    "id": "CVE-2026-110770",
+    "id": "CVE-2026-109527",
     "kev": false,
-    "cvss": 9.2,
-    "epss": 0.005,
-    "epss_percentile": 0.4122
+    "cvss": 7.5,
+    "epss": 0.007,
+    "epss_percentile": 0.5231
    },
-   "title_ru": "CVE-2026-110770: Databasus 3.7.0 - 3.61.0 содержит уязвимость обхода аутентификации, которая позволяет неаутентифицированным злоумышленникам...",
-   "summary_ru": "Databasus 3.7.0 - 3.61.0 содержит уязвимость обхода аутентификации, которая позволяет неаутентифицированным злоумышленникам сбрасывать пароли с помощью POST /api/v1/users/reset-password. Злоумышленники могут запросить шестизначный код для известного электронного письма, а затем угадать его без ограничения скорости, блокировки или..."
+   "title_ru": "CVE-2026-109527: Python SDK протокола контекста модели является официальным Python SDK для серверов и клиентов протокола контекста модели. В mcp...",
+   "summary_ru": "Python SDK протокола контекста модели является официальным Python SDK для серверов и клиентов протокола контекста модели. В версиях mcp до 1.29.1 и с 2.0.0a1 по 2.0.1 менеджер потоковых HTTP-сессий, конечная точка SSE-сообщений и буфер маршрутов OAuth-сервера авторизации завершают HTTP..."
+  },
+  {
+   "id": "c18297403c10",
+   "title": "CVE-2026-108395: The Model Context Protocol Java SDK is the official Java SDK for Model Context Protocol servers and clients. From…",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108395",
+   "summary": "The Model Context Protocol Java SDK is the official Java SDK for Model Context Protocol servers and clients. From version 0.8.0 through 0.12.0 in the io.modelcontextprotocol.sdk:mcp artifact, from 0.13.0 through 0.18.3 and 1.0.0 through 1.1.3 in io.modelcontextprotocol.sdk:mcp-core, and from…",
+   "source": "NVD",
+   "sources": [
+    "NVD"
+   ],
+   "category": "vulnerabilities",
+   "published": "2026-10-14T18:17:27.370000Z",
+   "first_seen": "2026-10-14T21:46:09.761838Z",
+   "importance": 35,
+   "is_hot": false,
+   "tags": [
+    "CVSS 7.5",
+    "mcp",
+    "model context protocol"
+   ],
+   "cve": {
+    "id": "CVE-2026-108395",
+    "kev": false,
+    "cvss": 7.5,
+    "epss": 0.0061,
+    "epss_percentile": 0.4806
+   },
+   "title_ru": "CVE-2026-108395: Java SDK Model Context Protocol является официальным Java SDK для серверов и клиентов Model Context Protocol. От...",
+   "summary_ru": "Java SDK протокола контекста модели является официальным Java SDK для серверов и клиентов протокола контекста модели. С версии 0.8.0 по 0.12.0 в артефакте io.modelcontextprotocol.sdk:mcp, с 0.13.0 по 0.18.3 и с 1.0.0 по 1.1.3 в io.modelcontextprotocol.sdk: mcp-core и от..."
   },
   {
    "id": "12b23315ade9",
@@ -5041,93 +4965,6 @@
    ],
    "title_ru": "За закрытыми дверями: как тестирование на физическое проникновение обеспечивает конфиденциальные разговоры",
    "summary_ru": "Закрытие двери не делает комнату безопасной. Алете Денис рассказывает, как тестирование на физическое проникновение оценивает, могут ли посторонние люди достигать чувствительных пространств, взаимодействовать с оборудованием или оставлять что-то позади, чтобы никто не заметил или не сообщил об этом."
-  },
-  {
-   "id": "9955a8bf3ef9",
-   "title": "CVE-2026-95634: CAI Content Credentials is affected by a Server-Side Request Forgery (SSRF) vulnerability that could result in…",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-95634",
-   "summary": "CAI Content Credentials is affected by a Server-Side Request Forgery (SSRF) vulnerability that could result in privilege escalation. Exploitation of this issue does not require user interaction. Scope is changed.",
-   "source": "NVD",
-   "sources": [
-    "NVD"
-   ],
-   "category": "vulnerabilities",
-   "published": "2026-10-13T22:19:30.853000Z",
-   "first_seen": "2026-10-13T22:51:20.970377Z",
-   "importance": 35,
-   "is_hot": false,
-   "tags": [
-    "CVSS 8.6",
-    "privilege escalation",
-    "ssrf"
-   ],
-   "cve": {
-    "id": "CVE-2026-95634",
-    "kev": false,
-    "cvss": 8.6,
-    "epss": 0.0049,
-    "epss_percentile": 0.4076
-   },
-   "title_ru": "CVE-2026-95634: Учетные данные содержимого CAI затронуты уязвимостью подделки запросов на стороне сервера (SSRF), которая может привести к...",
-   "summary_ru": "На учетные данные содержимого CAI влияет уязвимость подделки запросов на стороне сервера (SSRF), которая может привести к повышению привилегий. Эксплуатация этой проблемы не требует взаимодействия с пользователем. Область применения изменена."
-  },
-  {
-   "id": "7a804d0e3203",
-   "title": "CVE-2026-34634: ColdFusion is affected by a Server-Side Request Forgery (SSRF) vulnerability that could result in privilege escalation.…",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34634",
-   "summary": "ColdFusion is affected by a Server-Side Request Forgery (SSRF) vulnerability that could result in privilege escalation. Exploitation of this issue does not require user interaction. Scope is changed.",
-   "source": "NVD",
-   "sources": [
-    "NVD"
-   ],
-   "category": "vulnerabilities",
-   "published": "2026-10-13T21:17:38.230000Z",
-   "first_seen": "2026-10-13T22:51:20.970377Z",
-   "importance": 35,
-   "is_hot": false,
-   "tags": [
-    "CVSS 8.6",
-    "privilege escalation",
-    "ssrf"
-   ],
-   "cve": {
-    "id": "CVE-2026-34634",
-    "kev": false,
-    "cvss": 8.6,
-    "epss": 0.0066,
-    "epss_percentile": 0.5043
-   },
-   "title_ru": "CVE-2026-34634: На ColdFusion влияет уязвимость подделки запросов на стороне сервера (SSRF), которая может привести к повышению привилегий....",
-   "summary_ru": "На ColdFusion влияет уязвимость подделки запросов на стороне сервера (SSRF), которая может привести к повышению привилегий. Эксплуатация этой проблемы не требует взаимодействия с пользователем. Область применения изменена."
-  },
-  {
-   "id": "87cf888f20fe",
-   "title": "CVE-2026-105897: ColdFusion is affected by a Server-Side Request Forgery (SSRF) vulnerability that could result in privilege escalation.…",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105897",
-   "summary": "ColdFusion is affected by a Server-Side Request Forgery (SSRF) vulnerability that could result in privilege escalation. Exploitation of this issue does not require user interaction. Scope is changed.",
-   "source": "NVD",
-   "sources": [
-    "NVD"
-   ],
-   "category": "vulnerabilities",
-   "published": "2026-10-13T21:17:29.240000Z",
-   "first_seen": "2026-10-13T22:51:20.970377Z",
-   "importance": 35,
-   "is_hot": false,
-   "tags": [
-    "CVSS 8.6",
-    "privilege escalation",
-    "ssrf"
-   ],
-   "cve": {
-    "id": "CVE-2026-105897",
-    "kev": false,
-    "cvss": 8.6,
-    "epss": 0.0048,
-    "epss_percentile": 0.399
-   },
-   "title_ru": "CVE-2026-105897: На ColdFusion влияет уязвимость подделки запросов на стороне сервера (SSRF), которая может привести к повышению привилегий....",
-   "summary_ru": "На ColdFusion влияет уязвимость подделки запросов на стороне сервера (SSRF), которая может привести к повышению привилегий. Эксплуатация этой проблемы не требует взаимодействия с пользователем. Область применения изменена."
   },
   {
    "id": "6a80ffea042c",
@@ -5173,28 +5010,6 @@
    ],
    "title_ru": "ProtoArena: Могут ли ИИ-агенты обнаруживать и использовать реальные уязвимости межкомпонентного протокола?",
    "summary_ru": "Агенты большой языковой модели (LLM) все чаще используются для анализа уязвимостей, однако существующие тесты обеспечивают ограниченный охват эксплуатации, который зависит от взаимодействия между компонентами сетевого протокола. Такие уязвимости возникают из-за несоответствий в интерпретации сообщений, сроках,..."
-  },
-  {
-   "id": "b128d4441c47",
-   "title": "BrowseSafe++: Benchmarking Prompt Injection Detection Across Web Contexts, Languages, and Browser Views",
-   "url": "https://arxiv.org/abs/2610.17457v1",
-   "summary": "Browser agents need to make decisions and execute actions on behalf of users while consuming untrusted webpages, creating opportunities for malicious instructions embedded in webpages to redirect legitimate tasks. We introduce BrowseSafe++, which extends BrowseSafe from 14,719 pages to 38,675 pairs…",
-   "source": "arXiv cs.CR (LLM security)",
-   "sources": [
-    "arXiv cs.CR (LLM security)"
-   ],
-   "category": "llm_security",
-   "published": "2026-10-12T22:17:51Z",
-   "first_seen": "2026-10-14T05:00:42.648332Z",
-   "importance": 35,
-   "is_hot": false,
-   "tags": [
-    "cs.CR",
-    "cs.LG",
-    "prompt injection"
-   ],
-   "title_ru": "BrowseSafe++: Бенчмаркинг быстрого обнаружения инъекций в веб-контекстах, языках и представлениях браузера",
-   "summary_ru": "Браузерные агенты должны принимать решения и выполнять действия от имени пользователей, потребляя ненадежные веб-страницы, создавая возможности для вредоносных инструкций, встроенных в веб-страницы, для перенаправления законных задач. Мы представляем BrowseSafe++, который расширяет BrowseSafe с 14 719 страниц до 38 675 пар..."
   },
   {
    "id": "25f13921dce4",
@@ -5245,92 +5060,6 @@
    ],
    "title_ru": "Ваш ИИ может получить к нему доступ. Может ли нападающий?",
    "summary_ru": "TL;DR Чтение, охват и доверие Быстрая инъекция стала мейнстримом. Мы все видели скриншоты: кто-то говорит чат-боту игнорировать его предыдущие инструкции, он говорит что-то глупое, и интернет хорошо смеется. Это не делает быструю инъекцию тривиальной. Это просто означает простые примеры..."
-  },
-  {
-   "id": "03fcbd541238",
-   "title": "CVE-2026-59346: VMware Workstation and Fusion contain an integer-overflow vulnerability. A malicious actor with local administrative…",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59346",
-   "summary": "VMware Workstation and Fusion contain an integer-overflow vulnerability. A malicious actor with local administrative privileges on a virtual machine with VMXNET3 virtual network adapter may exploit this issue to execute code on the host. Affected versions: - VMware Workstation: 25H2, 26H1 (fixed in…",
-   "source": "NVD",
-   "sources": [
-    "NVD"
-   ],
-   "category": "vulnerabilities",
-   "published": "2026-10-07T06:16:35.543000Z",
-   "first_seen": "2026-10-07T13:32:39.741034Z",
-   "importance": 35,
-   "is_hot": false,
-   "tags": [
-    "CVSS 9.3",
-    "exploit"
-   ],
-   "cve": {
-    "id": "CVE-2026-59346",
-    "kev": false,
-    "cvss": 9.3,
-    "epss": 0.0026,
-    "epss_percentile": 0.1638
-   },
-   "title_ru": "CVE-2026-59346: VMware Workstation и Fusion содержат уязвимость целочисленного переполнения. Злоумышленник с местной администрацией...",
-   "summary_ru": "VMware Workstation и Fusion содержат уязвимость целочисленного переполнения. Злоумышленник с правами локального администратора на виртуальной машине с виртуальным сетевым адаптером VMXNET3 может использовать эту проблему для выполнения кода на хосте. Затронутые версии: - Рабочая станция VMware: 25H2, 26H1 (исправлена в…"
-  },
-  {
-   "id": "caaea5e1ffa1",
-   "title": "CVE-2026-39776: Editor Remote Code Execution (RCE) in Tabs <= 2.5 versions.",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-39776",
-   "summary": "Editor Remote Code Execution (RCE) in Tabs <= 2.5 versions.",
-   "source": "NVD",
-   "sources": [
-    "NVD"
-   ],
-   "category": "vulnerabilities",
-   "published": "2026-10-06T09:17:50.347000Z",
-   "first_seen": "2026-10-06T15:59:57.962699Z",
-   "importance": 35,
-   "is_hot": false,
-   "tags": [
-    "CVSS 8.0",
-    "rce",
-    "remote code execution"
-   ],
-   "cve": {
-    "id": "CVE-2026-39776",
-    "kev": false,
-    "cvss": 8.0,
-    "epss": 0.0038,
-    "epss_percentile": 0.3097
-   },
-   "title_ru": "CVE-2026-39776: Удаленное выполнение кода редактора (RCE) во вкладках <= 2,5 версии.",
-   "summary_ru": "Редактор удаленного выполнения кода (RCE) в версиях Tabs <= 2.5."
-  },
-  {
-   "id": "9b5274c4db4b",
-   "title": "CVE-2026-39725: Contributor Remote Code Execution (RCE) in Content Visibility for Divi Builder <= 5.03 versions.",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-39725",
-   "summary": "Contributor Remote Code Execution (RCE) in Content Visibility for Divi Builder <= 5.03 versions.",
-   "source": "NVD",
-   "sources": [
-    "NVD"
-   ],
-   "category": "vulnerabilities",
-   "published": "2026-10-06T09:17:44.683000Z",
-   "first_seen": "2026-10-06T15:59:57.962699Z",
-   "importance": 35,
-   "is_hot": false,
-   "tags": [
-    "CVSS 8.8",
-    "rce",
-    "remote code execution"
-   ],
-   "cve": {
-    "id": "CVE-2026-39725",
-    "kev": false,
-    "cvss": 8.8,
-    "epss": 0.0074,
-    "epss_percentile": 0.5305
-   },
-   "title_ru": "CVE-2026-39725: Удаленное выполнение кода участником (RCE) в видимости контента для версий Divi Builder <= 5.03.",
-   "summary_ru": "Удаленное выполнение кода участником (RCE) в видимости контента для версий Divi Builder <= 5.03."
   },
   {
    "id": "a5c29f2e3189",
@@ -5593,6 +5322,31 @@
    "summary_ru": "★512 · TypeScript · ⚡ Blitz Strike — универсальный набор инструментов для тестирования на проникновение MCP. Структурированная методология: разведка и картирование поверхностей атак, анализ от источника к приемнику и проверка в реальном времени. 57 цепочек эскалации, каталог из 130 инструментов, уровень разведывательных данных. Один сервер, каждый агент."
   },
   {
+   "id": "c7877a5d231d",
+   "title": "CVE-2026-80312: Improper Authentication vulnerability in Apache Camel OAuth component. This issue affects Apache Camel: from 4.11.0…",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-80312",
+   "summary": "Improper Authentication vulnerability in Apache Camel OAuth component. This issue affects Apache Camel: from 4.11.0 before 4.18.5, from 4.19.0 before 4.22.1. The camel-oauth processors that guard a route did not stop the exchange when authentication could not be completed. Where a failure to…",
+   "source": "NVD",
+   "sources": [
+    "NVD"
+   ],
+   "category": "vulnerabilities",
+   "published": "2026-10-19T11:17:21.073000Z",
+   "first_seen": "2026-10-19T20:37:04.055968Z",
+   "importance": 34,
+   "is_hot": false,
+   "tags": [
+    "CVSS 8.2"
+   ],
+   "cve": {
+    "id": "CVE-2026-80312",
+    "kev": false,
+    "cvss": 8.2
+   },
+   "title_ru": "CVE-2026-80312: Неправильная уязвимость аутентификации в компоненте Apache Camel OAuth. Эта проблема затрагивает Apache Camel: с 4.11.0…",
+   "summary_ru": "Неправильная уязвимость аутентификации в компоненте Apache Camel OAuth. Эта проблема затрагивает Apache Camel: с 4.11.0 до 4.18.5, с 4.19.0 до 4.22.1. Процессоры camel-oauth, которые охраняют маршрут, не останавливали обмен, когда аутентификация не могла быть завершена. Там, где неспособность..."
+  },
+  {
    "id": "5527131879cf",
    "title": "CVE-2026-76740: A security vulnerability in HPE Compute Scale-up Server 3200 and 3250 platforms, Superdome Flex and Superdome Flex 280…",
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76740",
@@ -5621,59 +5375,81 @@
    "summary_ru": "Уязвимость безопасности в платформах HPE Compute Scale-up Server 3200 и 3250, серверах Superdome Flex и Superdome Flex 280 может быть использована удаленно для выполнения произвольных команд на RMC."
   },
   {
-   "id": "e33e024020f9",
-   "title": "CVE-2026-112051: Xinference through 4.0.1 contains a path traversal vulnerability on Windows that allows unauthenticated attackers to…",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-112051",
-   "summary": "Xinference through 4.0.1 contains a path traversal vulnerability on Windows that allows unauthenticated attackers to write and delete arbitrary .json files via backslash sequences in model_name. Attackers can register a persisted custom model through POST /v1/model_registrations/{model_type} with…",
+   "id": "7726e5cad8f5",
+   "title": "CVE-2026-109894: Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Arraytics…",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109894",
+   "summary": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Arraytics Booktics booktics allows SQL Injection.This issue affects Booktics: from n/a through 1.0.29.",
    "source": "NVD",
    "sources": [
     "NVD"
    ],
    "category": "vulnerabilities",
-   "published": "2026-10-18T13:16:37.190000Z",
-   "first_seen": "2026-10-18T15:56:35.480480Z",
-   "importance": 34,
-   "is_hot": false,
-   "tags": [
-    "CVSS 8.3"
-   ],
-   "cve": {
-    "id": "CVE-2026-112051",
-    "kev": false,
-    "cvss": 8.3,
-    "epss": 0.0037,
-    "epss_percentile": 0.289
-   },
-   "title_ru": "CVE-2026-112051: Xinference через 4.0.1 содержит уязвимость обхода пути в Windows, которая позволяет неаутентифицированным злоумышленникам...",
-   "summary_ru": "Xinference через 4.0.1 содержит уязвимость обхода пути в Windows, которая позволяет неаутентифицированным злоумышленникам записывать и удалять произвольные файлы .json через обратную косую черту в model_name. Злоумышленники могут зарегистрировать постоянную пользовательскую модель через POST /v1/model_registrations/{model_type} с помощью..."
-  },
-  {
-   "id": "991b3e4c5235",
-   "title": "CVE-2026-110373: Incorrect Privilege Assignment vulnerability in Hamid Alinia Login with phone number login-with-phone-number allows…",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110373",
-   "summary": "Incorrect Privilege Assignment vulnerability in Hamid Alinia Login with phone number login-with-phone-number allows Privilege Escalation.This issue affects Login with phone number: from n/a through 1.8.77.",
-   "source": "NVD",
-   "sources": [
-    "NVD"
-   ],
-   "category": "vulnerabilities",
-   "published": "2026-10-18T11:16:36.703000Z",
+   "published": "2026-10-18T11:16:36.190000Z",
    "first_seen": "2026-10-18T11:16:51.676643Z",
    "importance": 34,
    "is_hot": false,
    "tags": [
-    "CVSS 8.1",
-    "privilege escalation"
+    "CVSS 9.3",
+    "sql injection"
    ],
    "cve": {
-    "id": "CVE-2026-110373",
+    "id": "CVE-2026-109894",
     "kev": false,
-    "cvss": 8.1,
-    "epss": 0.0027,
-    "epss_percentile": 0.1833
+    "cvss": 9.3,
+    "epss": 0.0024,
+    "epss_percentile": 0.137
    },
-   "title_ru": "CVE-2026-110373: Неправильная уязвимость назначения привилегий в Hamid Alinia Login with phone number login-with-phone-number позволяет...",
-   "summary_ru": "Неправильная уязвимость назначения привилегий в Hamid Alinia Login с номером телефона login-with-phone-number позволяет эскалацию привилегий. Эта проблема влияет на вход с номером телефона: от н/д до 1.8.77."
+   "title_ru": "CVE-2026-109894: Неправильная нейтрализация специальных элементов, используемых в уязвимости SQL Command ('SQL Injection') в Arraytics...",
+   "summary_ru": "Неправильная нейтрализация специальных элементов, используемых в SQL Command ('SQL Injection') уязвимости в Arraytics Booktics позволяет SQL Injection. Эта проблема затрагивает Booktics: от n/a до 1.0.29."
+  },
+  {
+   "id": "2f67e7ff74fc",
+   "title": "Researchers Demonstrate OpenBSD Root Exploit Chaining 37-Year-Old Shared-Memory Bug",
+   "url": "https://thehackernews.com/2026/10/researchers-demonstrate-openbsd-root.html",
+   "summary": "A local privilege escalation exploit published today gains root on OpenBSD 7.9 by chaining a roughly 37-year-old integer overflow with a separate kernel flaw, bypassing OpenBSD's KARL kernel-address randomization and its SMAP and SMEP hardware protections. Security firm Calif, which found and…",
+   "source": "The Hacker News",
+   "sources": [
+    "The Hacker News"
+   ],
+   "category": "news",
+   "published": "2026-10-16T17:48:45Z",
+   "first_seen": "2026-10-16T21:17:41.446363Z",
+   "importance": 34,
+   "is_hot": false,
+   "tags": [
+    "privilege escalation",
+    "exploit"
+   ],
+   "title_ru": "Исследователи демонстрируют цепочку эксплойтов OpenBSD 37-летней давности с общей памятью",
+   "summary_ru": "Локальный эксплойт повышения привилегий, опубликованный сегодня, получает корни в OpenBSD 7.9, связывая примерно 37-летнее целочисленное переполнение с отдельным недостатком ядра, минуя рандомизацию адресов ядра OpenBSD KARL и его аппаратную защиту SMAP и SMEP. Охранная фирма Calif, которая нашла и..."
+  },
+  {
+   "id": "e7b1fd2967d2",
+   "title": "CVE-2026-110770: Databasus 3.7.0 through 3.61.0 contains an authentication bypass vulnerability that allows unauthenticated attackers to…",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110770",
+   "summary": "Databasus 3.7.0 through 3.61.0 contains an authentication bypass vulnerability that allows unauthenticated attackers to brute-force password reset codes via POST /api/v1/users/reset-password. Attackers can request a six-digit code for a known email, then guess it without rate limiting, lockout, or…",
+   "source": "NVD",
+   "sources": [
+    "NVD"
+   ],
+   "category": "vulnerabilities",
+   "published": "2026-10-14T19:17:13.077000Z",
+   "first_seen": "2026-10-14T21:46:09.761838Z",
+   "importance": 34,
+   "is_hot": false,
+   "tags": [
+    "CVSS 9.2",
+    "authentication bypass"
+   ],
+   "cve": {
+    "id": "CVE-2026-110770",
+    "kev": false,
+    "cvss": 9.2,
+    "epss": 0.005,
+    "epss_percentile": 0.4122
+   },
+   "title_ru": "CVE-2026-110770: Databasus 3.7.0 - 3.61.0 содержит уязвимость обхода аутентификации, которая позволяет неаутентифицированным злоумышленникам...",
+   "summary_ru": "Databasus 3.7.0 - 3.61.0 содержит уязвимость обхода аутентификации, которая позволяет неаутентифицированным злоумышленникам сбрасывать пароли с помощью POST /api/v1/users/reset-password. Злоумышленники могут запросить шестизначный код для известного электронного письма, а затем угадать его без ограничения скорости, блокировки или..."
   },
   {
    "id": "34bbbbf589b4",
@@ -5697,6 +5473,115 @@
    ],
    "title_ru": "Отвечал ли магистр права на вопрос? Игра семантической реконструкции для оценки джейлбрейка",
    "summary_ru": "Jailbreak атаки на большие языковые модели (LLM) оцениваются с использованием коэффициента успешности атаки (ASR), который зависит от правильной идентификации ответов, которые выполняют запрещенные запросы. Существующие оценщики могут ошибочно принимать отказы или тематически связанные ответы за успешные атаки. Мы показываем, что..."
+  },
+  {
+   "id": "9955a8bf3ef9",
+   "title": "CVE-2026-95634: CAI Content Credentials is affected by a Server-Side Request Forgery (SSRF) vulnerability that could result in…",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-95634",
+   "summary": "CAI Content Credentials is affected by a Server-Side Request Forgery (SSRF) vulnerability that could result in privilege escalation. Exploitation of this issue does not require user interaction. Scope is changed.",
+   "source": "NVD",
+   "sources": [
+    "NVD"
+   ],
+   "category": "vulnerabilities",
+   "published": "2026-10-13T22:19:30.853000Z",
+   "first_seen": "2026-10-13T22:51:20.970377Z",
+   "importance": 34,
+   "is_hot": false,
+   "tags": [
+    "CVSS 8.6",
+    "privilege escalation",
+    "ssrf"
+   ],
+   "cve": {
+    "id": "CVE-2026-95634",
+    "kev": false,
+    "cvss": 8.6,
+    "epss": 0.0049,
+    "epss_percentile": 0.4076
+   },
+   "title_ru": "CVE-2026-95634: Учетные данные содержимого CAI затронуты уязвимостью подделки запросов на стороне сервера (SSRF), которая может привести к...",
+   "summary_ru": "На учетные данные содержимого CAI влияет уязвимость подделки запросов на стороне сервера (SSRF), которая может привести к повышению привилегий. Эксплуатация этой проблемы не требует взаимодействия с пользователем. Область применения изменена."
+  },
+  {
+   "id": "7a804d0e3203",
+   "title": "CVE-2026-34634: ColdFusion is affected by a Server-Side Request Forgery (SSRF) vulnerability that could result in privilege escalation.…",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34634",
+   "summary": "ColdFusion is affected by a Server-Side Request Forgery (SSRF) vulnerability that could result in privilege escalation. Exploitation of this issue does not require user interaction. Scope is changed.",
+   "source": "NVD",
+   "sources": [
+    "NVD"
+   ],
+   "category": "vulnerabilities",
+   "published": "2026-10-13T21:17:38.230000Z",
+   "first_seen": "2026-10-13T22:51:20.970377Z",
+   "importance": 34,
+   "is_hot": false,
+   "tags": [
+    "CVSS 8.6",
+    "privilege escalation",
+    "ssrf"
+   ],
+   "cve": {
+    "id": "CVE-2026-34634",
+    "kev": false,
+    "cvss": 8.6,
+    "epss": 0.0066,
+    "epss_percentile": 0.5043
+   },
+   "title_ru": "CVE-2026-34634: На ColdFusion влияет уязвимость подделки запросов на стороне сервера (SSRF), которая может привести к повышению привилегий....",
+   "summary_ru": "На ColdFusion влияет уязвимость подделки запросов на стороне сервера (SSRF), которая может привести к повышению привилегий. Эксплуатация этой проблемы не требует взаимодействия с пользователем. Область применения изменена."
+  },
+  {
+   "id": "87cf888f20fe",
+   "title": "CVE-2026-105897: ColdFusion is affected by a Server-Side Request Forgery (SSRF) vulnerability that could result in privilege escalation.…",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105897",
+   "summary": "ColdFusion is affected by a Server-Side Request Forgery (SSRF) vulnerability that could result in privilege escalation. Exploitation of this issue does not require user interaction. Scope is changed.",
+   "source": "NVD",
+   "sources": [
+    "NVD"
+   ],
+   "category": "vulnerabilities",
+   "published": "2026-10-13T21:17:29.240000Z",
+   "first_seen": "2026-10-13T22:51:20.970377Z",
+   "importance": 34,
+   "is_hot": false,
+   "tags": [
+    "CVSS 8.6",
+    "privilege escalation",
+    "ssrf"
+   ],
+   "cve": {
+    "id": "CVE-2026-105897",
+    "kev": false,
+    "cvss": 8.6,
+    "epss": 0.0048,
+    "epss_percentile": 0.399
+   },
+   "title_ru": "CVE-2026-105897: На ColdFusion влияет уязвимость подделки запросов на стороне сервера (SSRF), которая может привести к повышению привилегий....",
+   "summary_ru": "На ColdFusion влияет уязвимость подделки запросов на стороне сервера (SSRF), которая может привести к повышению привилегий. Эксплуатация этой проблемы не требует взаимодействия с пользователем. Область применения изменена."
+  },
+  {
+   "id": "b128d4441c47",
+   "title": "BrowseSafe++: Benchmarking Prompt Injection Detection Across Web Contexts, Languages, and Browser Views",
+   "url": "https://arxiv.org/abs/2610.17457v1",
+   "summary": "Browser agents need to make decisions and execute actions on behalf of users while consuming untrusted webpages, creating opportunities for malicious instructions embedded in webpages to redirect legitimate tasks. We introduce BrowseSafe++, which extends BrowseSafe from 14,719 pages to 38,675 pairs…",
+   "source": "arXiv cs.CR (LLM security)",
+   "sources": [
+    "arXiv cs.CR (LLM security)"
+   ],
+   "category": "llm_security",
+   "published": "2026-10-12T22:17:51Z",
+   "first_seen": "2026-10-14T05:00:42.648332Z",
+   "importance": 34,
+   "is_hot": false,
+   "tags": [
+    "cs.CR",
+    "cs.LG",
+    "prompt injection"
+   ],
+   "title_ru": "BrowseSafe++: Бенчмаркинг быстрого обнаружения инъекций в веб-контекстах, языках и представлениях браузера",
+   "summary_ru": "Браузерные агенты должны принимать решения и выполнять действия от имени пользователей, потребляя ненадежные веб-страницы, создавая возможности для вредоносных инструкций, встроенных в веб-страницы, для перенаправления законных задач. Мы представляем BrowseSafe++, который расширяет BrowseSafe с 14 719 страниц до 38 675 пар..."
   },
   {
    "id": "aaf6b26ac7de",
@@ -5743,6 +5628,34 @@
    "summary_ru": "★46 · Go · Autonomous Pentest Agent — мультиагентная система тестирования на автономное проникновение LLM (Go backend + Next.js UI). AGPL-3.0."
   },
   {
+   "id": "03fcbd541238",
+   "title": "CVE-2026-59346: VMware Workstation and Fusion contain an integer-overflow vulnerability. A malicious actor with local administrative…",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59346",
+   "summary": "VMware Workstation and Fusion contain an integer-overflow vulnerability. A malicious actor with local administrative privileges on a virtual machine with VMXNET3 virtual network adapter may exploit this issue to execute code on the host. Affected versions: - VMware Workstation: 25H2, 26H1 (fixed in…",
+   "source": "NVD",
+   "sources": [
+    "NVD"
+   ],
+   "category": "vulnerabilities",
+   "published": "2026-10-07T06:16:35.543000Z",
+   "first_seen": "2026-10-07T13:32:39.741034Z",
+   "importance": 34,
+   "is_hot": false,
+   "tags": [
+    "CVSS 9.3",
+    "exploit"
+   ],
+   "cve": {
+    "id": "CVE-2026-59346",
+    "kev": false,
+    "cvss": 9.3,
+    "epss": 0.0026,
+    "epss_percentile": 0.1638
+   },
+   "title_ru": "CVE-2026-59346: VMware Workstation и Fusion содержат уязвимость целочисленного переполнения. Злоумышленник с местной администрацией...",
+   "summary_ru": "VMware Workstation и Fusion содержат уязвимость целочисленного переполнения. Злоумышленник с правами локального администратора на виртуальной машине с виртуальным сетевым адаптером VMXNET3 может использовать эту проблему для выполнения кода на хосте. Затронутые версии: - Рабочая станция VMware: 25H2, 26H1 (исправлена в…"
+  },
+  {
    "id": "72b3a23ba9da",
    "title": "Package Hallucination Attacks on Coding Agents through Prompt Injection in Rule Files",
    "url": "https://arxiv.org/abs/2610.09264v1",
@@ -5766,6 +5679,64 @@
    "summary_ru": "Современные структуры агентного кодирования все чаще полагаются на общие для сообщества файлы правил (например, AGENTS.md или .cursorrules) для руководства автономной генерацией кода, однако риски безопасности этого конвейера остаются недостаточно изученными. Чтобы преодолеть этот разрыв, мы вводим атаку пакетной галлюцинации, где атакующий..."
   },
   {
+   "id": "caaea5e1ffa1",
+   "title": "CVE-2026-39776: Editor Remote Code Execution (RCE) in Tabs <= 2.5 versions.",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-39776",
+   "summary": "Editor Remote Code Execution (RCE) in Tabs <= 2.5 versions.",
+   "source": "NVD",
+   "sources": [
+    "NVD"
+   ],
+   "category": "vulnerabilities",
+   "published": "2026-10-06T09:17:50.347000Z",
+   "first_seen": "2026-10-06T15:59:57.962699Z",
+   "importance": 34,
+   "is_hot": false,
+   "tags": [
+    "CVSS 8.0",
+    "rce",
+    "remote code execution"
+   ],
+   "cve": {
+    "id": "CVE-2026-39776",
+    "kev": false,
+    "cvss": 8.0,
+    "epss": 0.0038,
+    "epss_percentile": 0.3097
+   },
+   "title_ru": "CVE-2026-39776: Удаленное выполнение кода редактора (RCE) во вкладках <= 2,5 версии.",
+   "summary_ru": "Редактор удаленного выполнения кода (RCE) в версиях Tabs <= 2.5."
+  },
+  {
+   "id": "9b5274c4db4b",
+   "title": "CVE-2026-39725: Contributor Remote Code Execution (RCE) in Content Visibility for Divi Builder <= 5.03 versions.",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-39725",
+   "summary": "Contributor Remote Code Execution (RCE) in Content Visibility for Divi Builder <= 5.03 versions.",
+   "source": "NVD",
+   "sources": [
+    "NVD"
+   ],
+   "category": "vulnerabilities",
+   "published": "2026-10-06T09:17:44.683000Z",
+   "first_seen": "2026-10-06T15:59:57.962699Z",
+   "importance": 34,
+   "is_hot": false,
+   "tags": [
+    "CVSS 8.8",
+    "rce",
+    "remote code execution"
+   ],
+   "cve": {
+    "id": "CVE-2026-39725",
+    "kev": false,
+    "cvss": 8.8,
+    "epss": 0.0074,
+    "epss_percentile": 0.5305
+   },
+   "title_ru": "CVE-2026-39725: Удаленное выполнение кода участником (RCE) в видимости контента для версий Divi Builder <= 5.03.",
+   "summary_ru": "Удаленное выполнение кода участником (RCE) в видимости контента для версий Divi Builder <= 5.03."
+  },
+  {
    "id": "5c0a2b0bb4da",
    "title": "Expanding attack path management to the AI frontier",
    "url": "https://specterops.io/blog/2026/07/28/bloodhound-enterprise-aws-attack-path-management/",
@@ -5776,7 +5747,7 @@
    ],
    "category": "offensive_research",
    "published": "2026-07-28T11:50:00Z",
-   "first_seen": "2026-10-19T20:37:04.055968Z",
+   "first_seen": "2026-10-20T00:24:58.499727Z",
    "importance": 34,
    "is_hot": false,
    "tags": [
@@ -5789,33 +5760,34 @@
     "bloodhound",
     "agentic"
    ],
-   "title_ru": "Расширение управления путями атак на границы ИИ",
-   "summary_ru": "Злоумышленники не перемещаются по изолированным системам. Они перемещаются по отношениям между этими системами и идентификаторами, объединяя привилегии для перемещения в боковом направлении по поверхности атаки, пока они не достигнут критически важных активов. Гибридные, децентрализованные среды и быстрый рост ИИ-агентов и других..."
+   "title_ru": "Расширение управления путями атак до границ ИИ",
+   "summary_ru": "Злоумышленники не проникают через изолированные системы. Они перемещаются по связям между этими системами и идентификаторами, объединяя привилегии для горизонтального перемещения по поверхности атаки, пока не достигнут критически важных активов. Гибридные децентрализованные среды и быстрый рост агентов искусственного интеллекта и других…"
   },
   {
-   "id": "395c66b427e7",
-   "title": "Open-Source Intelligence (OSINT): Turn One Username into a Full Digital Dossier with Maigret",
-   "url": "https://hackers-arise.com/open-source-intelligence-osint-turn-one-username-into-a-full-digital-dossier-with-maigret/",
-   "summary": "Maigret is a Python script that retrieves user information by searching for usernames across various websites and social media platforms The post Open-Source Intelligence (OSINT): Turn One Username into a Full Digital Dossier with Maigret first appeared on Hackers Arise .",
-   "source": "Hackers-Arise",
+   "id": "1853551d08bd",
+   "title": "CVE-2026-112371: A vulnerability was determined in H3C Magic NX15 NX15V100R017. Impacted is the function write of the file /api/esps of…",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-112371",
+   "summary": "A vulnerability was determined in H3C Magic NX15 NX15V100R017. Impacted is the function write of the file /api/esps of the component RPC Interface. Executing a manipulation of the argument path can lead to code injection. The attack can be executed remotely. The exploit has been publicly disclosed…",
+   "source": "NVD",
    "sources": [
-    "Hackers-Arise"
+    "NVD"
    ],
-   "category": "red_team_ref",
-   "published": "2026-10-16T14:22:20Z",
-   "first_seen": "2026-10-16T16:44:22.779123Z",
+   "category": "vulnerabilities",
+   "published": "2026-10-19T23:17:36Z",
+   "first_seen": "2026-10-20T00:24:58.499727Z",
    "importance": 33,
    "is_hot": false,
    "tags": [
-    "OSINT & Reconnaissance",
-    "HACKING",
-    "Maigret",
-    "offensive security",
-    "OSINT",
-    "penetration testing"
+    "CVSS 8.6",
+    "exploit"
    ],
-   "title_ru": "Интеллект с открытым исходным кодом (OSINT): превратите одно имя пользователя в полное цифровое досье с Мегрэ",
-   "summary_ru": "Maigret - это скрипт на Python, который извлекает информацию о пользователях путем поиска имен пользователей на различных веб-сайтах и платформах социальных сетей The post Open-Source Intelligence (OSINT): Turn One Username into a Full Digital Dossier with Maigret first appeared on Hackers Arise ."
+   "cve": {
+    "id": "CVE-2026-112371",
+    "kev": false,
+    "cvss": 8.6
+   },
+   "title_ru": "CVE-2026-112371: В H3C Magic NX15 NX15V100R017 обнаружена уязвимость. Затронута функция записи файла /api/esps…",
+   "summary_ru": "Уязвимость была обнаружена в H3C Magic NX15 NX15V100R017. Затронута функция записи файла /api/esps компонента RPC Interface. Выполнение манипуляции с путем аргумента может привести к внедрению кода. Атака может быть осуществлена ​​удаленно. Эксплойт был публично раскрыт…"
   },
   {
    "id": "6fa5bb7b9ab8",
@@ -5999,6 +5971,31 @@
    ],
    "title_ru": "Проверяемая карта действий: надежный человеческий контроль для безопасных автономных агентов",
    "summary_ru": "Агентные браузеры могут выполнять чувствительные к безопасности действия в рамках аутентифицированного сеанса пользователя, что делает косвенную быструю инъекцию и вводящие в заблуждение интерфейсы подтверждения прямой угрозой целостности действия. Существующие гарантии «человек в петле» (HITL) недостаточны, когда сам запрос на утверждение может..."
+  },
+  {
+   "id": "395c66b427e7",
+   "title": "Open-Source Intelligence (OSINT): Turn One Username into a Full Digital Dossier with Maigret",
+   "url": "https://hackers-arise.com/open-source-intelligence-osint-turn-one-username-into-a-full-digital-dossier-with-maigret/",
+   "summary": "Maigret is a Python script that retrieves user information by searching for usernames across various websites and social media platforms The post Open-Source Intelligence (OSINT): Turn One Username into a Full Digital Dossier with Maigret first appeared on Hackers Arise .",
+   "source": "Hackers-Arise",
+   "sources": [
+    "Hackers-Arise"
+   ],
+   "category": "red_team_ref",
+   "published": "2026-10-16T14:22:20Z",
+   "first_seen": "2026-10-16T16:44:22.779123Z",
+   "importance": 32,
+   "is_hot": false,
+   "tags": [
+    "OSINT & Reconnaissance",
+    "HACKING",
+    "Maigret",
+    "offensive security",
+    "OSINT",
+    "penetration testing"
+   ],
+   "title_ru": "Интеллект с открытым исходным кодом (OSINT): превратите одно имя пользователя в полное цифровое досье с Мегрэ",
+   "summary_ru": "Maigret - это скрипт на Python, который извлекает информацию о пользователях путем поиска имен пользователей на различных веб-сайтах и платформах социальных сетей The post Open-Source Intelligence (OSINT): Turn One Username into a Full Digital Dossier with Maigret first appeared on Hackers Arise ."
   },
   {
    "id": "5c5a682377be",
@@ -6195,14 +6192,14 @@
    ],
    "category": "offensive_research",
    "published": "2026-08-21T13:00:00Z",
-   "first_seen": "2026-10-19T20:37:04.055968Z",
+   "first_seen": "2026-10-20T00:24:58.499727Z",
    "importance": 32,
    "is_hot": false,
    "tags": [
     "remote code execution"
    ],
-   "title_ru": "Сбой не требуется: проверка патча Citrix NetScaler SAML для CVE-2026-8452",
-   "summary_ru": "CVE-2026-8452 позволяет неаутентифицированному злоумышленнику повреждать память в SAML-анализаторе Citrix NetScaler одним запросом, что может привести к удаленному выполнению кода. Бишоп Фокс разбирает патч, как безопасно проверить его на флоте и как на самом деле выглядит эксплуатация в журналах."
+   "title_ru": "Сбой не требуется: проверка SAML-исправления Citrix NetScaler для CVE-2026-8452",
+   "summary_ru": "CVE-2026-8452 позволяет неаутентифицированному злоумышленнику повредить память в анализаторе SAML Citrix NetScaler с помощью одного запроса, что потенциально может привести к удаленному выполнению кода. Бишоп Фокс рассказывает о патче, о том, как безопасно проверить его на всем флоте и как на самом деле выглядит эксплуатация в журналах."
   },
   {
    "id": "1fae9cde44bf",
@@ -6769,27 +6766,6 @@
    "summary_ru": "★26 · TypeScript · Open-source local AI Agent desktop app for authorized security assessment — Electron + Mastra-powered runtime, visual pentest workflow, Kali sandbox, multi-provider LLM routing. 本地 AI 安全评估智能体桌面应用"
   },
   {
-   "id": "344516473c75",
-   "title": "Drupal patches critical RCE flaws, warns exploits may emerge soon",
-   "url": "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaws-warns-exploits-may-emerge-soon/",
-   "summary": "Drupal has patched two critical vulnerabilities that could allow attackers to execute code remotely on websites running any supported version of the content management system. [...]",
-   "source": "BleepingComputer",
-   "sources": [
-    "BleepingComputer"
-   ],
-   "category": "news",
-   "published": "2026-10-17T14:32:48Z",
-   "first_seen": "2026-10-17T15:41:08.251286Z",
-   "importance": 30,
-   "is_hot": false,
-   "tags": [
-    "Security",
-    "rce"
-   ],
-   "title_ru": "Drupal исправляет критические недостатки RCE, предупреждает, что в ближайшее время могут появиться эксплойты",
-   "summary_ru": "Drupal исправил две критические уязвимости, которые могут позволить злоумышленникам удаленно выполнять код на веб-сайтах с любой поддерживаемой версией системы управления контентом. [...]"
-  },
-  {
    "id": "11212848afb6",
    "title": "Monitor-Validity Failures: LLM Safety Evidence Paths at Evolving Framework Boundaries",
    "url": "https://arxiv.org/abs/2610.23362v1",
@@ -7044,7 +7020,7 @@
    ],
    "category": "offensive_research",
    "published": "2026-09-02T17:55:00Z",
-   "first_seen": "2026-10-19T20:37:04.055968Z",
+   "first_seen": "2026-10-20T00:24:58.499727Z",
    "importance": 30,
    "is_hot": false,
    "tags": [
@@ -7066,7 +7042,7 @@
    ],
    "category": "exploits_poc",
    "published": "2026-08-24T13:01:50Z",
-   "first_seen": "2026-10-19T20:37:04.055968Z",
+   "first_seen": "2026-10-20T00:24:58.499727Z",
    "importance": 30,
    "is_hot": false,
    "tags": [
@@ -7087,7 +7063,7 @@
    ],
    "category": "offensive_research",
    "published": "2026-08-05T13:00:00Z",
-   "first_seen": "2026-10-19T20:37:04.055968Z",
+   "first_seen": "2026-10-20T00:24:58.499727Z",
    "importance": 30,
    "is_hot": false,
    "tags": [
@@ -7107,7 +7083,7 @@
    ],
    "category": "offensive_research",
    "published": "2026-07-29T16:00:00Z",
-   "first_seen": "2026-10-19T20:37:04.055968Z",
+   "first_seen": "2026-10-20T00:24:58.499727Z",
    "importance": 30,
    "is_hot": false,
    "tags": [
@@ -7122,69 +7098,49 @@
    "summary_ru": "TL;DR – отказоустойчивые кластеры Windows Server совместно используют учетные данные ресурса. Компрометация одного узла кластера приводит к полной компрометации всего кластера. Выражение признательности Содержимое, которым я делюсь здесь, является результатом сотрудничества или вдохновения от предыдущих работ нескольких человек: Эвана…"
   },
   {
-   "id": "e99539d0bbd0",
-   "title": "Screwtape: Adversarial Transcript Editing for Monitor Red-Teaming",
-   "url": "https://arxiv.org/abs/2610.20941v1",
-   "summary": "We present Screwtape, a pipeline that converts real agent transcripts into attacks that evade action-only monitors. An LLM attacker edits a transcript so that the agent causes a specified harm, such as leaking an API key or spawning an unmonitored agent. The edited actions are never executed, so we…",
-   "source": "arXiv cs.CR (agents)",
+   "id": "0968634953ed",
+   "title": "Threat Brief: Active Exploitation of PAN-OS CVE-2026-0257 (Updated October 19)",
+   "url": "https://unit42.paloaltonetworks.com/active-exploitation-of-pan-os-cve-2026-0257/",
+   "summary": "Ransomware operators including Spikey Scorpius (aka Qilin) and Tarnished Scorpius (aka Inc) are exploiting PAN-OS vulnerability CVE-2026-0257. The post Threat Brief: Active Exploitation of PAN-OS CVE-2026-0257 (Updated October 19) appeared first on Unit 42 .",
+   "source": "Unit 42",
    "sources": [
-    "arXiv cs.CR (agents)"
+    "Unit 42"
    ],
-   "category": "ai_pentest",
-   "published": "2026-10-14T21:08:21Z",
-   "first_seen": "2026-10-16T04:38:54.241452Z",
+   "category": "threat_intel",
+   "published": "2026-10-19T22:35:42Z",
+   "first_seen": "2026-10-20T00:24:58.499727Z",
    "importance": 29,
    "is_hot": false,
    "tags": [
-    "cs.CR",
-    "cs.AI",
-    "llm"
+    "High Profile Threats",
+    "Vulnerabilities",
+    "CVE-2026-0257",
+    "vulnerability",
+    "ransomware"
    ],
-   "title_ru": "Screwtape: состязательное редактирование расшифровки для монитора Red-Teaming",
-   "summary_ru": "Мы представляем Screwtape, конвейер, который преобразует реальные транскрипты агента в атаки, которые уклоняются от мониторов, предназначенных только для действий. Злоумышленник LLM редактирует расшифровку так, чтобы агент причинил указанный вред, например, утечку ключа API или создание неконтролируемого агента. Отредактированные действия никогда не выполняются, поэтому мы…"
+   "title_ru": "Краткий обзор угроз: активное использование PAN-OS CVE-2026-0257 (обновлено 19 октября)",
+   "summary_ru": "Операторы программ-вымогателей, в том числе Spikey Scorpius (также известный как Qilin) ​​и Tarnished Scorpius (также известный как Inc), используют уязвимость PAN-OS CVE-2026-0257. Пост Threat Brief: Active Exploitation of PAN-OS CVE-2026-0257 (обновлено 19 октября) впервые появился на Unit 42."
   },
   {
-   "id": "065e33533ae5",
-   "title": "From Detection to Decision: Calibration and Deferral for Prompt-Injection Detection",
-   "url": "https://arxiv.org/abs/2610.20907v1",
-   "summary": "Prompt-injection defenses are commonly evaluated as binary detectors, although deployed LLM applications must make operational decisions about whether to allow, block, or escalate potentially malicious inputs. Recent probabilistic decision models aim to support such decisions through calibrated…",
-   "source": "arXiv cs.CR (LLM security)",
+   "id": "344516473c75",
+   "title": "Drupal patches critical RCE flaws, warns exploits may emerge soon",
+   "url": "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaws-warns-exploits-may-emerge-soon/",
+   "summary": "Drupal has patched two critical vulnerabilities that could allow attackers to execute code remotely on websites running any supported version of the content management system. [...]",
+   "source": "BleepingComputer",
    "sources": [
-    "arXiv cs.CR (LLM security)"
+    "BleepingComputer"
    ],
-   "category": "llm_security",
-   "published": "2026-10-14T20:34:51Z",
-   "first_seen": "2026-10-16T04:38:54.241452Z",
+   "category": "news",
+   "published": "2026-10-17T14:32:48Z",
+   "first_seen": "2026-10-17T15:41:08.251286Z",
    "importance": 29,
    "is_hot": false,
    "tags": [
-    "cs.CR",
-    "llm"
+    "Security",
+    "rce"
    ],
-   "title_ru": "От обнаружения до принятия решения: калибровка и отсрочка для обнаружения быстрого впрыска",
-   "summary_ru": "Защита от быстрого ввода обычно оценивается как двоичные детекторы, хотя развернутые приложения LLM должны принимать оперативные решения о том, разрешать, блокировать или наращивать потенциально вредоносные входы. Недавние вероятностные модели принятия решений направлены на поддержку таких решений посредством откалиброванных..."
-  },
-  {
-   "id": "319c3c5b70b7",
-   "title": "Thinking in Graphs: Neo4j-Backed Exploit-Chain Reasoning for LLM Penetration-Testing Agents",
-   "url": "https://arxiv.org/abs/2610.20902v1",
-   "summary": "LLM coding agents such as Claude Code and OpenAI Codex can drive penetration-testing tools, but they reason about an engagement as a flat list of findings in a context window. Attackers think in graphs: isolated low-severity exposures turn catastrophic once chained through credential capture,…",
-   "source": "arXiv cs.CR (agents)",
-   "sources": [
-    "arXiv cs.CR (agents)",
-    "arXiv cs.CR (LLM security)"
-   ],
-   "category": "ai_pentest",
-   "published": "2026-10-14T20:33:18Z",
-   "first_seen": "2026-10-16T04:38:54.241452Z",
-   "importance": 29,
-   "is_hot": false,
-   "tags": [
-    "cs.CR",
-    "llm"
-   ],
-   "title_ru": "Мышление в графиках: Neo4j-Backed Exploit-Chain Reasoning for LLM Penetration-Testing Agents",
-   "summary_ru": "Агенты кодирования LLM, такие как Claude Code и OpenAI Codex, могут управлять инструментами тестирования на проникновение, но они рассуждают о взаимодействии как о плоском списке результатов в контекстном окне. Злоумышленники мыслят в графиках: изолированные риски низкой степени тяжести становятся катастрофическими после того, как они связаны с захватом учетных данных,..."
+   "title_ru": "Drupal исправляет критические недостатки RCE, предупреждает, что в ближайшее время могут появиться эксплойты",
+   "summary_ru": "Drupal исправил две критические уязвимости, которые могут позволить злоумышленникам удаленно выполнять код на веб-сайтах с любой поддерживаемой версией системы управления контентом. [...]"
   },
   {
    "id": "da10699ba403",
@@ -7548,7 +7504,7 @@
    ],
    "category": "tools_c2",
    "published": "2026-09-03T17:53:42Z",
-   "first_seen": "2026-10-19T20:37:04.055968Z",
+   "first_seen": "2026-10-20T00:24:58.499727Z",
    "importance": 29,
    "is_hot": false,
    "tags": [
@@ -7560,24 +7516,69 @@
    "summary_ru": "## Что изменилось * feat(client): добавьте сценарий OPFOR CNA BOF от @moloch - в https://github.com/BishopFox/sliver/pull/2352 * Улучшения в обработке Windows/оболочки от @moloch - в https://github.com/BishopFox/sliver/pull/2353 * Переработан жизненный цикл переадресации обратного порта и покрытие E2E от @молох--…"
   },
   {
-   "id": "986cc714fb42",
-   "title": "ThreatsDay: Adobe RCE, DNS Wallet Theft, NVIDIA Container Escape, Self-Healing Backdoor + 23 More",
-   "url": "https://thehackernews.com/2026/10/threatsday-adobe-rce-dns-wallet-theft.html",
-   "summary": "Someone built a tool to steal data, then decided it should scare the victim for fun. Yes, that’s an actual feature. And somehow, it fits right in with this week's security stories. The rest gets interesting in different ways. A small permission can lead to a big theft. A trusted login can hide the…",
-   "source": "The Hacker News",
+   "id": "e99539d0bbd0",
+   "title": "Screwtape: Adversarial Transcript Editing for Monitor Red-Teaming",
+   "url": "https://arxiv.org/abs/2610.20941v1",
+   "summary": "We present Screwtape, a pipeline that converts real agent transcripts into attacks that evade action-only monitors. An LLM attacker edits a transcript so that the agent causes a specified harm, such as leaking an API key or spawning an unmonitored agent. The edited actions are never executed, so we…",
+   "source": "arXiv cs.CR (agents)",
    "sources": [
-    "The Hacker News"
+    "arXiv cs.CR (agents)"
    ],
-   "category": "news",
-   "published": "2026-10-15T18:49:33Z",
-   "first_seen": "2026-10-15T21:29:18.221226Z",
+   "category": "ai_pentest",
+   "published": "2026-10-14T21:08:21Z",
+   "first_seen": "2026-10-16T04:38:54.241452Z",
    "importance": 28,
    "is_hot": false,
    "tags": [
-    "rce"
+    "cs.CR",
+    "cs.AI",
+    "llm"
    ],
-   "title_ru": "ThreatsDay: Adobe RCE, DNS Wallet Theft, NVIDIA Container Escape, Self-Healing Backdoor + еще 23",
-   "summary_ru": "Кто-то построил инструмент для кражи данных, а потом решил, что это должно напугать жертву ради забавы. Да, это реальная особенность. И каким-то образом это вписывается в истории безопасности на этой неделе. Остальное становится интересным по-разному. Небольшое разрешение может привести к большой краже. Доверенный логин может скрыть..."
+   "title_ru": "Screwtape: состязательное редактирование расшифровки для монитора Red-Teaming",
+   "summary_ru": "Мы представляем Screwtape, конвейер, который преобразует реальные транскрипты агента в атаки, которые уклоняются от мониторов, предназначенных только для действий. Злоумышленник LLM редактирует расшифровку так, чтобы агент причинил указанный вред, например, утечку ключа API или создание неконтролируемого агента. Отредактированные действия никогда не выполняются, поэтому мы…"
+  },
+  {
+   "id": "065e33533ae5",
+   "title": "From Detection to Decision: Calibration and Deferral for Prompt-Injection Detection",
+   "url": "https://arxiv.org/abs/2610.20907v1",
+   "summary": "Prompt-injection defenses are commonly evaluated as binary detectors, although deployed LLM applications must make operational decisions about whether to allow, block, or escalate potentially malicious inputs. Recent probabilistic decision models aim to support such decisions through calibrated…",
+   "source": "arXiv cs.CR (LLM security)",
+   "sources": [
+    "arXiv cs.CR (LLM security)"
+   ],
+   "category": "llm_security",
+   "published": "2026-10-14T20:34:51Z",
+   "first_seen": "2026-10-16T04:38:54.241452Z",
+   "importance": 28,
+   "is_hot": false,
+   "tags": [
+    "cs.CR",
+    "llm"
+   ],
+   "title_ru": "От обнаружения до принятия решения: калибровка и отсрочка для обнаружения быстрого впрыска",
+   "summary_ru": "Защита от быстрого ввода обычно оценивается как двоичные детекторы, хотя развернутые приложения LLM должны принимать оперативные решения о том, разрешать, блокировать или наращивать потенциально вредоносные входы. Недавние вероятностные модели принятия решений направлены на поддержку таких решений посредством откалиброванных..."
+  },
+  {
+   "id": "319c3c5b70b7",
+   "title": "Thinking in Graphs: Neo4j-Backed Exploit-Chain Reasoning for LLM Penetration-Testing Agents",
+   "url": "https://arxiv.org/abs/2610.20902v1",
+   "summary": "LLM coding agents such as Claude Code and OpenAI Codex can drive penetration-testing tools, but they reason about an engagement as a flat list of findings in a context window. Attackers think in graphs: isolated low-severity exposures turn catastrophic once chained through credential capture,…",
+   "source": "arXiv cs.CR (agents)",
+   "sources": [
+    "arXiv cs.CR (agents)",
+    "arXiv cs.CR (LLM security)"
+   ],
+   "category": "ai_pentest",
+   "published": "2026-10-14T20:33:18Z",
+   "first_seen": "2026-10-16T04:38:54.241452Z",
+   "importance": 28,
+   "is_hot": false,
+   "tags": [
+    "cs.CR",
+    "llm"
+   ],
+   "title_ru": "Мышление в графиках: Neo4j-Backed Exploit-Chain Reasoning for LLM Penetration-Testing Agents",
+   "summary_ru": "Агенты кодирования LLM, такие как Claude Code и OpenAI Codex, могут управлять инструментами тестирования на проникновение, но они рассуждают о взаимодействии как о плоском списке результатов в контекстном окне. Злоумышленники мыслят в графиках: изолированные риски низкой степени тяжести становятся катастрофическими после того, как они связаны с захватом учетных данных,..."
   },
   {
    "id": "77f014633d79",
@@ -7647,7 +7648,7 @@
    "id": "db7061f3f1b0",
    "title": "trhhubsd/ARTEX — ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻防挑战赛冠军",
    "url": "https://github.com/trhhubsd/ARTEX",
-   "summary": "★1317 · Go · ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻防挑战赛冠军",
+   "summary": "★1322 · Go · ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻防挑战赛冠军",
    "source": "GitHub search (llm pentest agent)",
    "sources": [
     "GitHub search (llm pentest agent)",
@@ -7817,7 +7818,7 @@
    ],
    "category": "offensive_research",
    "published": "2026-09-03T13:00:00Z",
-   "first_seen": "2026-10-19T20:37:04.055968Z",
+   "first_seen": "2026-10-20T00:24:58.499727Z",
    "importance": 28,
    "is_hot": false,
    "tags": [
@@ -7837,7 +7838,7 @@
    ],
    "category": "offensive_research",
    "published": "2026-08-19T16:00:00Z",
-   "first_seen": "2026-10-19T20:37:04.055968Z",
+   "first_seen": "2026-10-20T00:24:58.499727Z",
    "importance": 28,
    "is_hot": false,
    "tags": [
@@ -7850,25 +7851,24 @@
    "summary_ru": "Дэниел Хейнсен и я потратили много времени, пытаясь ответить на один вопрос внутри сред AWS, обычно в спешке: «Начиная с того доступа, который у меня есть прямо сейчас, где я на самом деле могу оказаться?» Оказывается, в AWS сложно ответить на этот вопрос. iam:SimulatePrincipalPolicy оценит одно…"
   },
   {
-   "id": "103fb8daac92",
-   "title": "Hackers exploit SiteGuard WAF flaw to run commands as admins",
-   "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-siteguard-waf-flaw-to-run-commands-as-system-root/",
-   "summary": "Attackers are targeting an OS command injection vulnerability in SiteGuard Server Edition that lets them execute commands as root or SYSTEM on affected servers. [...]",
-   "source": "BleepingComputer",
+   "id": "986cc714fb42",
+   "title": "ThreatsDay: Adobe RCE, DNS Wallet Theft, NVIDIA Container Escape, Self-Healing Backdoor + 23 More",
+   "url": "https://thehackernews.com/2026/10/threatsday-adobe-rce-dns-wallet-theft.html",
+   "summary": "Someone built a tool to steal data, then decided it should scare the victim for fun. Yes, that’s an actual feature. And somehow, it fits right in with this week's security stories. The rest gets interesting in different ways. A small permission can lead to a big theft. A trusted login can hide the…",
+   "source": "The Hacker News",
    "sources": [
-    "BleepingComputer"
+    "The Hacker News"
    ],
    "category": "news",
-   "published": "2026-10-18T14:23:16Z",
-   "first_seen": "2026-10-18T15:56:35.480480Z",
+   "published": "2026-10-15T18:49:33Z",
+   "first_seen": "2026-10-15T21:29:18.221226Z",
    "importance": 27,
    "is_hot": false,
    "tags": [
-    "Security",
-    "exploit"
+    "rce"
    ],
-   "title_ru": "Хакеры используют уязвимость SiteGuard WAF для запуска команд от имени администратора",
-   "summary_ru": "Злоумышленники нацелены на уязвимость внедрения команд ОС в SiteGuard Server Edition, которая позволяет им выполнять команды от имени пользователя root или СИСТЕМЫ на затронутых серверах. [...]"
+   "title_ru": "ThreatsDay: Adobe RCE, DNS Wallet Theft, NVIDIA Container Escape, Self-Healing Backdoor + еще 23",
+   "summary_ru": "Кто-то построил инструмент для кражи данных, а потом решил, что это должно напугать жертву ради забавы. Да, это реальная особенность. И каким-то образом это вписывается в истории безопасности на этой неделе. Остальное становится интересным по-разному. Небольшое разрешение может привести к большой краже. Доверенный логин может скрыть..."
   },
   {
    "id": "12b5084185c2",
@@ -8389,44 +8389,25 @@
    "summary_ru": "Агенты ИИ для обеспечения безопасности проверяют веб-страницы, исходный код, журналы, файлы конфигурации и выходные данные команд. Эти среды могут содержать обманчивые артефакты, которые влияют на поведение агента. Мы называем это состязательным загрязнением задачи. Принимая во внимание, что быстрая инъекция зависит от нападающего..."
   },
   {
-   "id": "47f4fcfb349a",
-   "title": "GhostAction Attackers Plant Credential Stealer Disguised as Font in 94 GitHub Repositories",
-   "url": "https://thehackernews.com/2026/10/ghostaction-attackers-plant-credential.html",
-   "summary": "The threat actor behind the GhostAction supply chain attack has expanded beyond injecting malicious GitHub Actions workflows into compromised projects to phish open-source developers and deliver a stealer malware disguised within a fake font file. The latest evolution, detailed by…",
-   "source": "The Hacker News",
+   "id": "103fb8daac92",
+   "title": "Hackers exploit SiteGuard WAF flaw to run commands as admins",
+   "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-siteguard-waf-flaw-to-run-commands-as-system-root/",
+   "summary": "Attackers are targeting an OS command injection vulnerability in SiteGuard Server Edition that lets them execute commands as root or SYSTEM on affected servers. [...]",
+   "source": "BleepingComputer",
    "sources": [
-    "The Hacker News"
+    "BleepingComputer"
    ],
    "category": "news",
-   "published": "2026-10-19T13:05:45Z",
-   "first_seen": "2026-10-19T20:37:04.055968Z",
+   "published": "2026-10-18T14:23:16Z",
+   "first_seen": "2026-10-18T15:56:35.480480Z",
    "importance": 26,
    "is_hot": false,
    "tags": [
-    "supply chain"
+    "Security",
+    "exploit"
    ],
-   "title_ru": "Злоумышленники GhostAction установили похититель учетных данных, замаскированный под шрифт, в 94 репозиториях GitHub",
-   "summary_ru": "Злоумышленник, стоящий за атакой на цепочку поставок GhostAction, вышел за рамки внедрения вредоносных рабочих процессов GitHub Actions в скомпрометированные проекты с целью фишинга разработчиков с открытым исходным кодом и доставки вредоносного ПО-вора, замаскированного в поддельном файле шрифта. Последняя эволюция, подробно описанная…"
-  },
-  {
-   "id": "0534f1906337",
-   "title": "Fake Web3 Accelerator Uses npm Packages to Spread Malware and Hijack AI Agent Traffic",
-   "url": "https://thehackernews.com/2026/10/fake-web3-accelerator-uses-npm-packages.html",
-   "summary": "A fake Web3 accelerator has been observed pushing information stealers and backdoors to Windows and macOS systems using malicious npm packages under the pretext of offering free artificial intelligence (AI) credits for Anthropic Claude and Google Gemini, coding tools, and security audits. \"The…",
-   "source": "The Hacker News",
-   "sources": [
-    "The Hacker News"
-   ],
-   "category": "news",
-   "published": "2026-10-19T10:06:40Z",
-   "first_seen": "2026-10-19T13:29:07.514976Z",
-   "importance": 26,
-   "is_hot": false,
-   "tags": [
-    "ai agent"
-   ],
-   "title_ru": "Fake Web3 Accelerator использует пакеты npm для распространения вредоносного ПО и перехвата трафика ИИ-агентов",
-   "summary_ru": "Было замечено, что поддельный ускоритель Web3 подталкивает похитителей информации и бэкдоры к системам Windows и macOS, используя вредоносные пакеты npm под предлогом предоставления бесплатных кредитов искусственного интеллекта (ИИ) для Anthropic Claude и Google Gemini, инструментов кодирования и аудита безопасности."
+   "title_ru": "Хакеры используют уязвимость SiteGuard WAF для запуска команд от имени администратора",
+   "summary_ru": "Злоумышленники нацелены на уязвимость внедрения команд ОС в SiteGuard Server Edition, которая позволяет им выполнять команды от имени пользователя root или СИСТЕМЫ на затронутых серверах. [...]"
   },
   {
    "id": "79669d1bb326",
@@ -8532,27 +8513,6 @@
    ],
    "title_ru": "Слепые зоны агентного пентестирования и как их закрыть",
    "summary_ru": "Тестирование на проникновение с использованием искусственного интеллекта может выявить сложные пути атак, но ограничения безопасности и ограничения сети оставляют многие активы и уязвимости непроверенными. Picus Security объясняет, как сочетание агентного пентестирования с проверкой воздействия и моделированием нарушений может помочь закрыть эти пробелы. [...]"
-  },
-  {
-   "id": "0bfd7451a7ed",
-   "title": "Ghostscript flaw lets hackers hijack servers via PDF uploads",
-   "url": "https://www.bleepingcomputer.com/news/security/ghostscript-flaw-lets-hackers-hijack-servers-via-pdf-uploads/",
-   "summary": "A critical heap buffer overflow vulnerability (CVE-2026-39919) in the Ghostscript interpreter and rendering engine could allow remote code execution through specially crafted PDF files. [...]",
-   "source": "BleepingComputer",
-   "sources": [
-    "BleepingComputer"
-   ],
-   "category": "news",
-   "published": "2026-10-13T21:33:26Z",
-   "first_seen": "2026-10-13T22:51:20.970377Z",
-   "importance": 26,
-   "is_hot": false,
-   "tags": [
-    "Security",
-    "remote code execution"
-   ],
-   "title_ru": "Уязвимость Ghostscript позволяет хакерам взламывать серверы посредством загрузки PDF-файлов",
-   "summary_ru": "Критическая уязвимость переполнения буфера кучи (CVE-2026-39919) в интерпретаторе и механизме рендеринга Ghostscript может сделать возможным удаленное выполнение кода через специально созданные PDF-файлы. [...]"
   },
   {
    "id": "ced16826aec6",
@@ -8681,7 +8641,7 @@
    ],
    "category": "offensive_research",
    "published": "2026-08-12T16:00:00Z",
-   "first_seen": "2026-10-19T20:37:04.055968Z",
+   "first_seen": "2026-10-20T00:24:58.499727Z",
    "importance": 26,
    "is_hot": false,
    "tags": [
@@ -8704,7 +8664,7 @@
    ],
    "category": "offensive_research",
    "published": "2026-08-11T07:00:00Z",
-   "first_seen": "2026-10-19T20:37:04.055968Z",
+   "first_seen": "2026-10-20T00:24:58.499727Z",
    "importance": 26,
    "is_hot": false,
    "tags": [
@@ -8724,7 +8684,7 @@
    ],
    "category": "offensive_research",
    "published": "2026-08-04T20:09:00Z",
-   "first_seen": "2026-10-19T20:37:04.055968Z",
+   "first_seen": "2026-10-20T00:24:58.499727Z",
    "importance": 26,
    "is_hot": false,
    "tags": [
@@ -8734,6 +8694,46 @@
    ],
    "title_ru": "Публичная бета-версия Mythic 4: больше, чем просто новый слой краски",
    "summary_ru": "TL;DR: Mythic 4 теперь доступен в ветке Mythic-v4.0.0 и в ближайшие несколько месяцев войдет в публичную бета-версию, чтобы сообщество могло обновить свои сервисы. В Mythic 4 есть несколько серьезных изменений, новые функции, поддержка контейнера чата с искусственным интеллектом и многое другое. Mythic 4 вступает в публичную бета-версию…"
+  },
+  {
+   "id": "47f4fcfb349a",
+   "title": "GhostAction Attackers Plant Credential Stealer Disguised as Font in 94 GitHub Repositories",
+   "url": "https://thehackernews.com/2026/10/ghostaction-attackers-plant-credential.html",
+   "summary": "The threat actor behind the GhostAction supply chain attack has expanded beyond injecting malicious GitHub Actions workflows into compromised projects to phish open-source developers and deliver a stealer malware disguised within a fake font file. The latest evolution, detailed by…",
+   "source": "The Hacker News",
+   "sources": [
+    "The Hacker News"
+   ],
+   "category": "news",
+   "published": "2026-10-19T13:05:45Z",
+   "first_seen": "2026-10-19T20:37:04.055968Z",
+   "importance": 25,
+   "is_hot": false,
+   "tags": [
+    "supply chain"
+   ],
+   "title_ru": "Злоумышленники GhostAction установили похититель учетных данных, замаскированный под шрифт, в 94 репозиториях GitHub",
+   "summary_ru": "Злоумышленник, стоящий за атакой на цепочку поставок GhostAction, вышел за рамки внедрения вредоносных рабочих процессов GitHub Actions в скомпрометированные проекты с целью фишинга разработчиков с открытым исходным кодом и доставки вредоносного ПО-вора, замаскированного в поддельном файле шрифта. Последняя эволюция, подробно описанная…"
+  },
+  {
+   "id": "0534f1906337",
+   "title": "Fake Web3 Accelerator Uses npm Packages to Spread Malware and Hijack AI Agent Traffic",
+   "url": "https://thehackernews.com/2026/10/fake-web3-accelerator-uses-npm-packages.html",
+   "summary": "A fake Web3 accelerator has been observed pushing information stealers and backdoors to Windows and macOS systems using malicious npm packages under the pretext of offering free artificial intelligence (AI) credits for Anthropic Claude and Google Gemini, coding tools, and security audits. \"The…",
+   "source": "The Hacker News",
+   "sources": [
+    "The Hacker News"
+   ],
+   "category": "news",
+   "published": "2026-10-19T10:06:40Z",
+   "first_seen": "2026-10-19T13:29:07.514976Z",
+   "importance": 25,
+   "is_hot": false,
+   "tags": [
+    "ai agent"
+   ],
+   "title_ru": "Fake Web3 Accelerator использует пакеты npm для распространения вредоносного ПО и перехвата трафика ИИ-агентов",
+   "summary_ru": "Было замечено, что поддельный ускоритель Web3 подталкивает похитителей информации и бэкдоры к системам Windows и macOS, используя вредоносные пакеты npm под предлогом предоставления бесплатных кредитов искусственного интеллекта (ИИ) для Anthropic Claude и Google Gemini, инструментов кодирования и аудита безопасности."
   },
   {
    "id": "a499524cbdd3",
@@ -8755,27 +8755,6 @@
    ],
    "title_ru": "Критическая уязвимость BlockStrap позволяет хакерам запускать код на серверах Magento",
    "summary_ru": "Исследователи предупреждают, что хакеры вскоре могут воспользоваться уязвимостью максимальной серьезности (CVE-2026-103849), затрагивающей Magento и Adobe Commerce, что потенциально позволит им выполнять произвольный PHP-код на серверах магазинов. [...]"
-  },
-  {
-   "id": "7ca539292393",
-   "title": "UAT-11985 Uses Fake Event Invites to Target Taiwan Research Affiliates With Google AitM Phishing",
-   "url": "https://thehackernews.com/2026/10/uat-11985-uses-fake-event-invites-to.html",
-   "summary": "Cybersecurity researchers have disclosed details of an advanced persistent threat (APT) spear-phishing campaign that has targeted individuals affiliated with Taiwan research organizations to direct victims to an adversary-in-the-middle (AitM) phishing framework designed to harvest their Google…",
-   "source": "The Hacker News",
-   "sources": [
-    "The Hacker News"
-   ],
-   "category": "news",
-   "published": "2026-10-16T16:16:44Z",
-   "first_seen": "2026-10-16T16:44:22.779123Z",
-   "importance": 25,
-   "is_hot": false,
-   "tags": [
-    "phishing",
-    "apt"
-   ],
-   "title_ru": "UAT-11985 использует поддельные приглашения на мероприятия, чтобы атаковать тайваньские исследовательские филиалы с помощью фишинга Google AitM",
-   "summary_ru": "Исследователи кибербезопасности раскрыли подробности целенаправленной фишинговой кампании передовой постоянной угрозы (APT), направленной на лиц, связанных с тайваньскими исследовательскими организациями, с целью направить жертв к фишинговой системе «противник посередине» (AitM), предназначенной для сбора данных Google…"
   },
   {
    "id": "d0e0e442d471",
@@ -8847,68 +8826,25 @@
    "summary_ru": "Агенты ИИ теперь делают паузу для получения одобрения, прежде чем отправлять деньги, удалять файлы или отправлять электронные письма сторонним лицам, и это одобрение обычно рассматривается как второй фактор. Мы утверждаем, что оно является единственным только тогда, когда компрометирующий агент не может его произвести и когда он называет именно то, что одобряет, и мы проверяем оба условия. Мы определяем…"
   },
   {
-   "id": "ab1410fcc717",
-   "title": "Confessions of a Professional Hacker: Can the CIA or other Intelligence Agencies Track My Every Move?",
-   "url": "https://hackers-arise.com/confessions-of-a-professional-hacker-can-the-cia-or-other-intelligence-agencies-track-my-every-move-2/",
-   "summary": "Look at how the CIA tracks you and what you can do to make their job much harder The post Confessions of a Professional Hacker: Can the CIA or other Intelligence Agencies Track My Every Move? first appeared on Hackers Arise .",
-   "source": "Hackers-Arise",
+   "id": "0bfd7451a7ed",
+   "title": "Ghostscript flaw lets hackers hijack servers via PDF uploads",
+   "url": "https://www.bleepingcomputer.com/news/security/ghostscript-flaw-lets-hackers-hijack-servers-via-pdf-uploads/",
+   "summary": "A critical heap buffer overflow vulnerability (CVE-2026-39919) in the Ghostscript interpreter and rendering engine could allow remote code execution through specially crafted PDF files. [...]",
+   "source": "BleepingComputer",
    "sources": [
-    "Hackers-Arise"
-   ],
-   "category": "red_team_ref",
-   "published": "2026-10-14T19:51:15Z",
-   "first_seen": "2026-10-14T21:46:09.761838Z",
-   "importance": 25,
-   "is_hot": false,
-   "tags": [
-    "Anti-Forensics & OpSec",
-    "Uncategorized",
-    "CIA",
-    "CyberSecurity",
-    "Tracking"
-   ],
-   "title_ru": "Исповедь профессионального хакера: может ли ЦРУ или другие спецслужбы отслеживать каждое мое движение?",
-   "summary_ru": "Посмотрите, как ЦРУ следит за вами и что вы можете сделать, чтобы значительно усложнить их работу. Пост «Исповедь профессионального хакера: может ли ЦРУ или другие разведывательные агентства отслеживать каждое мое движение?» впервые появился на Hackers Arise."
-  },
-  {
-   "id": "6a2cbce4c8b9",
-   "title": "Newly Exploited Vulnerability in Ivanti Connect Secure",
-   "url": "https://www.securitymagazine.com/articles/102655-newly-exploited-vulnerability-in-ivanti-connect-secure",
-   "summary": "CISA is urging organizations to update Ivanti Connect Secure (ICS) appliances/deployments.",
-   "source": "Security Magazine",
-   "sources": [
-    "Security Magazine"
+    "BleepingComputer"
    ],
    "category": "news",
-   "published": "2026-10-14T18:00:00Z",
-   "first_seen": "2026-10-14T21:46:09.761838Z",
+   "published": "2026-10-13T21:33:26Z",
+   "first_seen": "2026-10-13T22:51:20.970377Z",
    "importance": 25,
    "is_hot": false,
    "tags": [
-    "exploited"
+    "Security",
+    "remote code execution"
    ],
-   "title_ru": "Недавно использованная уязвимость в Ivanti Connect Secure",
-   "summary_ru": "CISA призывает организации обновлять устройства/развертывания Ivanti Connect Secure (ICS)."
-  },
-  {
-   "id": "639d0d6e00a7",
-   "title": "Hackers Backdoor Nextcloud Servers Through Critical Flaw in Collabora’s Built-in CODE App",
-   "url": "https://thehackernews.com/2026/10/hackers-backdoor-nextcloud-servers.html",
-   "summary": "Attackers exploited a flaw in an optional Nextcloud app, Collabora Online - Built-in CODE Server, to plant web shells on Nextcloud servers. Three administrators reported the issue on GitHub, with the first logged attack on September 10. A web shell is a small file that executes any command an…",
-   "source": "The Hacker News",
-   "sources": [
-    "The Hacker News"
-   ],
-   "category": "news",
-   "published": "2026-10-14T17:38:31Z",
-   "first_seen": "2026-10-14T21:46:09.761838Z",
-   "importance": 25,
-   "is_hot": false,
-   "tags": [
-    "exploited"
-   ],
-   "title_ru": "Хакеры взломали серверы Nextcloud через критическую ошибку во встроенном приложении CODE Collabora",
-   "summary_ru": "Злоумышленники воспользовались уязвимостью в дополнительном приложении Nextcloud Collabora Online — встроенный сервер кода, чтобы разместить веб-оболочки на серверах Nextcloud. Три администратора сообщили о проблеме на GitHub, причем первая зарегистрированная атака состоялась 10 сентября. Веб-оболочка — это небольшой файл, который выполняет любую команду и…"
+   "title_ru": "Уязвимость Ghostscript позволяет хакерам взламывать серверы посредством загрузки PDF-файлов",
+   "summary_ru": "Критическая уязвимость переполнения буфера кучи (CVE-2026-39919) в интерпретаторе и механизме рендеринга Ghostscript может сделать возможным удаленное выполнение кода через специально созданные PDF-файлы. [...]"
   },
   {
    "id": "b634077b62ef",
@@ -9126,7 +9062,7 @@
    ],
    "category": "red_team_ref",
    "published": "2026-04-01T00:00:00Z",
-   "first_seen": "2026-10-19T20:37:04.055968Z",
+   "first_seen": "2026-10-20T00:24:58.499727Z",
    "importance": 25,
    "is_hot": false,
    "tags": [
@@ -9148,7 +9084,7 @@
    ],
    "category": "red_team_ref",
    "published": "2026-03-17T00:00:00Z",
-   "first_seen": "2026-10-19T20:37:04.055968Z",
+   "first_seen": "2026-10-20T00:24:58.499727Z",
    "importance": 25,
    "is_hot": false,
    "tags": [
@@ -9158,24 +9094,89 @@
    ]
   },
   {
-   "id": "39713ff301da",
-   "title": "Disruption Targets Major Chinese-Language Phishing Kits with Japanese Focus",
-   "url": "https://www.proofpoint.com/us/blog/threat-insight/disruption-targets-major-chinese-language-phishing-kits-japanese-focus",
-   "summary": "Key findings A disruption action targeting prominent players across the Chinese-speaking phishing and fraud ecosystem struck a blow to the most high-volume threats in Proofpoint data. Proofpoint supported Microsoft and other private and public partners in the civil lawsuit and takedown action. The…",
-   "source": "Proofpoint Threat Insight",
+   "id": "7ca539292393",
+   "title": "UAT-11985 Uses Fake Event Invites to Target Taiwan Research Affiliates With Google AitM Phishing",
+   "url": "https://thehackernews.com/2026/10/uat-11985-uses-fake-event-invites-to.html",
+   "summary": "Cybersecurity researchers have disclosed details of an advanced persistent threat (APT) spear-phishing campaign that has targeted individuals affiliated with Taiwan research organizations to direct victims to an adversary-in-the-middle (AitM) phishing framework designed to harvest their Google…",
+   "source": "The Hacker News",
    "sources": [
-    "Proofpoint Threat Insight"
+    "The Hacker News"
    ],
-   "category": "threat_intel",
-   "published": "2026-10-14T20:24:16Z",
-   "first_seen": "2026-10-14T17:18:01.811199Z",
+   "category": "news",
+   "published": "2026-10-16T16:16:44Z",
+   "first_seen": "2026-10-16T16:44:22.779123Z",
    "importance": 24,
    "is_hot": false,
    "tags": [
-    "phishing"
+    "phishing",
+    "apt"
    ],
-   "title_ru": "Нарушения направлены на основные фишинговые программы на китайском языке с японским акцентом",
-   "summary_ru": "Ключевые выводы Действия, нацеленные на видных игроков китайскоязычной экосистемы фишинга и мошенничества, нанесли удар по самым массовым угрозам в данных Proofpoint. Proofpoint поддержала Microsoft и других частных и государственных партнеров в гражданском иске и иске об удалении. …"
+   "title_ru": "UAT-11985 использует поддельные приглашения на мероприятия, чтобы атаковать тайваньские исследовательские филиалы с помощью фишинга Google AitM",
+   "summary_ru": "Исследователи кибербезопасности раскрыли подробности целенаправленной фишинговой кампании передовой постоянной угрозы (APT), направленной на лиц, связанных с тайваньскими исследовательскими организациями, с целью направить жертв к фишинговой системе «противник посередине» (AitM), предназначенной для сбора данных Google…"
+  },
+  {
+   "id": "ab1410fcc717",
+   "title": "Confessions of a Professional Hacker: Can the CIA or other Intelligence Agencies Track My Every Move?",
+   "url": "https://hackers-arise.com/confessions-of-a-professional-hacker-can-the-cia-or-other-intelligence-agencies-track-my-every-move-2/",
+   "summary": "Look at how the CIA tracks you and what you can do to make their job much harder The post Confessions of a Professional Hacker: Can the CIA or other Intelligence Agencies Track My Every Move? first appeared on Hackers Arise .",
+   "source": "Hackers-Arise",
+   "sources": [
+    "Hackers-Arise"
+   ],
+   "category": "red_team_ref",
+   "published": "2026-10-14T19:51:15Z",
+   "first_seen": "2026-10-14T21:46:09.761838Z",
+   "importance": 24,
+   "is_hot": false,
+   "tags": [
+    "Anti-Forensics & OpSec",
+    "Uncategorized",
+    "CIA",
+    "CyberSecurity",
+    "Tracking"
+   ],
+   "title_ru": "Исповедь профессионального хакера: может ли ЦРУ или другие спецслужбы отслеживать каждое мое движение?",
+   "summary_ru": "Посмотрите, как ЦРУ следит за вами и что вы можете сделать, чтобы значительно усложнить их работу. Пост «Исповедь профессионального хакера: может ли ЦРУ или другие разведывательные агентства отслеживать каждое мое движение?» впервые появился на Hackers Arise."
+  },
+  {
+   "id": "6a2cbce4c8b9",
+   "title": "Newly Exploited Vulnerability in Ivanti Connect Secure",
+   "url": "https://www.securitymagazine.com/articles/102655-newly-exploited-vulnerability-in-ivanti-connect-secure",
+   "summary": "CISA is urging organizations to update Ivanti Connect Secure (ICS) appliances/deployments.",
+   "source": "Security Magazine",
+   "sources": [
+    "Security Magazine"
+   ],
+   "category": "news",
+   "published": "2026-10-14T18:00:00Z",
+   "first_seen": "2026-10-14T21:46:09.761838Z",
+   "importance": 24,
+   "is_hot": false,
+   "tags": [
+    "exploited"
+   ],
+   "title_ru": "Недавно использованная уязвимость в Ivanti Connect Secure",
+   "summary_ru": "CISA призывает организации обновлять устройства/развертывания Ivanti Connect Secure (ICS)."
+  },
+  {
+   "id": "639d0d6e00a7",
+   "title": "Hackers Backdoor Nextcloud Servers Through Critical Flaw in Collabora’s Built-in CODE App",
+   "url": "https://thehackernews.com/2026/10/hackers-backdoor-nextcloud-servers.html",
+   "summary": "Attackers exploited a flaw in an optional Nextcloud app, Collabora Online - Built-in CODE Server, to plant web shells on Nextcloud servers. Three administrators reported the issue on GitHub, with the first logged attack on September 10. A web shell is a small file that executes any command an…",
+   "source": "The Hacker News",
+   "sources": [
+    "The Hacker News"
+   ],
+   "category": "news",
+   "published": "2026-10-14T17:38:31Z",
+   "first_seen": "2026-10-14T21:46:09.761838Z",
+   "importance": 24,
+   "is_hot": false,
+   "tags": [
+    "exploited"
+   ],
+   "title_ru": "Хакеры взломали серверы Nextcloud через критическую ошибку во встроенном приложении CODE Collabora",
+   "summary_ru": "Злоумышленники воспользовались уязвимостью в дополнительном приложении Nextcloud Collabora Online — встроенный сервер кода, чтобы разместить веб-оболочки на серверах Nextcloud. Три администратора сообщили о проблеме на GitHub, причем первая зарегистрированная атака состоялась 10 сентября. Веб-оболочка — это небольшой файл, который выполняет любую команду и…"
   },
   {
    "id": "2520b3f112d9",
@@ -9315,7 +9316,7 @@
    ],
    "category": "offensive_research",
    "published": "2026-09-03T04:00:00Z",
-   "first_seen": "2026-10-19T20:37:04.055968Z",
+   "first_seen": "2026-10-20T00:24:58.499727Z",
    "importance": 24,
    "is_hot": false,
    "tags": [
@@ -9333,12 +9334,32 @@
    ],
    "category": "offensive_research",
    "published": "2026-08-25T04:00:00Z",
-   "first_seen": "2026-10-19T20:37:04.055968Z",
+   "first_seen": "2026-10-20T00:24:58.499727Z",
    "importance": 24,
    "is_hot": false,
    "tags": [
     "llm"
    ]
+  },
+  {
+   "id": "39713ff301da",
+   "title": "Disruption Targets Major Chinese-Language Phishing Kits with Japanese Focus",
+   "url": "https://www.proofpoint.com/us/blog/threat-insight/disruption-targets-major-chinese-language-phishing-kits-japanese-focus",
+   "summary": "Key findings A disruption action targeting prominent players across the Chinese-speaking phishing and fraud ecosystem struck a blow to the most high-volume threats in Proofpoint data. Proofpoint supported Microsoft and other private and public partners in the civil lawsuit and takedown action. The…",
+   "source": "Proofpoint Threat Insight",
+   "sources": [
+    "Proofpoint Threat Insight"
+   ],
+   "category": "threat_intel",
+   "published": "2026-10-14T20:24:16Z",
+   "first_seen": "2026-10-14T17:18:01.811199Z",
+   "importance": 23,
+   "is_hot": false,
+   "tags": [
+    "phishing"
+   ],
+   "title_ru": "Нарушения направлены на основные фишинговые программы на китайском языке с японским акцентом",
+   "summary_ru": "Ключевые выводы Действия, нацеленные на видных игроков китайскоязычной экосистемы фишинга и мошенничества, нанесли удар по самым массовым угрозам в данных Proofpoint. Proofpoint поддержала Microsoft и других частных и государственных партнеров в гражданском иске и иске об удалении. …"
   },
   {
    "id": "6f9b0a9070ef",
@@ -9559,27 +9580,6 @@
    ],
    "title_ru": "Водяные знаки для обучения Byzantine Robust LLM",
    "summary_ru": "Использование водяных знаков LLM стало многообещающим подходом для обнаружения неправильного использования последующих моделей в централизованных условиях, но его распространение на федеративное обучение (FL) представляет собой уникальные проблемы. В частности, системы FL часто полагаются на сильные и надежные агрегаторы для защиты от атак-отравителей. Мы…"
-  },
-  {
-   "id": "eafcf5e2ef42",
-   "title": "Hackers get $1,262,000 for 98 zero-days at Pwn2Own Ireland",
-   "url": "https://www.bleepingcomputer.com/news/security/hackers-earn-1262000-for-98-zero-days-at-pwn2own-ireland/",
-   "summary": "The Pwn2Own Ireland 2026 hacking contest has concluded, with hackers collecting $1,262,000 in rewards after exploiting 98 zero-day flaws. [...]",
-   "source": "BleepingComputer",
-   "sources": [
-    "BleepingComputer"
-   ],
-   "category": "news",
-   "published": "2026-10-09T05:41:04Z",
-   "first_seen": "2026-10-09T10:41:00.387698Z",
-   "importance": 23,
-   "is_hot": false,
-   "tags": [
-    "Security",
-    "zero-day"
-   ],
-   "title_ru": "Хакеры получают $ 1 262 000 за 98 нулевых дней в Pwn2Own Ireland",
-   "summary_ru": "Завершился хакерский конкурс Pwn2Own Ireland 2026, в ходе которого хакеры получили вознаграждение в размере $ 1 262 000 за использование 98 уязвимостей нулевого дня. [...]"
   },
   {
    "id": "0a1f9812d6db",
@@ -9888,31 +9888,13 @@
    ],
    "category": "tools_c2",
    "published": "2026-08-28T18:37:03Z",
-   "first_seen": "2026-10-19T20:37:04.055968Z",
+   "first_seen": "2026-10-20T00:24:58.499727Z",
    "importance": 23,
    "is_hot": false,
    "tags": [
     "release",
     "sliver"
    ]
-  },
-  {
-   "id": "d2fc9b34d0c7",
-   "title": "The Exposure Debt Benchmark: What the 2026 Data Says About the Find-to-Fix Gap",
-   "url": "https://www.hackerone.com/blog/exposure-management-find-to-fix-gap-2026",
-   "summary": "",
-   "source": "HackerOne Blog",
-   "sources": [
-    "HackerOne Blog"
-   ],
-   "category": "writeups",
-   "published": "2026-10-14T19:00:00Z",
-   "first_seen": "2026-10-14T21:46:09.761838Z",
-   "importance": 22,
-   "is_hot": false,
-   "tags": [],
-   "title_ru": "Индикатор подверженности долгу: что данные за 2026 год говорят о разрыве между поиском и устранением",
-   "summary_ru": ""
   },
   {
    "id": "01ccdefefe75",
@@ -9997,46 +9979,25 @@
    "summary_ru": "Исследователи кибербезопасности раскрыли подробности двусторонней кампании по первоначальному доступу к искусственному интеллекту (ИИ), нацеленной на сайты WordPress, платформы электронной коммерции и объекты критической инфраструктуры в Украине. Деятельность, которая объединяет товарные наступательные инструменты, такие как..."
   },
   {
-   "id": "cb585a354d11",
-   "title": "Samsung Galaxy S26 hacked three more times at Pwn2Own Ireland",
-   "url": "https://www.bleepingcomputer.com/news/security/samsung-galaxy-s26-hacked-three-more-times-at-pwn2own-ireland/",
-   "summary": "​​​On the second day of Pwn2Own Ireland 2026, security researchers collected $232,500 in cash awards after exploiting 45 unique zero-day vulnerabilities. [...]",
+   "id": "eafcf5e2ef42",
+   "title": "Hackers get $1,262,000 for 98 zero-days at Pwn2Own Ireland",
+   "url": "https://www.bleepingcomputer.com/news/security/hackers-earn-1262000-for-98-zero-days-at-pwn2own-ireland/",
+   "summary": "The Pwn2Own Ireland 2026 hacking contest has concluded, with hackers collecting $1,262,000 in rewards after exploiting 98 zero-day flaws. [...]",
    "source": "BleepingComputer",
    "sources": [
     "BleepingComputer"
    ],
    "category": "news",
-   "published": "2026-10-08T06:32:16Z",
-   "first_seen": "2026-10-08T10:41:54.438115Z",
+   "published": "2026-10-09T05:41:04Z",
+   "first_seen": "2026-10-09T10:41:00.387698Z",
    "importance": 22,
    "is_hot": false,
    "tags": [
     "Security",
     "zero-day"
    ],
-   "title_ru": "Samsung Galaxy S26 еще трижды взломали на Pwn2Own Ireland",
-   "summary_ru": "​​​На второй день Pwn2Own Ireland 2026 исследователи безопасности собрали $ 232 500 денежных премий после эксплуатации 45 уникальных уязвимостей нулевого дня. [...]"
-  },
-  {
-   "id": "a47789abd954",
-   "title": "Welcome to the Jungle: What We Found Inside 15,465 Public MCP Servers",
-   "url": "https://thehackernews.com/2026/10/welcome-to-jungle-what-we-found-inside.html",
-   "summary": "In 2024, MCP (Model Context Protocol) set out to become the USB-C of AI: one standard for connecting models, agents, and IDEs to tools and data. The protocol delivered. Thousands of developers built servers, and enterprises plugged them into agent workflows. The ecosystem around it fell short.…",
-   "source": "The Hacker News",
-   "sources": [
-    "The Hacker News"
-   ],
-   "category": "news",
-   "published": "2026-10-06T11:02:30Z",
-   "first_seen": "2026-10-06T15:59:57.962699Z",
-   "importance": 22,
-   "is_hot": false,
-   "tags": [
-    "mcp",
-    "model context protocol"
-   ],
-   "title_ru": "Добро пожаловать в джунгли: что мы нашли внутри 15 465 общедоступных серверов MCP",
-   "summary_ru": "В 2024 году MCP (Model Context Protocol) намеревался стать USB-C ИИ: одним стандартом для подключения моделей, агентов и IDE к инструментам и данным. Протокол доставлен. Тысячи разработчиков построили серверы, и предприятия подключили их к рабочим процессам агентов. Экосистемы вокруг него не хватало.…"
+   "title_ru": "Хакеры получают $ 1 262 000 за 98 нулевых дней в Pwn2Own Ireland",
+   "summary_ru": "Завершился хакерский конкурс Pwn2Own Ireland 2026, в ходе которого хакеры получили вознаграждение в размере $ 1 262 000 за использование 98 уязвимостей нулевого дня. [...]"
   },
   {
    "id": "8febc1af4490",
@@ -10059,24 +10020,22 @@
    "summary_ru": "Если вы вдруг перегружены электронными письмами о регистрации, это вполне может быть признаком чего-то более серьезного"
   },
   {
-   "id": "3b47cd8d755b",
-   "title": "The Q3 Vulnerability Pulse: Discovery ≠ Exploitation",
-   "url": "https://blog.talosintelligence.com/the-q3-vulnerability-pulse-discovery-exploitation/",
-   "summary": "Is the cybersecurity world really facing a \"Bugmageddon?\" Thor breaks down the latest CVE and KEV trends in the latest Threat Source newsletter.",
-   "source": "Cisco Talos",
+   "id": "d2fc9b34d0c7",
+   "title": "The Exposure Debt Benchmark: What the 2026 Data Says About the Find-to-Fix Gap",
+   "url": "https://www.hackerone.com/blog/exposure-management-find-to-fix-gap-2026",
+   "summary": "",
+   "source": "HackerOne Blog",
    "sources": [
-    "Cisco Talos"
+    "HackerOne Blog"
    ],
-   "category": "threat_intel",
-   "published": "2026-10-15T18:00:00Z",
-   "first_seen": "2026-10-15T21:29:18.221226Z",
+   "category": "writeups",
+   "published": "2026-10-14T19:00:00Z",
+   "first_seen": "2026-10-14T21:46:09.761838Z",
    "importance": 21,
    "is_hot": false,
-   "tags": [
-    "Threat Source newsletter"
-   ],
-   "title_ru": "Пульс уязвимостей третьего квартала: открытие ≠ эксплуатация",
-   "summary_ru": "Действительно ли мир кибербезопасности сталкивается с «Багмагеддоном»? Тор рассказывает о последних тенденциях CVE и KEV в последнем информационном бюллетене Threat Source."
+   "tags": [],
+   "title_ru": "Индикатор подверженности долгу: что данные за 2026 год говорят о разрыве между поиском и устранением",
+   "summary_ru": ""
   },
   {
    "id": "c14ce3c6ac85",
@@ -10127,6 +10086,48 @@
    ],
    "title_ru": "UAT-11985: Приманки для событий с помощью ИИ, обеспечивающие фишинг Google AitM в режиме реального времени",
    "summary_ru": "Cisco Talos выявила ПОДХОДЯЩУЮ фишинговую кампанию против лиц, связанных с тайваньскими исследовательскими организациями. Операция использовала законные темы публичных мероприятий и выдавала себя за авторитетные академические и политические учреждения."
+  },
+  {
+   "id": "cb585a354d11",
+   "title": "Samsung Galaxy S26 hacked three more times at Pwn2Own Ireland",
+   "url": "https://www.bleepingcomputer.com/news/security/samsung-galaxy-s26-hacked-three-more-times-at-pwn2own-ireland/",
+   "summary": "​​​On the second day of Pwn2Own Ireland 2026, security researchers collected $232,500 in cash awards after exploiting 45 unique zero-day vulnerabilities. [...]",
+   "source": "BleepingComputer",
+   "sources": [
+    "BleepingComputer"
+   ],
+   "category": "news",
+   "published": "2026-10-08T06:32:16Z",
+   "first_seen": "2026-10-08T10:41:54.438115Z",
+   "importance": 21,
+   "is_hot": false,
+   "tags": [
+    "Security",
+    "zero-day"
+   ],
+   "title_ru": "Samsung Galaxy S26 еще трижды взломали на Pwn2Own Ireland",
+   "summary_ru": "​​​На второй день Pwn2Own Ireland 2026 исследователи безопасности собрали $ 232 500 денежных премий после эксплуатации 45 уникальных уязвимостей нулевого дня. [...]"
+  },
+  {
+   "id": "a47789abd954",
+   "title": "Welcome to the Jungle: What We Found Inside 15,465 Public MCP Servers",
+   "url": "https://thehackernews.com/2026/10/welcome-to-jungle-what-we-found-inside.html",
+   "summary": "In 2024, MCP (Model Context Protocol) set out to become the USB-C of AI: one standard for connecting models, agents, and IDEs to tools and data. The protocol delivered. Thousands of developers built servers, and enterprises plugged them into agent workflows. The ecosystem around it fell short.…",
+   "source": "The Hacker News",
+   "sources": [
+    "The Hacker News"
+   ],
+   "category": "news",
+   "published": "2026-10-06T11:02:30Z",
+   "first_seen": "2026-10-06T15:59:57.962699Z",
+   "importance": 21,
+   "is_hot": false,
+   "tags": [
+    "mcp",
+    "model context protocol"
+   ],
+   "title_ru": "Добро пожаловать в джунгли: что мы нашли внутри 15 465 общедоступных серверов MCP",
+   "summary_ru": "В 2024 году MCP (Model Context Protocol) намеревался стать USB-C ИИ: одним стандартом для подключения моделей, агентов и IDE к инструментам и данным. Протокол доставлен. Тысячи разработчиков построили серверы, и предприятия подключили их к рабочим процессам агентов. Экосистемы вокруг него не хватало.…"
   },
   {
    "id": "9c6db5e8b7d5",
@@ -10679,6 +10680,42 @@
    "summary_ru": "Автономные агенты на базе LLM трансформируют пространство тестирования на проникновение с помощью динамичных, многоэтапных рабочих процессов обеспечения безопасности, требующих минимального контроля со стороны человека. Эти агенты используют сложные способности к рассуждению и внешние инструменты безопасности для независимого выполнения…"
   },
   {
+   "id": "2f726d9ddfc8",
+   "title": "Nikkei discloses third data breach in a month, 1.8M records exposed",
+   "url": "https://www.bleepingcomputer.com/news/security/nikkei-discloses-third-data-breach-in-a-month-18m-records-exposed/",
+   "summary": "Nikkei Inc. disclosed a new data breach, the third in about a month, that exposed 1.83 million personal information records. [...]",
+   "source": "BleepingComputer",
+   "sources": [
+    "BleepingComputer"
+   ],
+   "category": "news",
+   "published": "2026-10-19T21:49:48Z",
+   "first_seen": "2026-10-20T00:24:58.499727Z",
+   "importance": 20,
+   "is_hot": false,
+   "tags": [
+    "Security"
+   ]
+  },
+  {
+   "id": "2bb06bcc8635",
+   "title": "WordPress SEO plugin Rank Math compromised to backdoor websites",
+   "url": "https://www.bleepingcomputer.com/news/security/wordpress-seo-plugin-rank-math-compromised-to-backdoor-websites/",
+   "summary": "Some downloads of the Rank Math PRO WordPress plugin from the vendor's official website carried malware that planted hidden backdoors in a supply-chain attack last week. [...]",
+   "source": "BleepingComputer",
+   "sources": [
+    "BleepingComputer"
+   ],
+   "category": "news",
+   "published": "2026-10-19T21:24:51Z",
+   "first_seen": "2026-10-20T00:24:58.499727Z",
+   "importance": 20,
+   "is_hot": false,
+   "tags": [
+    "Security"
+   ]
+  },
+  {
    "id": "2cd32ba26132",
    "title": "Hackers hijack AOMEI update servers to secretly spread malware",
    "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-aomei-update-servers-to-secretly-spread-malware/",
@@ -10884,60 +10921,24 @@
    ]
   },
   {
-   "id": "20a994cf7e9a",
-   "title": "Microsoft fixes classic Outlook bug that hid Copilot buttons",
-   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-that-hid-copilot-buttons-in-classic-outlook/",
-   "summary": "Microsoft has fixed a known issue that removed the Copilot Chat and Copilot buttons in the classic Outlook desktop mail client for some Windows users. [...]",
-   "source": "BleepingComputer",
+   "id": "3b47cd8d755b",
+   "title": "The Q3 Vulnerability Pulse: Discovery ≠ Exploitation",
+   "url": "https://blog.talosintelligence.com/the-q3-vulnerability-pulse-discovery-exploitation/",
+   "summary": "Is the cybersecurity world really facing a \"Bugmageddon?\" Thor breaks down the latest CVE and KEV trends in the latest Threat Source newsletter.",
+   "source": "Cisco Talos",
    "sources": [
-    "BleepingComputer"
+    "Cisco Talos"
    ],
-   "category": "news",
-   "published": "2026-10-19T12:44:44Z",
-   "first_seen": "2026-10-19T13:29:07.514976Z",
+   "category": "threat_intel",
+   "published": "2026-10-15T18:00:00Z",
+   "first_seen": "2026-10-15T21:29:18.221226Z",
    "importance": 20,
    "is_hot": false,
    "tags": [
-    "Microsoft"
+    "Threat Source newsletter"
    ],
-   "title_ru": "Microsoft исправляет классическую ошибку Outlook, из-за которой скрывались кнопки Copilot",
-   "summary_ru": "Microsoft исправила известную проблему, из-за которой у некоторых пользователей Windows были удалены кнопки Copilot Chat и Copilot в классическом почтовом клиенте Outlook для настольных компьютеров. [...]"
-  },
-  {
-   "id": "5ae38a63e473",
-   "title": "From Email-to-Case to the Boardroom: How Inherited Agents Break Governance Built for Software",
-   "url": "https://thehackernews.com/2026/10/from-email-to-case-to-boardroom-how.html",
-   "summary": "In Salesforce Agentforce, the recommended way to make an agent respond to events is a Flow: a record is created or a case is updated, and the Flow passes data into the agent's prompt. Separately, Email-to-Case and Web-to-Case turn inbound customer messages into case records; it is how airlines and…",
-   "source": "The Hacker News",
-   "sources": [
-    "The Hacker News"
-   ],
-   "category": "news",
-   "published": "2026-10-19T11:50:00Z",
-   "first_seen": "2026-10-19T20:37:04.055968Z",
-   "importance": 20,
-   "is_hot": false,
-   "tags": []
-  },
-  {
-   "id": "b957adbe9f4d",
-   "title": "Healthcare Ransomware Attacks Doubled Since This Time Last Year",
-   "url": "https://www.securitymagazine.com/articles/102659-healthcare-ransomware-attacks-doubled-since-this-time-last-year",
-   "summary": "Healthcare saw an average of 3.33 attacks each day in Q3 2026.",
-   "source": "Security Magazine",
-   "sources": [
-    "Security Magazine"
-   ],
-   "category": "news",
-   "published": "2026-10-15T16:00:00Z",
-   "first_seen": "2026-10-15T17:06:42.449405Z",
-   "importance": 20,
-   "is_hot": false,
-   "tags": [
-    "ransomware"
-   ],
-   "title_ru": "Число атак программ-вымогателей в сфере здравоохранения удвоилось по сравнению с прошлым годом",
-   "summary_ru": "В третьем квартале 2026 года в здравоохранении ежедневно происходило в среднем 3,33 нападения."
+   "title_ru": "Пульс уязвимостей третьего квартала: открытие ≠ эксплуатация",
+   "summary_ru": "Действительно ли мир кибербезопасности сталкивается с «Багмагеддоном»? Тор рассказывает о последних тенденциях CVE и KEV в последнем информационном бюллетене Threat Source."
   },
   {
    "id": "7cfff37f4337",
@@ -10960,25 +10961,6 @@
    ],
    "title_ru": "KedgeFlow: программируемая плоскость управления для корпоративных ИИ-агентов",
    "summary_ru": "Агенты корпоративного ИИ могут выполнять измененные версии утвержденных действий, одновременно повторно использовать одно и то же разрешение или повторять операции, ответы на которые были потеряны. Эти сбои возникают, когда утверждение и выполнение ресурсов не имеют общего контракта. KedgeFlow определяет независимые от языка контракты для…"
-  },
-  {
-   "id": "c9934c157de4",
-   "title": "Names Are Not Objects: Object-Bound Confinement for Compromised AI Coding Agents",
-   "url": "https://arxiv.org/abs/2610.14488v1",
-   "summary": "Coding agents read repositories and web pages that anyone can write, and then act with their user's authority. Prompt-injection defenses make it less likely that the model is steered but do not prevent it, so the system around the model must contain an agent that is already compromised. Many…",
-   "source": "arXiv cs.CR (agents)",
-   "sources": [
-    "arXiv cs.CR (agents)",
-    "arXiv cs.CR (LLM security)"
-   ],
-   "category": "ai_pentest",
-   "published": "2026-10-10T02:38:11Z",
-   "first_seen": "2026-10-14T05:00:42.648332Z",
-   "importance": 20,
-   "is_hot": false,
-   "tags": [
-    "cs.CR"
-   ]
   },
   {
    "id": "6582bf4f9ba1",
@@ -11370,7 +11352,7 @@
    ],
    "category": "offensive_research",
    "published": "2026-09-03T12:43:48Z",
-   "first_seen": "2026-10-19T20:37:04.055968Z",
+   "first_seen": "2026-10-20T00:24:58.499727Z",
    "importance": 20,
    "is_hot": false,
    "tags": [
@@ -11388,7 +11370,7 @@
    ],
    "category": "offensive_research",
    "published": "2026-09-02T18:00:00Z",
-   "first_seen": "2026-10-19T20:37:04.055968Z",
+   "first_seen": "2026-10-20T00:24:58.499727Z",
    "importance": 20,
    "is_hot": false,
    "tags": [
@@ -11407,7 +11389,7 @@
    ],
    "category": "offensive_research",
    "published": "2026-09-01T04:00:00Z",
-   "first_seen": "2026-10-19T20:37:04.055968Z",
+   "first_seen": "2026-10-20T00:24:58.499727Z",
    "importance": 20,
    "is_hot": false,
    "tags": []
@@ -11423,7 +11405,7 @@
    ],
    "category": "offensive_research",
    "published": "2026-08-31T13:00:00Z",
-   "first_seen": "2026-10-19T20:37:04.055968Z",
+   "first_seen": "2026-10-20T00:24:58.499727Z",
    "importance": 20,
    "is_hot": false,
    "tags": []
@@ -11439,7 +11421,7 @@
    ],
    "category": "offensive_research",
    "published": "2026-08-27T17:45:18Z",
-   "first_seen": "2026-10-19T20:37:04.055968Z",
+   "first_seen": "2026-10-20T00:24:58.499727Z",
    "importance": 20,
    "is_hot": false,
    "tags": [
@@ -11458,7 +11440,7 @@
    ],
    "category": "offensive_research",
    "published": "2026-08-27T16:00:00Z",
-   "first_seen": "2026-10-19T20:37:04.055968Z",
+   "first_seen": "2026-10-20T00:24:58.499727Z",
    "importance": 20,
    "is_hot": false,
    "tags": [
@@ -11477,7 +11459,7 @@
    ],
    "category": "offensive_research",
    "published": "2026-08-26T10:28:00Z",
-   "first_seen": "2026-10-19T20:37:04.055968Z",
+   "first_seen": "2026-10-20T00:24:58.499727Z",
    "importance": 20,
    "is_hot": false,
    "tags": [
@@ -11496,7 +11478,7 @@
    ],
    "category": "offensive_research",
    "published": "2026-08-24T15:25:56Z",
-   "first_seen": "2026-10-19T20:37:04.055968Z",
+   "first_seen": "2026-10-20T00:24:58.499727Z",
    "importance": 20,
    "is_hot": false,
    "tags": [
@@ -11514,7 +11496,7 @@
    ],
    "category": "offensive_research",
    "published": "2026-08-24T13:26:20Z",
-   "first_seen": "2026-10-19T20:37:04.055968Z",
+   "first_seen": "2026-10-20T00:24:58.499727Z",
    "importance": 20,
    "is_hot": false,
    "tags": [
@@ -11533,7 +11515,7 @@
    ],
    "category": "offensive_research",
    "published": "2026-08-21T11:13:30Z",
-   "first_seen": "2026-10-19T20:37:04.055968Z",
+   "first_seen": "2026-10-20T00:24:58.499727Z",
    "importance": 20,
    "is_hot": false,
    "tags": [
@@ -11553,7 +11535,7 @@
    ],
    "category": "offensive_research",
    "published": "2026-08-20T13:00:00Z",
-   "first_seen": "2026-10-19T20:37:04.055968Z",
+   "first_seen": "2026-10-20T00:24:58.499727Z",
    "importance": 20,
    "is_hot": false,
    "tags": []
@@ -11569,7 +11551,7 @@
    ],
    "category": "offensive_research",
    "published": "2026-08-13T16:00:00Z",
-   "first_seen": "2026-10-19T20:37:04.055968Z",
+   "first_seen": "2026-10-20T00:24:58.499727Z",
    "importance": 20,
    "is_hot": false,
    "tags": [
@@ -11592,7 +11574,7 @@
    ],
    "category": "offensive_research",
    "published": "2026-08-05T17:15:00Z",
-   "first_seen": "2026-10-19T20:37:04.055968Z",
+   "first_seen": "2026-10-20T00:24:58.499727Z",
    "importance": 20,
    "is_hot": false,
    "tags": [
@@ -11611,7 +11593,7 @@
    ],
    "category": "offensive_research",
    "published": "2026-08-05T17:15:00Z",
-   "first_seen": "2026-10-19T20:37:04.055968Z",
+   "first_seen": "2026-10-20T00:24:58.499727Z",
    "importance": 20,
    "is_hot": false,
    "tags": [
@@ -11630,7 +11612,7 @@
    ],
    "category": "offensive_research",
    "published": "2026-08-05T17:15:00Z",
-   "first_seen": "2026-10-19T20:37:04.055968Z",
+   "first_seen": "2026-10-20T00:24:58.499727Z",
    "importance": 20,
    "is_hot": false,
    "tags": [
@@ -11649,8 +11631,44 @@
    ],
    "category": "offensive_research",
    "published": "2026-07-31T13:00:00Z",
-   "first_seen": "2026-10-19T20:37:04.055968Z",
+   "first_seen": "2026-10-20T00:24:58.499727Z",
    "importance": 20,
+   "is_hot": false,
+   "tags": []
+  },
+  {
+   "id": "20a994cf7e9a",
+   "title": "Microsoft fixes classic Outlook bug that hid Copilot buttons",
+   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-that-hid-copilot-buttons-in-classic-outlook/",
+   "summary": "Microsoft has fixed a known issue that removed the Copilot Chat and Copilot buttons in the classic Outlook desktop mail client for some Windows users. [...]",
+   "source": "BleepingComputer",
+   "sources": [
+    "BleepingComputer"
+   ],
+   "category": "news",
+   "published": "2026-10-19T12:44:44Z",
+   "first_seen": "2026-10-19T13:29:07.514976Z",
+   "importance": 19,
+   "is_hot": false,
+   "tags": [
+    "Microsoft"
+   ],
+   "title_ru": "Microsoft исправляет классическую ошибку Outlook, из-за которой скрывались кнопки Copilot",
+   "summary_ru": "Microsoft исправила известную проблему, из-за которой у некоторых пользователей Windows были удалены кнопки Copilot Chat и Copilot в классическом почтовом клиенте Outlook для настольных компьютеров. [...]"
+  },
+  {
+   "id": "5ae38a63e473",
+   "title": "From Email-to-Case to the Boardroom: How Inherited Agents Break Governance Built for Software",
+   "url": "https://thehackernews.com/2026/10/from-email-to-case-to-boardroom-how.html",
+   "summary": "In Salesforce Agentforce, the recommended way to make an agent respond to events is a Flow: a record is created or a case is updated, and the Flow passes data into the agent's prompt. Separately, Email-to-Case and Web-to-Case turn inbound customer messages into case records; it is how airlines and…",
+   "source": "The Hacker News",
+   "sources": [
+    "The Hacker News"
+   ],
+   "category": "news",
+   "published": "2026-10-19T11:50:00Z",
+   "first_seen": "2026-10-19T20:37:04.055968Z",
+   "importance": 19,
    "is_hot": false,
    "tags": []
   },
@@ -11711,6 +11729,26 @@
    "summary_ru": "В ночь на 16 октября злоумышленник проник в устаревшую систему OpenCode и, возможно, раскрыл ключи стороннего поставщика искусственного интеллекта, которые пользователи сохранили в консоли OpenCode, сообщила компания. Консоль — это дополнительная размещенная служба OpenCode: рабочая область сохраняет свой собственный ключ OpenAI, Anthropic или Google…"
   },
   {
+   "id": "b957adbe9f4d",
+   "title": "Healthcare Ransomware Attacks Doubled Since This Time Last Year",
+   "url": "https://www.securitymagazine.com/articles/102659-healthcare-ransomware-attacks-doubled-since-this-time-last-year",
+   "summary": "Healthcare saw an average of 3.33 attacks each day in Q3 2026.",
+   "source": "Security Magazine",
+   "sources": [
+    "Security Magazine"
+   ],
+   "category": "news",
+   "published": "2026-10-15T16:00:00Z",
+   "first_seen": "2026-10-15T17:06:42.449405Z",
+   "importance": 19,
+   "is_hot": false,
+   "tags": [
+    "ransomware"
+   ],
+   "title_ru": "Число атак программ-вымогателей в сфере здравоохранения удвоилось по сравнению с прошлым годом",
+   "summary_ru": "В третьем квартале 2026 года в здравоохранении ежедневно происходило в среднем 3,33 нападения."
+  },
+  {
    "id": "2d2a3fd9216a",
    "title": "Medicare scam calls, texts and ads: What to watch for this Open Enrollment",
    "url": "https://www.welivesecurity.com/en/scams/medicare-open-enrollment-season-scams/",
@@ -11726,46 +11764,6 @@
    "is_hot": false,
    "tags": [
     "Scams"
-   ]
-  },
-  {
-   "id": "e7534f621909",
-   "title": "The Noise Inside the Network: How an Unsophisticated Attack Exposed a Third-Party Risk",
-   "url": "https://unit42.paloaltonetworks.com/noise-inside-network-third-party-risk/",
-   "summary": "Unit 42 dissects a cyberattack targeting a European bank's IT infrastructure, delivering concrete defense strategies to help organizations detect and counter comparable threats. The post The Noise Inside the Network: How an Unsophisticated Attack Exposed a Third-Party Risk appeared first on Unit 42…",
-   "source": "Unit 42",
-   "sources": [
-    "Unit 42"
-   ],
-   "category": "threat_intel",
-   "published": "2026-10-13T22:00:04Z",
-   "first_seen": "2026-10-13T22:51:20.970377Z",
-   "importance": 19,
-   "is_hot": false,
-   "tags": [
-    "Anatomy of an Attack",
-    "Insights",
-    "credential-based attacks",
-    "incident response",
-    "Reconnaissance"
-   ]
-  },
-  {
-   "id": "a080842e187a",
-   "title": "Microsoft Patch Tuesday for October 2026 — Snort rules and prominent vulnerabilities",
-   "url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-october-2026/",
-   "summary": "Microsoft has released its monthly security update for October 2026, which includes 1415 vulnerabilities affecting a range of products, including 85 that Microsoft marked as \"critical.\"",
-   "source": "Cisco Talos",
-   "sources": [
-    "Cisco Talos"
-   ],
-   "category": "threat_intel",
-   "published": "2026-10-13T20:37:58Z",
-   "first_seen": "2026-10-13T22:51:20.970377Z",
-   "importance": 19,
-   "is_hot": false,
-   "tags": [
-    "Patch Tuesday"
    ]
   },
   {
@@ -11785,6 +11783,25 @@
    "tags": [
     "Security",
     "ssrf"
+   ]
+  },
+  {
+   "id": "c9934c157de4",
+   "title": "Names Are Not Objects: Object-Bound Confinement for Compromised AI Coding Agents",
+   "url": "https://arxiv.org/abs/2610.14488v1",
+   "summary": "Coding agents read repositories and web pages that anyone can write, and then act with their user's authority. Prompt-injection defenses make it less likely that the model is steered but do not prevent it, so the system around the model must contain an agent that is already compromised. Many…",
+   "source": "arXiv cs.CR (agents)",
+   "sources": [
+    "arXiv cs.CR (agents)",
+    "arXiv cs.CR (LLM security)"
+   ],
+   "category": "ai_pentest",
+   "published": "2026-10-10T02:38:11Z",
+   "first_seen": "2026-10-14T05:00:42.648332Z",
+   "importance": 19,
+   "is_hot": false,
+   "tags": [
+    "cs.CR"
    ]
   },
   {
@@ -11830,7 +11847,7 @@
    "id": "00386e84cf4f",
    "title": "morluto/awesome-reverse-engineering — Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
    "url": "https://github.com/morluto/awesome-reverse-engineering",
-   "summary": "★915 · — · Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
+   "summary": "★923 · — · Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
    "source": "GitHub search (mcp security)",
    "sources": [
     "GitHub search (mcp security)"
@@ -11893,25 +11910,6 @@
    ],
    "title_ru": "«Льняной тайфун» использует пять недостатков, поскольку CISA устанавливает крайний срок для федеральных агентств 11 октября",
    "summary_ru": "Агентство кибербезопасности и безопасности инфраструктуры США (CISA) в четверг добавило пять недостатков безопасности в свой каталог известных эксплуатируемых уязвимостей (KEV) после того, как ими злоупотребил связанный с Китаем злоумышленник, известный как Flax Typhoon. Ниже перечислены рассматриваемые уязвимости — CVE-2015-3306…"
-  },
-  {
-   "id": "1540bd28165e",
-   "title": "Understanding and Mitigating Cross-Session Attacks via Persistent Artifacts in Agent Skill Composition",
-   "url": "https://arxiv.org/abs/2610.13227v1",
-   "summary": "Agent skills extend the capabilities of AI agents by bundling instructions, code, and resources into reusable packages. During skill execution, agents may produce or modify artifacts, such as files, configurations, and cached data, that are reused by other skills in later sessions. Since these…",
-   "source": "arXiv cs.CR (agents)",
-   "sources": [
-    "arXiv cs.CR (agents)"
-   ],
-   "category": "ai_pentest",
-   "published": "2026-10-09T08:45:27Z",
-   "first_seen": "2026-10-12T10:59:57.058372Z",
-   "importance": 19,
-   "is_hot": false,
-   "tags": [
-    "cs.CR",
-    "cs.SE"
-   ]
   }
  ],
  "sources_status": [
@@ -11922,16 +11920,16 @@
    "ok": true,
    "fetched": 1748,
    "kept": 32,
-   "seconds": 0.2
+   "seconds": 0.4
   },
   {
    "name": "NVD",
    "type": "cve_nvd",
    "category": "vulnerabilities",
    "ok": true,
-   "fetched": 186,
+   "fetched": 213,
    "kept": 150,
-   "seconds": 37.0
+   "seconds": 36.8
   },
   {
    "name": "GitHub Advisories",
@@ -11940,7 +11938,7 @@
    "ok": true,
    "fetched": 31,
    "kept": 31,
-   "seconds": 1.0
+   "seconds": 0.7
   },
   {
    "name": "nuclei-templates",
@@ -11967,7 +11965,7 @@
    "ok": true,
    "fetched": 15,
    "kept": 15,
-   "seconds": 0.1
+   "seconds": 0.2
   },
   {
    "name": "Security Magazine",
@@ -11976,7 +11974,7 @@
    "ok": true,
    "fetched": 30,
    "kept": 30,
-   "seconds": 0.3
+   "seconds": 0.2
   },
   {
    "name": "SpecterOps",
@@ -11985,7 +11983,7 @@
    "ok": true,
    "fetched": 50,
    "kept": 30,
-   "seconds": 0.7
+   "seconds": 0.5
   },
   {
    "name": "Outflank",
@@ -11994,7 +11992,7 @@
    "ok": true,
    "fetched": 10,
    "kept": 4,
-   "seconds": 0.8
+   "seconds": 0.6
   },
   {
    "name": "TrustedSec",
@@ -12003,7 +12001,7 @@
    "ok": true,
    "fetched": 10,
    "kept": 10,
-   "seconds": 0.4
+   "seconds": 0.3
   },
   {
    "name": "Bishop Fox",
@@ -12021,7 +12019,7 @@
    "ok": true,
    "fetched": 10,
    "kept": 9,
-   "seconds": 0.5
+   "seconds": 0.4
   },
   {
    "name": "Sliver",
@@ -12030,7 +12028,7 @@
    "ok": true,
    "fetched": 5,
    "kept": 3,
-   "seconds": 0.4
+   "seconds": 0.3
   },
   {
    "name": "Mythic",
@@ -12060,7 +12058,7 @@
    "fetched": 5,
    "kept": 0,
    "note": "ответ есть, но всё старше max_age_days / отфильтровано",
-   "seconds": 0.3
+   "seconds": 0.4
   },
   {
    "name": "BloodHound",
@@ -12078,7 +12076,7 @@
    "ok": true,
    "fetched": 40,
    "kept": 25,
-   "seconds": 0.4
+   "seconds": 0.5
   },
   {
    "name": "GitHub search (llm pentest agent)",
@@ -12087,7 +12085,7 @@
    "ok": true,
    "fetched": 15,
    "kept": 3,
-   "seconds": 0.6
+   "seconds": 0.5
   },
   {
    "name": "arXiv cs.CR (LLM security)",
@@ -12114,7 +12112,7 @@
    "ok": true,
    "fetched": 15,
    "kept": 7,
-   "seconds": 0.7
+   "seconds": 0.5
   },
   {
    "name": "HackerOne Blog",
@@ -12148,7 +12146,7 @@
    "ok": true,
    "fetched": 20,
    "kept": 2,
-   "seconds": 1.0
+   "seconds": 0.5
   },
   {
    "name": "Hackers-Arise",
@@ -12157,7 +12155,7 @@
    "ok": true,
    "fetched": 10,
    "kept": 10,
-   "seconds": 2.1
+   "seconds": 3.3
   },
   {
    "name": "Unit 42",
@@ -12165,8 +12163,8 @@
    "category": "threat_intel",
    "ok": true,
    "fetched": 15,
-   "kept": 10,
-   "seconds": 0.1
+   "kept": 11,
+   "seconds": 0.2
   },
   {
    "name": "Microsoft Threat Intelligence",
@@ -12175,7 +12173,7 @@
    "ok": true,
    "fetched": 10,
    "kept": 8,
-   "seconds": 0.3
+   "seconds": 0.4
   },
   {
    "name": "Cisco Talos",
@@ -12184,7 +12182,7 @@
    "ok": true,
    "fetched": 15,
    "kept": 15,
-   "seconds": 0.2
+   "seconds": 0.3
   },
   {
    "name": "ESET WeLiveSecurity",
@@ -12193,7 +12191,7 @@
    "ok": true,
    "fetched": 100,
    "kept": 13,
-   "seconds": 0.1
+   "seconds": 0.2
   },
   {
    "name": "The DFIR Report",
@@ -12202,7 +12200,7 @@
    "ok": true,
    "fetched": 10,
    "kept": 1,
-   "seconds": 0.1
+   "seconds": 2.3
   },
   {
    "name": "Proofpoint Threat Insight",
@@ -12211,7 +12209,7 @@
    "ok": true,
    "fetched": 10,
    "kept": 4,
-   "seconds": 2.2
+   "seconds": 0.5
   },
   {
    "name": "Securelist (Kaspersky)",
